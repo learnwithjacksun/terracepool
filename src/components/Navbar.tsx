@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-6xl">
+      <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-7xl">
         <div className="warm-glass rounded-2xl px-5 md:px-6 py-3 md:py-3.5 flex justify-between items-center warm-shadow">
           <Link to="/" onClick={() => setOpen(false)}>
             <img src="/Terrace-Pool-Logo-w.png" alt="Terrace Pool" className="h-8 md:h-10" />
