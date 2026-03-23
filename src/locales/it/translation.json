@@ -269,6 +269,51 @@
         "efficiency": { "title": "Efficienza Energetica", "desc": "Dalle pareti isolate alle pompe intelligenti, riducendo i costi operativi a lungo termine." }
       }
     },
+    "putting_tech": {
+      "label": "Tecnologia in Azione",
+      "title": "La migliore tecnologia a portata di mano",
+      "p1": "Ci sono molti materiali disponibili per costruire piscine, ognuno con i propri casi d'uso – fibra di vetro, cemento, EP e compositi in fibra. Non è difficile immaginare quanto sia importante usare il materiale corretto per una costruzione delle dimensioni, esposizione e durata di una piscina.",
+      "p2_prefix": "Scandinavian Quality è probabilmente l'unico costruttore di piscine in Spagna che può",
+      "p2_bold": "offrire sempre la tecnologia ideale per la tua piscina.",
+      "p3": "Questo significa che non dobbiamo fare compromessi nella scelta del modo migliore per costruire la tua piscina.",
+      "p4_prefix": "Ma",
+      "p4_bold": "specificamente per le Piscine da Terrazza,",
+      "p4_suffix": "quale sarebbe il materiale migliore? Nella maggior parte dei casi, dovrebbe essere compatto, leggero, resistente e durevole.",
+      "p4_link": "Come i compositi in fibra."
+    },
+    "premier_material": {
+      "label": "L'Ultimo in Materiali",
+      "title": "Il Materiale Premier per Applicazioni a Densità Critica",
+      "card_title": "Più Possibilità con i Compositi in Fibra",
+      "card_desc": "L'aggiunta più recente al nostro portfolio di materiali sono i compositi in fibra. Ideali per proprietari di piscine private che cercano di beneficiare della compattezza e leggerezza, i nostri compositi offrono funzionalità e durabilità affidabili per piscine da terrazza e ristrutturazioni.",
+      "card_detail": "Ogni dettaglio è meticolosamente considerato per soddisfare le tue esigenze specifiche.",
+      "benefits": {
+        "lightweight": "Leggero ma robusto, garantendo efficienza senza compromessi",
+        "durability": "Durabilità senza tempo con manutenzione minima, anno dopo anno",
+        "resistance": "Resistenza superiore all'umidità e alla corrosione, perfetto per ambienti di piscina"
+      }
+    },
+    "fact_box": {
+      "label": "Leggero. Potente. Costruito per il Futuro.",
+      "title": "Scheda Tecnica – Compositi in Fibra Avanzati",
+      "intro": "I compositi in fibra combinano fibre ad alte prestazioni (come carbonio o vetro) con una matrice polimerica per creare un materiale più forte, leggero e durevole dei metalli o plastiche tradizionali.",
+      "tagline": "Che tu stia costruendo per velocità, resistenza, sostenibilità o tutte e tre, i compositi in fibra sono la soluzione.",
+      "why_title": "Perché i Compositi in Fibra?",
+      "why_items": {
+        "strength": { "title": "Rapporto Resistenza-Peso Imbattibile", "desc": "Fino all'80% più leggero dell'acciaio. Altrettanto forte. Perfetto per industrie dove ogni grammo conta." },
+        "maintenance": { "title": "Senza Manutenzione e Resistente", "desc": "Niente ruggine. Niente riverniciatura. Solo affidabilità a lungo termine, in interni o all'esterno." },
+        "engineering": { "title": "Ingegneria di Precisione", "desc": "Personalizza l'orientamento e la forma della fibra per prestazioni mirate. Geometrie complesse? Nessun problema." },
+        "sustainable": { "title": "Sostenibile per Design", "desc": "Lunga vita, meno materiale, impronta di CO₂ inferiore. Inoltre, le opzioni riciclabili e a base biologica sono in crescita." }
+      },
+      "where_title": "Dove Eccellono",
+      "where_items": {
+        "aerospace": "Aerospaziale e Aviazione – Ridurre il peso, aumentare la portata",
+        "automotive": "Automotive ed EV – Meno emissioni, migliore efficienza",
+        "infrastructure": "Infrastrutture – Ponti, facciate e tubature che durano decenni",
+        "energy": "Energia ed Eolico – Strutture leggere, resistenti e ad alte prestazioni",
+        "marine": "Nautica e Sport – Resistente al sale, ultra-resistente, perfetto per le prestazioni"
+      }
+    },
     "warranty_section": {
       "title_1": "Garanzia",
       "title_2": "35 Anni",

@@ -21,18 +21,18 @@ const RenovationsPage: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-cream via-transparent to-transparent"></div>
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-8">
-            <div className="max-w-2xl space-y-4 md:space-y-6">
+            <div className="max-w-3xl space-y-6 md:space-y-8">
               <span className="inline-flex items-center gap-2 bg-gold/10 border border-gold/20 rounded-full px-3 md:px-4 py-1.5 text-gold text-[10px] md:text-xs font-label tracking-widest uppercase">
                 <Sparkles size={14} /> {t('renovations.hero.label')}
               </span>
-              <h1 className="text-warm-text font-black tracking-tighter text-4xl sm:text-6xl md:text-8xl leading-[0.9]">
+              <h1 className="text-warm-text font-black tracking-tighter text-4xl sm:text-6xl md:text-8xl leading-[1.1]">
                 {t('renovations.hero.title_1')}<br />
                 <span className="font-serif italic gold-text">{t('renovations.hero.title_2')}</span>
               </h1>
               <p className="text-base md:text-lg text-warm-text-light max-w-lg leading-relaxed">
                 {t('renovations.hero.desc')}
               </p>
-              <div className="pt-2 md:pt-4 flex flex-col sm:flex-row items-start sm:items-center gap-4 md:gap-5">
+              <div className="pt-4 md:pt-6 flex flex-col sm:flex-row items-start sm:items-center gap-5 md:gap-6">
                 <div className="bg-white rounded-xl md:rounded-2xl px-5 md:px-6 py-3 md:py-4 text-center warm-shadow gold-border">
                   <span className="text-2xl md:text-3xl font-black text-gold block">{t('renovations.hero.warranty_val')}</span>
                   <span className="text-[9px] md:text-[10px] uppercase tracking-widest text-warm-muted font-bold">{t('renovations.hero.warranty_label')}</span>

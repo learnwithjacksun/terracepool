@@ -269,6 +269,51 @@
         "efficiency": { "title": "Energy Efficient", "desc": "From insulated walls to smart pumps, reducing your long-term operating costs." }
       }
     },
+    "putting_tech": {
+      "label": "Putting Tech to Work",
+      "title": "Having the best tech at hand",
+      "p1": "There are many materials available for constructing pools, each with their own best use cases – fibreglass, concrete, EP and fibre composites. It is not hard to imagine how important it is to use the correct material for a construction of the size, exposure and lifespan of a pool.",
+      "p2_prefix": "Scandinavian Quality is probably the only pool constructor in Spain that can",
+      "p2_bold": "always offer the ideal technology for your pool.",
+      "p3": "This means we don't have to make compromises when choosing the best way to build your pool.",
+      "p4_prefix": "But",
+      "p4_bold": "specifically for Terrace Pools,",
+      "p4_suffix": "which would be the best material? In most cases, it should be compact, light, resistant and durable.",
+      "p4_link": "Like fiber composites."
+    },
+    "premier_material": {
+      "label": "Ultimate in Materials",
+      "title": "The Premier Material for Density Critical Applications",
+      "card_title": "More Pool Possibilities with Fiber Composites",
+      "card_desc": "The newest addition to our portfolio of materials are fibre composites. Ideal for private pool owners seeking to benefit from its compactness and lightness, our composites provide reliable functionality and durability in terrace pools and pool renovations.",
+      "card_detail": "Every detail is meticulously considered to meet your unique needs.",
+      "benefits": {
+        "lightweight": "Lightweight yet robust, ensuring efficiency without compromise",
+        "durability": "Timeless durability with minimal maintenance, year after year",
+        "resistance": "Superior resistance to moisture and corrosion, perfect for pool environments"
+      }
+    },
+    "fact_box": {
+      "label": "Lightweight. Powerful. Built for the Future.",
+      "title": "Fact Box – Advanced Fiber Composites",
+      "intro": "Fiber composites combine high-performance fibres (like carbon or glass) with a polymer matrix to create a material that's stronger, lighter and more durable than traditional metals or plastics.",
+      "tagline": "Whether you're building for speed, strength, sustainability—or all three—fiber composites deliver.",
+      "why_title": "Why Fiber Composites?",
+      "why_items": {
+        "strength": { "title": "Unmatched Strength-to-Weight", "desc": "Up to 80% lighter than steel. Just as strong. Perfect for industries where every gram matters." },
+        "maintenance": { "title": "Maintenance-Free & Weatherproof", "desc": "No rust. No repainting. Just long-term reliability—indoors or out." },
+        "engineering": { "title": "Precision Engineering", "desc": "Customise fiber orientation and shape for targeted performance. Complex geometries? No problem." },
+        "sustainable": { "title": "Sustainable by Design", "desc": "Long life, less material, lower CO₂ footprint. Plus recyclable and bio-based options are growing." }
+      },
+      "where_title": "Where They Perform Best",
+      "where_items": {
+        "aerospace": "Aerospace & Aviation – Reduce weight, increase range",
+        "automotive": "Automotive & EVs – Lower emissions, better efficiency",
+        "infrastructure": "Infrastructure – Bridges, facades and pipes that last for decades",
+        "energy": "Energy & Wind – Lightweight, weatherproof and high-performance structures",
+        "marine": "Marine & Sports – Salt-resistant, ultra-strong, perfect for performance"
+      }
+    },
     "warranty_section": {
       "title_1": "35 Years",
       "title_2": "Warranty",

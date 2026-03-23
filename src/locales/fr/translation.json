@@ -269,6 +269,51 @@
         "efficiency": { "title": "Efficacité Énergétique", "desc": "Des parois isolées aux pompes intelligentes, réduisant vos coûts d'exploitation à long terme." }
       }
     },
+    "putting_tech": {
+      "label": "La Technologie en Action",
+      "title": "La meilleure technologie à portée de main",
+      "p1": "Il existe de nombreux matériaux pour construire des piscines, chacun avec ses cas d'utilisation – fibre de verre, béton, EP et composites de fibres. Il n'est pas difficile d'imaginer l'importance d'utiliser le bon matériau pour une construction de la taille, de l'exposition et de la durée de vie d'une piscine.",
+      "p2_prefix": "Scandinavian Quality est probablement le seul constructeur de piscines en Espagne qui peut",
+      "p2_bold": "toujours offrir la technologie idéale pour votre piscine.",
+      "p3": "Cela signifie que nous n'avons pas à faire de compromis en choisissant la meilleure façon de construire votre piscine.",
+      "p4_prefix": "Mais",
+      "p4_bold": "spécifiquement pour les Piscines de Terrasse,",
+      "p4_suffix": "quel serait le meilleur matériau ? Dans la plupart des cas, il devrait être compact, léger, résistant et durable.",
+      "p4_link": "Comme les composites de fibres."
+    },
+    "premier_material": {
+      "label": "L'Ultime en Matériaux",
+      "title": "Le Matériau Premier pour les Applications à Densité Critique",
+      "card_title": "Plus de Possibilités de Piscines avec les Composites de Fibres",
+      "card_desc": "Le dernier ajout à notre portefeuille de matériaux sont les composites de fibres. Idéaux pour les propriétaires de piscines privées souhaitant bénéficier de leur compacité et légèreté, nos composites offrent une fonctionnalité et une durabilité fiables pour les piscines de terrasse et les rénovations.",
+      "card_detail": "Chaque détail est méticuleusement étudié pour répondre à vos besoins uniques.",
+      "benefits": {
+        "lightweight": "Léger mais robuste, assurant l'efficacité sans compromis",
+        "durability": "Durabilité intemporelle avec un entretien minimal, année après année",
+        "resistance": "Résistance supérieure à l'humidité et à la corrosion, parfait pour les environnements de piscine"
+      }
+    },
+    "fact_box": {
+      "label": "Léger. Puissant. Construit pour l'Avenir.",
+      "title": "Fiche Technique – Composites de Fibres Avancés",
+      "intro": "Les composites de fibres combinent des fibres haute performance (comme le carbone ou le verre) avec une matrice polymère pour créer un matériau plus solide, plus léger et plus durable que les métaux ou plastiques traditionnels.",
+      "tagline": "Que vous construisiez pour la vitesse, la résistance, la durabilité ou les trois, les composites de fibres sont la solution.",
+      "why_title": "Pourquoi les Composites de Fibres ?",
+      "why_items": {
+        "strength": { "title": "Rapport Résistance-Poids Inégalé", "desc": "Jusqu'à 80% plus léger que l'acier. Tout aussi solide. Parfait pour les industries où chaque gramme compte." },
+        "maintenance": { "title": "Sans Entretien et Résistant", "desc": "Pas de rouille. Pas de repeindre. Juste une fiabilité à long terme, en intérieur ou en extérieur." },
+        "engineering": { "title": "Ingénierie de Précision", "desc": "Personnalisez l'orientation et la forme des fibres pour des performances ciblées. Géométries complexes ? Aucun problème." },
+        "sustainable": { "title": "Durable par Design", "desc": "Longue durée de vie, moins de matériau, empreinte CO₂ réduite. De plus, les options recyclables et biosourcées se développent." }
+      },
+      "where_title": "Où Ils Excellent",
+      "where_items": {
+        "aerospace": "Aérospatiale et Aviation – Réduire le poids, augmenter la portée",
+        "automotive": "Automobile et VE – Moins d'émissions, meilleure efficacité",
+        "infrastructure": "Infrastructure – Ponts, façades et tuyaux qui durent des décennies",
+        "energy": "Énergie et Éolien – Structures légères, résistantes et haute performance",
+        "marine": "Marine et Sport – Résistant au sel, ultra-résistant, parfait pour la performance"
+      }
+    },
     "warranty_section": {
       "title_1": "Garantie",
       "title_2": "35 Ans",
