@@ -84,7 +84,7 @@ const LandingPage: React.FC = () => {
           </div>
 
           {/* Mobile stat strip */}
-          <div className="flex lg:hidden gap-3 mt-10 overflow-x-auto pb-2 -mx-2 px-2">
+          <div className="flex lg:hidden gap-3 mt-10 overflow-x-auto pb-2 -mx-2 px-2 flex-wrap">
             {[
               { label: t('landing.stats.warranty.val'), sub: t('landing.stats.warranty.label') },
               { label: t('landing.stats.lead_times.val'), sub: t('landing.stats.lead_times.label') },
