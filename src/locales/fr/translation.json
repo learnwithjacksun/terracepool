@@ -1,0 +1,358 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "terrace_pools": "Piscines de Terrasse",
+    "pool_renovations": "Rénovation de Piscines",
+    "pool_technology": "Technologie de Piscine",
+    "prices": "Prix",
+    "contact_us": "Contactez-nous"
+  },
+  "footer": {
+    "services": "Services",
+    "contact": "Contact",
+    "locations": "Emplacements",
+    "desc": "Piscines de terrasse et rénovations de piscines à travers l'Espagne continentale et Majorque.",
+    "hours": "Horaires",
+    "hours_val": "Lun - Ven : 10h00 – 18h00",
+    "language": "Langue",
+    "rights": "Tous droits réservés."
+  },
+  "landing": {
+    "hero": {
+      "scandinavian_quality": "Qualité Scandinave",
+      "title_1": "Sur Mesure",
+      "title_2": "Piscines.",
+      "desc": "Nous créons la piscine plongeante légère parfaite pour votre espace, que ce soit au 15ème étage ou à l'intérieur. Desservant Marbella, Malaga, Nerja, Alicante & Majorque.",
+      "contact_btn": "Contactez-nous aujourd'hui",
+      "tech_btn": "Notre Technologie"
+    },
+    "stats": {
+      "warranty": {
+        "label": "Garantie",
+        "val": "35 Ans",
+        "sub": "Garantie leader du marché"
+      },
+      "lead_times": {
+        "label": "Délais",
+        "val": "Courts",
+        "sub": "Nous construisons tout nous-mêmes"
+      },
+      "coverage": {
+        "label": "Couverture",
+        "val": "Espagne",
+        "sub": "Continent & Majorque"
+      }
+    },
+    "usps": {
+      "label": "De A à Z",
+      "title_1": "De l'Idée à la Réalisation",
+      "title_2": "et Au-delà",
+      "items": {
+        "local": {
+          "title": "Présence Locale",
+          "desc": "Avec notre siège idéalement situé entre Marbella et Malaga, nous sommes 100% engagés dans notre région."
+        },
+        "tailored": {
+          "title": "Entièrement Sur Mesure",
+          "desc": "Nos piscines sont entièrement adaptées à vos besoins, à votre espace et à vos conditions. Chaque projet est unique."
+        },
+        "lead_times": {
+          "title": "Délais Courts",
+          "desc": "Comme nous construisons tout nous-mêmes, nous maintenons les délais au minimum."
+        },
+        "warranty": {
+          "title": "Garantie 35 Ans",
+          "desc": "Nous offrons une garantie de 35 ans sur nos piscines de terrasse et rénovations. Leader du marché."
+        }
+      }
+    },
+    "services": {
+      "renovations": {
+        "title": "Rénovation de Piscines avec Surclassement.",
+        "desc": "Vous souhaitez rénover votre piscine dans la région de Marbella, Malaga, Nerja, Torrevieja, Alicante ou Majorque ? Nous avons l'expérience des rénovations les plus exigeantes.",
+        "features": [
+          "Garantie structurelle de 35 ans",
+          "Révision esthétique et technique complète",
+          "Systèmes durables et économes en énergie"
+        ],
+        "learn_more": "En Savoir Plus"
+      },
+      "terrace_pools": {
+        "label": "Piscines de Terrasse",
+        "title": "Continent & Majorque",
+        "desc": "Vous vous demandez si vous pourriez installer une piscine sur votre terrasse ? C'est probablement possible !",
+        "btn": "Découvrez Comment"
+      },
+      "tech": {
+        "label": "Technologie de Piscine",
+        "title": "Pourquoi Notre Tech est la Meilleure",
+        "desc": "Construction légère et durable selon les standards de qualité scandinaves.",
+        "btn": "Notre Technologie"
+      },
+      "prices": {
+        "label": "Transparent",
+        "title": "Prix des Piscines",
+        "desc": "Des tarifs clairs et directs, sans coûts cachés.",
+        "btn": "Voir les Prix"
+      }
+    },
+    "process": {
+      "label": "Construire une Piscine de Terrasse",
+      "title_1": "Le Processus en",
+      "title_2": "6 Étapes",
+      "steps": {
+        "1": { "title": "Besoins", "desc": "Analyse des besoins et évaluation du site." },
+        "2": { "title": "Planification", "desc": "Détails réglés, permis demandés." },
+        "3": { "title": "Préparation", "desc": "Travaux de préparation sur place." },
+        "4": { "title": "Construction", "desc": "Construit dans nos installations." },
+        "5": { "title": "Livraison", "desc": "Livré et installé." },
+        "6": { "title": "Vérification", "desc": "Inspection et tests." }
+      },
+      "btn": "Commencez Votre Projet"
+    },
+    "installations": {
+      "label": "Notre Travail",
+      "title_1": "Récentes",
+      "title_2": "Installations",
+      "projects": {
+        "1": { "title": "Piscine de Terrasse à Ojén, Marbella", "desc": "Une superbe terrasse de toit avec piscine privée." },
+        "2": { "title": "Piscine de Terrasse à La Quinta, Marbella", "desc": "Design intelligent. Finition élégante. Qualité scandinave." },
+        "3": { "title": "Piscine de Terrasse à El Higuerón, Fuengirola", "desc": "Piscine de terrasse raffinée dans le prestigieux El Higuerón." }
+      }
+    },
+    "cta": {
+      "title_1": "Encore des",
+      "title_2": "questions ?",
+      "desc": "Nous sommes toujours là pour vous aider à préparer votre projet de piscine. Appelez-nous ou remplissez le formulaire.",
+      "contact_btn": "Contactez-nous",
+      "call_btn": "Appeler"
+    }
+  },
+  "terrace_pools": {
+    "hero": {
+      "label": "Espagne Continentale & Majorque",
+      "title_1": "Piscines de",
+      "title_2": "Terrasse.",
+      "desc": "Vous vous demandez si vous pourriez installer une piscine sur votre terrasse ? C'est probablement possible ! Nous créons la piscine plongeante légère parfaite pour votre espace.",
+      "btn": "Laissez-nous Vous Expliquer Comment",
+      "tech_btn": "Notre Technologie"
+    },
+    "advantages": {
+      "label": "Pourquoi une Piscine de Terrasse",
+      "title_1": "Sur Mesure pour",
+      "title_2": "Votre Espace",
+      "items": {
+        "tailored": {
+          "title": "Entièrement Sur Mesure",
+          "desc": "Chaque piscine est entièrement adaptée à vos besoins, à votre espace et à vos conditions. Pas deux projets identiques."
+        },
+        "warranty": {
+          "title": "Garantie 35 Ans",
+          "desc": "Garantie structurelle de 35 ans leader du marché sur chaque piscine de terrasse que nous construisons."
+        },
+        "lead_times": {
+          "title": "Délais Courts",
+          "desc": "Comme nous construisons tout nous-mêmes, nous maintenons les délais à un minimum absolu."
+        },
+        "local": {
+          "title": "Présence Locale",
+          "desc": "Siège entre Marbella et Malaga, avec un second bureau à Palma de Majorque."
+        }
+      }
+    },
+    "process": {
+      "label": "Le Processus",
+      "title_1": "Construire une Piscine de Terrasse en",
+      "title_2": "6 Étapes",
+      "steps": {
+        "1": "Spécification de vos besoins, évaluation du site d'installation. Nous analysons la capacité structurelle, l'accès et les conditions de votre emplacement.",
+        "2": "Tous les détails de construction et de livraison sont réglés. Les permis sont demandés. Nous créons un plan et un calendrier détaillés.",
+        "3": "Le travail de préparation est effectué sur place. Cela inclut le renforcement structurel, la préparation de la plomberie et la mise en place de l'accès.",
+        "4": "La piscine est construite dans nos installations en utilisant notre technologie légère et durable. Qualité contrôlée à chaque étape.",
+        "5": "La coque de la piscine est livrée et installée sur votre terrasse. Nous gérons toute la logistique et les opérations de grutage si nécessaire.",
+        "6": "Inspection de livraison, remplissage et tests. Nous vérifions que tout fonctionne parfaitement avant de vous remettre les clés."
+      },
+      "journey_btn": "Prêt à Commencer Votre Projet ?"
+    },
+    "installations": {
+      "projects": {
+        "1": "Création d'une superbe terrasse de toit avec piscine privée. Cette piscine élégante est parfaitement placée au sommet de la résidence.",
+        "2": "Design intelligent. Finition élégante. Qualité scandinave. Dans la zone exclusive de La Quinta, nous avons installé une piscine sur mesure.",
+        "3": "Situé dans l'urbanisation prestigieuse d'El Higuerón, cet appartement bénéficie désormais d'une piscine de terrasse raffinée."
+      }
+    },
+    "cta": {
+      "title_1": "Votre Terrasse Pourrait-elle Avoir une",
+      "title_2": "Piscine ?",
+      "desc": "Découvrez comment nous pouvons transformer votre terrasse en une oasis aquatique privée.",
+      "btn": "Cliquez Ici pour Savoir Comment"
+    }
+  },
+  "renovations": {
+    "hero": {
+      "label": "Rénovations Complètes de Piscines",
+      "title_1": "Rénovations de Piscines",
+      "title_2": "avec SurClassement.",
+      "desc": "Vous souhaitez rénover votre piscine dans la région de Marbella, Malaga, Nerja, Torrevieja, Alicante ou Majorque ? Nous avons l'expérience des rénovations les plus exigeantes.",
+      "warranty_val": "35",
+      "warranty_label": "Ans de Garantie",
+      "quote_btn": "Demander un Devis"
+    },
+    "why": {
+      "label": "Pourquoi Nous Choisir",
+      "title_1": "Plus Qu'un Simple",
+      "title_2": "Lifting",
+      "desc": "Notre processus de rénovation est une révision technologique et esthétique complète. Nous améliorons tout, de la filtration à la finition.",
+      "items": {
+        "structural": { "title": "Renforcement Structurel", "desc": "Nous renforçons les fondations et les murs de votre piscine, assurant des décennies d'utilisation sans problème avec notre garantie de 35 ans." },
+        "filtration": { "title": "Filtration Moderne", "desc": "Mise à niveau avec une circulation et une filtration économes en énergie pour une eau cristalline toute l'année." },
+        "finishes": { "title": "Finitions Premium", "desc": "Des carrelages artisanaux aux finitions en plâtre lisse, nous n'utilisons que les meilleurs matériaux pour le climat méditerranéen." },
+        "plumbing": { "title": "Révision de la Plomberie", "desc": "Remplacement complet de la plomberie vieillissante par des tuyaux et des raccords modernes et durables." },
+        "electrical": { "title": "Améliorations Électriques", "desc": "Éclairage intelligent, couvertures automatiques et systèmes de chauffage économes en énergie intégrés harmonieusement." },
+        "surrounding": { "title": "Espaces Environnants", "desc": "Nous pouvons également rénover les terrasses, les platelages, le drainage et l'aménagement paysager autour de votre piscine." }
+      }
+    },
+    "guarantee": {
+      "title_1": "Découvrez Comment Nous Offrons",
+      "title_2": "35 Ans de Garantie",
+      "desc": "Notre confiance repose sur les normes d'ingénierie scandinaves et des décennies d'expérience dans le climat méditerranéen.",
+      "tech_btn": "Notre Technologie",
+      "contact_btn": "Contactez-nous pour un Devis"
+    },
+    "areas": {
+      "title_1": "Zones de",
+      "title_2": "Service",
+      "desc": "Services de rénovation de piscines dans les plus belles régions d'Espagne."
+    },
+    "cta": {
+      "title_1": "Prêt pour une",
+      "title_2": "Rénovation ?",
+      "desc": "Consultation gratuite et devis sans engagement pour la rénovation de votre piscine.",
+      "btn": "Contactez-nous pour un Devis"
+    }
+  },
+  "pool_tech": {
+    "hero": {
+      "label": "Excellence en Ingénierie",
+      "title_1": "Technologie de",
+      "title_2": "Piscine.",
+      "desc": "Découvrez pourquoi notre technologie est le meilleur choix pour votre terrasse. Construction légère et durable aux normes de qualité scandinaves."
+    },
+    "why": {
+      "title_1": "Pourquoi notre Tech est",
+      "title_2": "La Meilleure",
+      "items": {
+        "lightweight": { "title": "Construction Légère", "desc": "Conçue pour être nettement plus légère que le béton traditionnel, idéale pour les terrasses et les toits-terrasses." },
+        "durability": { "title": "Durabilité Multicouche", "desc": "La construction multicouche exclusive crée une structure incroyablement solide qui dure des décennies." },
+        "warranty": { "title": "Garantie 35 Ans", "desc": "Nous garantissons notre technologie par une garantie structurelle de 35 ans leader du marché. Certitude technique." },
+        "filtration": { "title": "Filtration Avancée", "desc": "Circulation et filtration de pointe pour une eau cristalline avec une consommation d'énergie minimale." },
+        "climate": { "title": "Optimisée pour le Climat", "desc": "Conçue pour le climat méditerranéen espagnol, avec résistance aux UV et gestion thermique." },
+        "efficiency": { "title": "Efficacité Énergétique", "desc": "Des parois isolées aux pompes intelligentes, réduisant vos coûts d'exploitation à long terme." }
+      }
+    },
+    "warranty_section": {
+      "title_1": "Garantie",
+      "title_2": "35 Ans",
+      "desc": "Garantie de 35 ans leader du marché sur nos piscines de terrasse et rénovations. Testée et prouvée en milieu méditerranéen depuis plus de 20 ans.",
+      "contact_btn": "Contactez-nous",
+      "pricing_btn": "Voir les Tarifs"
+    }
+  },
+  "prices": {
+    "hero": {
+      "label": "Tarification Transparente",
+      "title_1": "Tarifs des",
+      "title_2": "Piscines",
+      "desc": "Chaque projet est unique, tout comme chaque devis. Vous trouverez ci-dessous nos gammes de prix de départ. Contactez-nous pour un devis détaillé et sans engagement, adapté à vos besoins spécifiques."
+    },
+    "cards": {
+      "popular": "Populaire",
+      "get_quote": "Obtenir un Devis",
+      "discuss": "Discuter de Votre Projet",
+      "terrace": {
+        "title": "Piscine de Terrasse",
+        "price": "À partir de 15 000 €",
+        "price_label": "Prix de départ",
+        "desc": "Piscine de terrasse légère sur mesure conçue pour votre espace. Comprend la construction, la livraison et l'installation.",
+        "features": ["Conception entièrement sur mesure", "Construction légère", "Garantie structurelle de 35 ans", "Livraison & installation", "Évaluation du site incluse"]
+      },
+      "renovation": {
+        "title": "Rénovation de Piscine",
+        "price": "À partir de 8 000 €",
+        "price_label": "Prix de départ",
+        "desc": "Rénovation complète de votre piscine existante avec une technologie moderne. Comprend la réparation structurelle, les nouvelles finitions et les systèmes mis à niveau.",
+        "features": ["Révision structurelle complète", "Systèmes de filtration modernes", "Garantie 35 ans", "Options de finition premium", "Mises à niveau plomberie & électricité", "Espaces environnants en option"]
+      },
+      "custom": {
+        "title": "Projet Personnalisé",
+        "price": "Sur Mesure",
+        "price_label": "Adaptat à votre vision",
+        "desc": "Pour des projets vraiment uniques — piscines intérieures, installations commerciales ou défis architecturaux complexes. Tout est possible.",
+        "features": ["Personnalisation illimitée", "Intérieur ou extérieur", "Visualisation 3D du projet", "Gestion complète du projet", "Matériaux premium"]
+      }
+    },
+    "note": {
+      "title": "Chaque Projet est Unique",
+      "desc": "Les prix indiqués sont des points de départ indicatifs. Le prix final dépend des dimensions de la piscine, des conditions du site, des finitions choisies et des options supplémentaires. Nous fournissons des devis détaillés et transparents, sans frais cachés.",
+      "link": "Contactez-nous pour votre devis personnalisé"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Contactez-nous",
+      "title_1": "Parlons de",
+      "title_2": "votre projet.",
+      "desc": "Nous répondrons à votre message dès que possible. Appelez-nous, envoyez-nous un e-mail ou remplissez le formulaire ci-dessous."
+    },
+    "form": {
+      "title": "Envoyer un Message",
+      "name": "Nom",
+      "name_placeholder": "Votre nom",
+      "email": "E-mail",
+      "email_placeholder": "votre@email.com",
+      "phone": "Téléphone",
+      "phone_placeholder": "+34 ...",
+      "subject": "Sujet",
+      "subjects": {
+        "terrace": "Piscine de Terrasse",
+        "renovation": "Rénovation de Piscine",
+        "other": "Autre"
+      },
+      "message": "Que pouvons-nous faire pour vous ?",
+      "message_placeholder": "Parlez-nous de votre projet...",
+      "send_btn": "Envoyer le Message"
+    },
+    "sidebar": {
+      "direct": "Contact Direct",
+      "phone": "Téléphone / WhatsApp",
+      "email": "E-mail",
+      "hours": "Horaires",
+      "hours_val": "Lun - Ven : 10h00 – 18h00",
+      "offices": "Nos Bureaux",
+      "hq": "Siège — Costa del Sol",
+      "mallorca": "Majorque",
+      "serving": "Nous desservons : Estepona · Marbella · Málaga · Nerja · Torrevieja · Alicante · Majorque"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "label": "Nos Projets",
+      "title_1": "Installations",
+      "title_2": "Récentes",
+      "desc": "Explorez nos récentes installations de piscines de terrasse et rénovations de piscines sur la Costa del Sol et à Majorque. Chaque projet témoigne d'un savoir-faire de qualité scandinave."
+    },
+    "projects": {
+      "labels": {
+        "terrace_pool": "Piscine de Terrasse",
+        "renovation": "Rénovation de Piscine"
+      },
+      "items": {
+        "1": { "title": "Piscine de Toit-Terrasse", "location": "Ojén, Marbella" },
+        "2": { "title": "Piscine de Terrasse sur Mesure", "location": "La Quinta" },
+        "3": { "title": "Petite Piscine de Terrasse", "location": "El Higuerón" },
+        "4": { "title": "Rénovation Complète", "location": "Costa del Sol" }
+      }
+    },
+    "cta_btn": "Commencez Votre Propre Projet"
+  }
+}

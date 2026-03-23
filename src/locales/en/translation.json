@@ -1,0 +1,358 @@
+{
+  "nav": {
+    "home": "Home",
+    "terrace_pools": "Terrace Pools",
+    "pool_renovations": "Pool Renovations",
+    "pool_technology": "Pool Technology",
+    "prices": "Prices",
+    "contact_us": "Contact Us"
+  },
+  "footer": {
+    "services": "Services",
+    "contact": "Contact",
+    "locations": "Locations",
+    "desc": "Terrace Pools & Pool Renovations across Mainland Spain & Mallorca.",
+    "hours": "Hours",
+    "hours_val": "Mon - Fri: 10:00 – 18:00",
+    "language": "Language",
+    "rights": "All rights reserved."
+  },
+  "landing": {
+    "hero": {
+      "scandinavian_quality": "Scandinavian Quality",
+      "title_1": "Tailor Made",
+      "title_2": "Pools.",
+      "desc": "We create the perfect lightweight plunge pool for your space, whether it is on the 15th floor or indoors. Serving Marbella, Málaga, Nerja, Alicante & Mallorca.",
+      "contact_btn": "Contact Us Today",
+      "tech_btn": "Our Technology"
+    },
+    "stats": {
+      "warranty": {
+        "label": "Warranty",
+        "val": "35 Years",
+        "sub": "Market-leading guarantee"
+      },
+      "lead_times": {
+        "label": "Lead Times",
+        "val": "Short",
+        "sub": "We build it all ourselves"
+      },
+      "coverage": {
+        "label": "Coverage",
+        "val": "Spain",
+        "sub": "Mainland & Mallorca"
+      }
+    },
+    "usps": {
+      "label": "Going All The Way",
+      "title_1": "From Idea to Completion",
+      "title_2": "and Beyond",
+      "items": {
+        "local": {
+          "title": "Local Presence",
+          "desc": "With our HQ conveniently located between Marbella and Malaga we are 100% committed to our home area."
+        },
+        "tailored": {
+          "title": "Fully Tailored",
+          "desc": "Our pools are fully tailored to your needs, space and conditions. Every project is unique."
+        },
+        "lead_times": {
+          "title": "Short Lead Times",
+          "desc": "Since we build it all ourselves, we keep the lead times to a minimum."
+        },
+        "warranty": {
+          "title": "35 Year Warranty",
+          "desc": "We offer 35 years warranty on our terrace pools and pool renovations. Market leading."
+        }
+      }
+    },
+    "services": {
+      "renovations": {
+        "title": "Pool Renovations with an Upgrade.",
+        "desc": "Looking to renovate your pool in the Marbella, Málaga, Nerja, Torrevieja, Alicante or Mallorca region? We have experience from the most demanding pool renovations.",
+        "features": [
+          "35-year structural guarantee",
+          "Complete aesthetic and tech overhaul",
+          "Sustainable energy-efficient systems"
+        ],
+        "learn_more": "Learn More"
+      },
+      "terrace_pools": {
+        "label": "Terrace Pools",
+        "title": "Mainland & Mallorca",
+        "desc": "Wondering if you could fit a splash pool to your terrace? You probably could!",
+        "btn": "Find Out How"
+      },
+      "tech": {
+        "label": "Pool Technology",
+        "title": "Why Our Tech is Best",
+        "desc": "Lightweight, durable construction with Scandinavian quality standards.",
+        "btn": "Our Technology"
+      },
+      "prices": {
+        "label": "Transparent",
+        "title": "Pool Prices",
+        "desc": "Clear, upfront pricing with no hidden costs.",
+        "btn": "View Pricing"
+      }
+    },
+    "process": {
+      "label": "Building a Terrace Pool",
+      "title_1": "The Process in",
+      "title_2": "6 Steps",
+      "steps": {
+        "1": { "title": "Requirements", "desc": "Needs and site assessment." },
+        "2": { "title": "Planning", "desc": "Details sorted, permits applied." },
+        "3": { "title": "On-site Prep", "desc": "Preparation on site." },
+        "4": { "title": "Construction", "desc": "Built in our facility." },
+        "5": { "title": "Delivery", "desc": "Delivered and installed." },
+        "6": { "title": "Verification", "desc": "Inspection and testing." }
+      },
+      "btn": "Start Your Pool Journey"
+    },
+    "installations": {
+      "label": "Our Work",
+      "title_1": "Recent",
+      "title_2": "Installations",
+      "projects": {
+        "1": { "title": "Terrace Pool in Ojén, Marbella", "desc": "A stunning rooftop terrace with a private pool." },
+        "2": { "title": "Terrace Pool in La Quinta, Marbella", "desc": "Smart design. Elegant finish. Scandinavian quality." },
+        "3": { "title": "Terrace Pool in El Higuerón, Fuengirola", "desc": "Exquisite terrace pool in the prestigious El Higuerón." }
+      }
+    },
+    "cta": {
+      "title_1": "Still got",
+      "title_2": "questions?",
+      "desc": "We are always here to help you prepare and move ahead with your pool project. Call us, email us or fill out an inquiry form.",
+      "contact_btn": "Contact Us",
+      "call_btn": "Call"
+    }
+  },
+  "terrace_pools": {
+    "hero": {
+      "label": "Mainland Spain & Mallorca",
+      "title_1": "Terrace",
+      "title_2": "Pools.",
+      "desc": "Wondering whether you could fit a splash pool to your terrace? You probably could! We create the perfect lightweight plunge pool for your space, whether it is on the 15th floor or indoors.",
+      "btn": "Let Us Tell You How",
+      "tech_btn": "Our Technology"
+    },
+    "advantages": {
+      "label": "Why Terrace Pool",
+      "title_1": "Tailor Made for",
+      "title_2": "Your Space",
+      "items": {
+        "tailored": {
+          "title": "Fully Tailored",
+          "desc": "Every pool is fully tailored to your needs, space and conditions. No two projects are the same."
+        },
+        "warranty": {
+          "title": "35 Year Warranty",
+          "desc": "Market-leading 35-year structural warranty on every terrace pool we build."
+        },
+        "lead_times": {
+          "title": "Short Lead Times",
+          "desc": "Since we build everything ourselves, we keep lead times to an absolute minimum."
+        },
+        "local": {
+          "title": "Local Presence",
+          "desc": "HQ between Marbella and Malaga, with a second office in Palma de Mallorca."
+        }
+      }
+    },
+    "process": {
+      "label": "The Process",
+      "title_1": "Building a Terrace Pool in",
+      "title_2": "6 Steps",
+      "steps": {
+        "1": "Specifying your needs, installation site assessment. We analyse the structural capacity, access and conditions of your location.",
+        "2": "All details in construction and delivery are sorted out. Permits are applied for. We create a detailed plan and timeline.",
+        "3": "Preparation work is done on site. This includes structural reinforcement if needed, plumbing preparation and access setup.",
+        "4": "The pool construction is built in our facility using our lightweight, durable technology. Quality controlled at every stage.",
+        "5": "The built pool shell is delivered and installed on your terrace. We handle all the logistics and crane operations if needed.",
+        "6": "Delivery inspection, filling and testing. We verify everything works perfectly before handing over the keys to your new pool."
+      },
+      "journey_btn": "Ready to Start Your Pool Journey?"
+    },
+    "installations": {
+      "projects": {
+        "1": "Creating a stunning rooftop terrace with a private pool. This elegant and stylish rooftop pool is perfectly placed atop the residence.",
+        "2": "Smart design. Elegant finish. Scandinavian quality. In the exclusive area of La Quinta, we installed a custom-built terrace pool.",
+        "3": "Set in the prestigious urbanization of El Higuerón, this apartment now counts with an exquisite terrace pool."
+      }
+    },
+    "cta": {
+      "title_1": "Could Your Terrace Have a",
+      "title_2": "Pool?",
+      "desc": "Find out how we can transform your terrace into a private aquatic oasis.",
+      "btn": "Click Here to Let Us Tell You How"
+    }
+  },
+  "renovations": {
+    "hero": {
+      "label": "Complete Pool Overhauls",
+      "title_1": "Pool Renovations",
+      "title_2": "with an Upgrade.",
+      "desc": "Looking to renovate your pool in the Marbella, Málaga, Nerja, Torrevieja, Alicante or Mallorca region? We have experience from the most demanding pool renovations.",
+      "warranty_val": "35",
+      "warranty_label": "Year Guarantee",
+      "quote_btn": "Request a Quote"
+    },
+    "why": {
+      "label": "Why Choose Us",
+      "title_1": "More Than Just a",
+      "title_2": "Face-lift",
+      "desc": "Our renovation process is a complete technological and aesthetic overhaul. We upgrade everything from filtration to finish.",
+      "items": {
+        "structural": { "title": "Structural Reinforcement", "desc": "We reinforce your pool's foundation and walls, ensuring decades of trouble-free use with our 35-year guarantee." },
+        "filtration": { "title": "Modern Filtration", "desc": "Upgrading with energy-efficient circulation and filtration for crystal-clear water year-round." },
+        "finishes": { "title": "Premium Finishes", "desc": "From artisanal tiling to smooth plaster finishes, we use only the finest materials for the Mediterranean climate." },
+        "plumbing": { "title": "Plumbing Overhaul", "desc": "Complete replacement of aging plumbing with modern, durable piping and connections." },
+        "electrical": { "title": "Electrical Upgrades", "desc": "Smart lighting, automated covers, and energy-efficient heating systems integrated seamlessly." },
+        "surrounding": { "title": "Surrounding Areas", "desc": "We can also renovate terraces, decking, drainage, and landscaping around your pool." }
+      }
+    },
+    "guarantee": {
+      "title_1": "Learn How We Can Give",
+      "title_2": "35 Years Guarantee",
+      "desc": "Our confidence is built on Scandinavian engineering standards and decades of experience in the Mediterranean climate.",
+      "tech_btn": "Our Technology",
+      "contact_btn": "Contact Us for a Quote"
+    },
+    "areas": {
+      "title_1": "Service",
+      "title_2": "Areas",
+      "desc": "Pool renovation services across Spain's most beautiful regions."
+    },
+    "cta": {
+      "title_1": "Ready to",
+      "title_2": "Renovate?",
+      "desc": "Free consultation and no-obligation quote for your pool renovation.",
+      "btn": "Contact Us for a Quote"
+    }
+  },
+  "pool_tech": {
+    "hero": {
+      "label": "Engineering Excellence",
+      "title_1": "Pool",
+      "title_2": "Technology.",
+      "desc": "Find out why our pool technology is the best choice for your terrace. Lightweight, durable construction with Scandinavian quality standards."
+    },
+    "why": {
+      "title_1": "Why Our Tech is",
+      "title_2": "The Best",
+      "items": {
+        "lightweight": { "title": "Lightweight Construction", "desc": "Engineered to be significantly lighter than traditional concrete, ideal for terraces, rooftops, and upper floors." },
+        "durability": { "title": "Multi-Layer Durability", "desc": "Proprietary multi-layer construction creates an incredibly strong structure that maintains integrity for decades." },
+        "warranty": { "title": "35-Year Warranty", "desc": "We back our technology with an industry-leading 35-year structural warranty. Engineering certainty." },
+        "filtration": { "title": "Advanced Filtration", "desc": "State-of-the-art circulation and filtration for crystal clear water with minimal energy use." },
+        "climate": { "title": "Climate Optimised", "desc": "Engineered for the Spanish Mediterranean climate, with UV resistance and thermal management." },
+        "efficiency": { "title": "Energy Efficient", "desc": "From insulated walls to smart pumps, reducing your long-term operating costs." }
+      }
+    },
+    "warranty_section": {
+      "title_1": "35 Years",
+      "title_2": "Warranty",
+      "desc": "Market-leading 35-year warranty on our terrace pools and pool renovations. Tested and proven in the Mediterranean environment for over two decades.",
+      "contact_btn": "Get in Touch",
+      "pricing_btn": "View Pricing"
+    }
+  },
+  "prices": {
+    "hero": {
+      "label": "Transparent Pricing",
+      "title_1": "Pool",
+      "title_2": "Prices",
+      "desc": "Every project is unique, and so is every quote. Below you'll find our starting price ranges. Contact us for a detailed, no-obligation quote tailored to your specific requirements."
+    },
+    "cards": {
+      "popular": "Popular",
+      "get_quote": "Get a Quote",
+      "discuss": "Discuss Your Project",
+      "terrace": {
+        "title": "Terrace Pool",
+        "price": "From €15,000",
+        "price_label": "Starting price",
+        "desc": "Custom-built lightweight terrace pool designed for your space. Includes construction, delivery and installation.",
+        "features": ["Fully tailored design", "Lightweight construction", "35-year structural warranty", "Delivery & installation", "Site assessment included"]
+      },
+      "renovation": {
+        "title": "Pool Renovation",
+        "price": "From €8,000",
+        "price_label": "Starting price",
+        "desc": "Complete renovation of your existing pool with modern technology. Includes structural repair, new finishes and upgraded systems.",
+        "features": ["Complete structural overhaul", "Modern filtration systems", "35-year guarantee", "Premium finish options", "Plumbing & electrical upgrades", "Surrounding areas optional"]
+      },
+      "custom": {
+        "title": "Custom Project",
+        "price": "Bespoke",
+        "price_label": "Tailored to your vision",
+        "desc": "For truly unique projects — indoor pools, commercial installations, or complex architectural challenges. Everything is possible.",
+        "features": ["Unlimited customisation", "Indoor or outdoor", "3D design visualisation", "Full project management", "Premium materials"]
+      }
+    },
+    "note": {
+      "title": "Every Project is Unique",
+      "desc": "The prices shown above are indicative starting points. Final pricing depends on pool dimensions, site conditions, chosen finishes, and additional features. We provide detailed, transparent quotes with no hidden costs — always.",
+      "link": "Contact us for your personalised quote"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Get in Touch",
+      "title_1": "Let's talk about",
+      "title_2": "your project.",
+      "desc": "We will respond to your message as soon as possible. Call us, email us or fill out the inquiry form below."
+    },
+    "form": {
+      "title": "Send a Message",
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "email": "Email",
+      "email_placeholder": "your@email.com",
+      "phone": "Phone",
+      "phone_placeholder": "+34 ...",
+      "subject": "Subject",
+      "subjects": {
+        "terrace": "Terrace Pool",
+        "renovation": "Pool Renovation",
+        "other": "Other"
+      },
+      "message": "What can we do for you?",
+      "message_placeholder": "Tell us about your project...",
+      "send_btn": "Send Message"
+    },
+    "sidebar": {
+      "direct": "Direct Contact",
+      "phone": "Phone / WhatsApp",
+      "email": "Email",
+      "hours": "Hours",
+      "hours_val": "Mon - Fri: 10:00 – 18:00",
+      "offices": "Our Offices",
+      "hq": "HQ — Costa del Sol",
+      "mallorca": "Mallorca",
+      "serving": "Serving: Estepona · Marbella · Málaga · Nerja · Torrevieja · Alicante · Mallorca"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "label": "Our Projects",
+      "title_1": "Recent",
+      "title_2": "Installations",
+      "desc": "Explore our recent terrace pool installations and pool renovations across the Costa del Sol and Mallorca. Each project showcases Scandinavian quality craftsmanship."
+    },
+    "projects": {
+      "labels": {
+        "terrace_pool": "Terrace Pool",
+        "renovation": "Pool Renovation"
+      },
+      "items": {
+        "1": { "title": "Rooftop Terrace Pool", "location": "Ojén, Marbella" },
+        "2": { "title": "Custom Terrace Pool", "location": "La Quinta" },
+        "3": { "title": "Terrace Plunge Pool", "location": "El Higuerón" },
+        "4": { "title": "Complete Renovation", "location": "Costa del Sol" }
+      }
+    },
+    "cta_btn": "Start Your Own Project"
+  }
+}
