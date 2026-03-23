@@ -26,91 +26,51 @@ const PricesPage: React.FC = () => {
           </p>
         </section>
 
-        {/* Pricing Cards */}
-        <section className="max-w-7xl mx-auto px-6 md:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
-            {/* Terrace Pool */}
-            <div className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 relative overflow-hidden warm-shadow group hover:gold-border transition-all duration-500 flex flex-col">
-              <div className="absolute top-0 right-0 w-40 h-40 bg-gold/3 rounded-full blur-[60px]"></div>
-              <div className="relative z-10 flex-1">
-                <h3 className="text-[10px] md:text-sm font-label uppercase tracking-widest text-gold mb-1.5 md:mb-2">{t('prices.cards.terrace.title')}</h3>
-                <div className="mb-4 md:mb-6">
-                  <span className="text-3xl md:text-4xl font-black text-warm-text">{t('prices.cards.terrace.price')}</span>
-                  <p className="text-warm-muted text-xs md:text-sm mt-1">{t('prices.cards.terrace.price_label')}</p>
-                </div>
-                <p className="text-warm-muted text-sm leading-relaxed mb-6 md:mb-8 min-h-[60px]">
-                  {t('prices.cards.terrace.desc')}
-                </p>
-                <ul className="space-y-2.5 md:space-y-3 mb-8">
-                  {(t('prices.cards.terrace.features', { returnObjects: true }) as string[]).map((item, i) => (
-                    <li key={i} className="flex items-center gap-3 text-sm text-warm-text-light">
-                      <Check className="w-4 h-4 md:w-5 md:h-5 text-teal-accent shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="relative z-10 mt-auto pt-4 md:pt-6">
-                  <Link to="/contact" className="gold-gradient text-white w-full py-3.5 md:py-4 rounded-xl md:rounded-2xl font-bold text-sm md:text-base gold-glow hover:translate-y-[-2px] transition-all duration-300 flex items-center justify-center gap-2">
-                    {t('prices.cards.get_quote')} <ArrowRight size={18} />
-                  </Link>
-              </div>
-            </div>
+        {/* Pricing Card */}
+        <section className="max-w-4xl mx-auto px-6 md:px-8">
+          <div className="bg-white rounded-3xl p-8 md:p-12 relative overflow-hidden warm-shadow border border-gold/10 group">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-[80px]"></div>
 
-            {/* Pool Renovation - Featured */}
-            <div className="bg-warm-text rounded-2xl md:rounded-3xl p-6 md:p-8 relative overflow-hidden warm-shadow-lg md:scale-[1.02] flex flex-col border border-gold/20">
-              <div className="absolute top-0 right-0 w-56 h-56 bg-gold/10 rounded-full blur-[80px]"></div>
-              <div className="absolute top-4 right-4 bg-gold text-white text-[9px] md:text-[10px] font-bold uppercase tracking-widest px-2.5 md:px-3 py-1 rounded-full">{t('prices.cards.popular')}</div>
-              <div className="relative z-10 flex-1">
-                <h3 className="text-[10px] md:text-sm font-label uppercase tracking-widest text-gold-light mb-1.5 md:mb-2">{t('prices.cards.renovation.title')}</h3>
-                <div className="mb-4 md:mb-6">
-                  <span className="text-3xl md:text-4xl font-black text-cream">{t('prices.cards.renovation.price')}</span>
-                  <p className="text-cream-darker/60 text-xs md:text-sm mt-1">{t('prices.cards.renovation.price_label')}</p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+              <div>
+                <h3 className="text-sm font-label uppercase tracking-widest text-gold mb-3">{t('prices.card.title')}</h3>
+                <div className="mb-8">
+                  <span className="text-4xl md:text-5xl font-black text-warm-text block">{t('prices.card.price')}</span>
+                  <p className="text-warm-muted text-sm md:text-base mt-2">{t('prices.card.price_label')}</p>
                 </div>
-                <p className="text-cream-darker/60 text-sm leading-relaxed mb-6 md:mb-8 min-h-[60px]">
-                  {t('prices.cards.renovation.desc')}
-                </p>
-                <ul className="space-y-2.5 md:space-y-3 mb-8">
-                  {(t('prices.cards.renovation.features', { returnObjects: true }) as string[]).map((item, i) => (
-                    <li key={i} className="flex items-start md:items-center gap-3 text-sm text-cream-darker/70">
-                      <Check className="w-4 h-4 md:w-5 md:h-5 text-gold-light shrink-0 mt-0.5 md:mt-0" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="relative z-10 mt-auto pt-4 md:pt-6">
-                  <Link to="/contact" className="bg-cream text-gold-dark w-full py-3.5 md:py-4 rounded-xl md:rounded-2xl font-bold text-sm md:text-base hover:bg-white hover:translate-y-[-2px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg">
-                    {t('prices.cards.get_quote')} <ArrowRight size={18} />
-                  </Link>
-              </div>
-            </div>
 
-            {/* Custom / Premium */}
-            <div className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 relative overflow-hidden warm-shadow group hover:gold-border transition-all duration-500 flex flex-col">
-              <div className="absolute top-0 right-0 w-40 h-40 bg-gold/3 rounded-full blur-[60px]"></div>
-              <div className="relative z-10 flex-1">
-                <h3 className="text-[10px] md:text-sm font-label uppercase tracking-widest text-gold mb-1.5 md:mb-2">{t('prices.cards.custom.title')}</h3>
-                <div className="mb-4 md:mb-6">
-                  <span className="text-3xl md:text-4xl font-black text-warm-text">{t('prices.cards.custom.price')}</span>
-                  <p className="text-warm-muted text-xs md:text-sm mt-1">{t('prices.cards.custom.price_label')}</p>
-                </div>
-                <p className="text-warm-muted text-sm leading-relaxed mb-6 md:mb-8 min-h-[60px]">
-                  {t('prices.cards.custom.desc')}
-                </p>
-                <ul className="space-y-2.5 md:space-y-3 mb-8">
-                  {(t('prices.cards.custom.features', { returnObjects: true }) as string[]).map((item, i) => (
-                    <li key={i} className="flex items-center gap-3 text-sm text-warm-text-light">
-                      <Check className="w-4 h-4 md:w-5 md:h-5 text-teal-accent shrink-0" />
-                      {item}
-                    </li>
-                  ))}
+                <ul className="space-y-4 mb-8">
+                  {(t('prices.card.features', { returnObjects: true }) as string[]).map((item, i) => {
+                    const isNotIncluded = item.toLowerCase().includes('not included');
+                    const isAvailable = item.toLowerCase().includes('available');
+
+                    return (
+                      <li key={i} className="flex items-start gap-3 text-sm md:text-base text-warm-text-light">
+                        <span className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5 ${isNotIncluded ? 'bg-red-50 text-red-400' :
+                            isAvailable ? 'bg-blue-50 text-blue-400' : 'bg-teal-50 text-teal-500'
+                          }`}>
+                          <Check className="w-3.5 h-3.5" />
+                        </span>
+                        <span>{item}</span>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
-              <div className="relative z-10 mt-auto pt-4 md:pt-6">
-                  <Link to="/contact" className="bg-warm-text text-cream w-full py-3.5 md:py-4 rounded-xl md:rounded-2xl font-bold text-sm md:text-base hover:translate-y-[-2px] transition-all duration-300 flex items-center justify-center gap-2">
-                    {t('prices.cards.discuss')} <ArrowRight size={18} />
+
+              <div className="flex flex-col gap-6">
+                <div className="rounded-2xl overflow-hidden warm-shadow-sm border border-warm-border/50">
+                  <img src="https://terracepool.com/wp-content/uploads/2025/07/Terrace-Pool-Supplier-768x432.jpg" alt="Terrace Pool" className="w-full h-48 md:h-64 object-cover" />
+                </div>
+
+                <div className="bg-cream-dark/30 rounded-2xl p-6 border border-warm-border/20">
+                  <p className="text-sm text-warm-text-light italic leading-relaxed mb-6">
+                    {t('prices.card.cta')}
+                  </p>
+                  <Link to="/contact" className="gold-gradient text-white w-full py-4 rounded-2xl font-bold text-base gold-glow hover:translate-y-[-2px] transition-all duration-300 flex items-center justify-center gap-2">
+                    {t('nav.contact_us')} <ArrowRight size={20} />
                   </Link>
+                </div>
               </div>
             </div>
           </div>

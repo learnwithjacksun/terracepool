@@ -106,27 +106,29 @@ const InstallationsPage: React.FC = () => {
         </section>
 
         {/* Recent Installations */}
-        <section className="py-16 md:py-28 px-6 md:px-8 max-w-7xl mx-auto">
-          <div className="text-center mb-10 md:mb-16">
-            <span className="text-gold text-xs font-label tracking-widest uppercase block mb-3 md:mb-4">{t('landing.installations.label')}</span>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tighter text-warm-text">
-              {t('landing.installations.title_1')} <span className="font-serif italic gold-text">{t('landing.installations.title_2')}</span>
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {[
-              { title: t('landing.installations.projects.1.title'), desc: t('terrace_pools.installations.projects.1'), img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuATPiBc5DLQf8NcV32AYqT3IKStIZu_ni5FXd38tMw3CWVKBuX8h9_qqwtHhTluC2CTmxfN0sdTKadL8n3XB2nZ5a8Zt-wg32ImXXT0jnK1FHWyOWX_ICfBMc7C6bKYlc-bgkEXQZlgZb7Wv_LV47S1acoxn0hCPNyULRBHFcXoBa8ZUXo6bPdZXUTnka0BjPlqNinOIrrgY42rlupwBM0taLjtBdm-C_SzKvYQPgc9u3QQNHOfa5jdd1qB58ONhaPyiWgl0JSWpGJ-' },
-              { title: t('landing.installations.projects.2.title'), desc: t('terrace_pools.installations.projects.2'), img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDrAroQA3MX2ZQG88qEbPhjz2QWzzSw2B3uKHY0zDuo9NaM4Yekk7FJe9Hlqk8r8aL1OPCG8bRz0gBatod0DvQSdlj8UqU-A8XZ9FqNzjkr1HPwitU8EyqxRGKBEPCZnkelPjOsR4tUTZEG8whjQ5KzL9eRaXZPTIRC_fiCMfAE6C89d5MSV_0qARoPDoiDiTZ1THxnCG247MBL76bTciWqfSzav4LMCOCaNXIk7FmiYpwz-0z9H5Y2ldy1FFP_zSX_cJsIaaA0i6Ab' },
-              { title: t('landing.installations.projects.3.title'), desc: t('terrace_pools.installations.projects.3'), img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCbO-dtEhM8elQwCEt1KayoSoE2xX43ZvDBXgqp5lCT3r6_sYEsUqX-ErjJgzC0SPPM8JBgz6XtYXMEDkBtkGbBxVRzeEd9Ppjty8uD6mMWNXZHqU9Xo2K3SrYLJgCrvaYfWO0OtOA2P0qDwldna60oUkq6Fm7ImcqqB91b2nIbZAj-UExlQvYflXnF1nGO8yQzDXSh26gFz4KijUQlWkUAzslB23AUrflt7GiL8Wiih41orAPBiUmnUK6AmsAUTR1WzZH5woUHvv3H' },
-            ].map((project, i) => (
-              <div key={i} className="group cursor-pointer">
-                <div className="relative h-[240px] md:h-[300px] rounded-2xl md:rounded-3xl overflow-hidden warm-shadow mb-4 md:mb-5">
-                  <img src={project.img} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                </div>
-                <h3 className="text-base md:text-lg font-bold text-warm-text mb-1.5 md:mb-2">{project.title}</h3>
-                <p className="text-warm-muted text-sm leading-relaxed">{project.desc}</p>
-              </div>
-            ))}
+        <section className="py-16 md:py-28 bg-milk">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <div className="text-center mb-10 md:mb-16">
+              <span className="text-gold text-xs font-label tracking-widest uppercase block mb-4">{t('landing.installations.label')}</span>
+              <h2 className="text-3xl md:text-5xl font-bold tracking-tighter text-warm-text">
+                {t('landing.installations.title_1')} <span className="font-serif italic gold-text">{t('landing.installations.title_2')}</span>
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
+              {[
+                { slug: 'ojen-marbella', title: t('landing.installations.projects.1.title'), desc: t('landing.installations.projects.1.desc'), img: 'https://terracepool.com/wp-content/uploads/2025/07/Roof-Terrace-Pool.webp' },
+                { slug: 'la-quinta-marbella', title: t('landing.installations.projects.2.title'), desc: t('landing.installations.projects.2.desc'), img: 'https://terracepool.com/wp-content/uploads/2025/07/Plunge-pool-Marbella-e1752060744592.jpg' },
+                { slug: 'el-higueron-fuengirola', title: t('landing.installations.projects.3.title'), desc: t('landing.installations.projects.3.desc'), img: 'https://terracepool.com/wp-content/uploads/2021/03/Terrace-pool-Fuengirola.jpg' },
+              ].map((project, i) => (
+                <Link key={i} to={`/portfolio/${project.slug}`} className="group cursor-pointer block">
+                  <div className="relative h-[220px] md:h-[300px] rounded-2xl md:rounded-3xl overflow-hidden warm-shadow mb-4 md:mb-5">
+                    <img src={project.img} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                  </div>
+                  <h3 className="text-base md:text-lg font-bold text-warm-text mb-1 md:mb-2">{project.title}</h3>
+                  <p className="text-warm-muted text-sm leading-relaxed">{project.desc}</p>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

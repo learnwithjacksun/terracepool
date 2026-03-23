@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CheckCircle2, Sparkles, ArrowRight } from 'lucide-react';
+import { CheckCircle2, Sparkles, ArrowRight, Gauge } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -71,6 +71,123 @@ const RenovationsPage: React.FC = () => {
                 <p className="text-warm-muted text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Technical: Fiber Composite Boards */}
+        <section className="py-20 md:py-32 bg-white overflow-hidden">
+          <div className="max-w-7xl mx-auto px-6 md:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+              <div className="lg:col-span-7">
+                <span className="inline-flex items-center gap-2 text-gold text-[10px] md:text-xs font-label tracking-widest uppercase mb-6">
+                  <Gauge size={14} className="text-gold" /> Intelligent Improvement
+                </span>
+                <h2 className="text-3xl md:text-5xl font-black tracking-tighter text-warm-text leading-[1.1] mb-8">
+                  {t('renovations.technical.title')}
+                </h2>
+                <p className="text-base md:text-lg text-warm-text-light leading-relaxed mb-12 max-w-2xl">
+                  {t('renovations.technical.desc')}
+                </p>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
+                  <div className="space-y-4">
+                    <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
+                      {/* Image Placeholder */}
+                      <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Waterproofing-Swimming-Pools-Spain-1536x863.webp' />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-warm-text mb-2">{t('renovations.technical.features.leak_proof.title')}</h3>
+                      <p className="text-sm text-warm-muted leading-relaxed">{t('renovations.technical.features.leak_proof.desc')}</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
+                      {/* Image Placeholder */}
+                      <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Composite-Fibre-Durability-1536x843.webp' />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-warm-text mb-2">{t('renovations.technical.features.durability.title')}</h3>
+                      <p className="text-sm text-warm-muted leading-relaxed">{t('renovations.technical.features.durability.desc')}</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
+                      {/* Image Placeholder */}
+                      <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Durable-Pool-Renovation-768x547.webp' />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-warm-text mb-2">{t('renovations.technical.features.strength.title')}</h3>
+                      <p className="text-sm text-warm-muted leading-relaxed">{t('renovations.technical.features.strength.desc')}</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
+                      {/* Image Placeholder */}
+                      <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Cheap-Pool-Renovation.webp' />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-warm-text mb-2">{t('renovations.technical.features.cost.title')}</h3>
+                      <p className="text-sm text-warm-muted leading-relaxed">{t('renovations.technical.features.cost.desc')}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="lg:col-span-5 pt-10 lg:pt-0">
+                <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Pool-renovation-Composite-info-768x925.png' />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Finish Section */}
+        <section className="relative py-20 md:py-32 bg-cream-dark/30 overflow-hidden">
+          {/* Water background effect */}
+          <div className="absolute inset-0 z-0 opacity-20">
+            <img
+              src="https://terracepool.com/wp-content/uploads/2025/07/Pool-renovation-Price.webp"
+              alt="Water surface"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-cream-dark mix-blend-multiply"></div>
+          </div>
+
+          <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-8">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <span className="inline-flex items-center gap-2 text-gold text-[10px] md:text-xs font-label tracking-widest uppercase mb-4">
+                <Sparkles size={14} /> Custom Finish
+              </span>
+              <h2 className="text-3xl md:text-5xl font-black tracking-tighter text-warm-text mb-6">
+                {t('renovations.finishes.title')}
+              </h2>
+              <p className="text-base md:text-lg text-warm-text-light">
+                {t('renovations.finishes.desc')}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              <div className="space-y-6">
+                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/swimming-pool-glass-mosaic-tiles-768x606.jpg' />
+                <div>
+                  <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.liners.title')}</h3>
+                  <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.liners.desc')}</p>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/swimming-pool-glass-mosaic-tiles-768x606.jpg' />
+                <div>
+                  <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.mosaic.title')}</h3>
+                  <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.mosaic.desc')}</p>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/Luxury-pool-tile-768x668.webp' />
+                <div>
+                  <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.tiles.title')}</h3>
+                  <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.tiles.desc')}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

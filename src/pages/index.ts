@@ -5,4 +5,5 @@ export { default as PortfolioPage } from "./PortfolioPage";
 export { default as RenovationsPage } from "./RenovationsPage";
 export { default as InstallationsPage } from "./InstallationsPage";
 export { default as PoolTechPage } from "./PoolTechPage";
+export { default as PortfolioDetailPage } from "./PortfolioDetailPage";
 export { default as PricesPage } from "./PricesPage";

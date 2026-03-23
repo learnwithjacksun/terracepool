@@ -22,8 +22,8 @@
       "scandinavian_quality": "Calidad Escandinava",
       "title_1": "Hecho a Medida",
       "title_2": "Piscinas.",
-      "desc": "Creamos la piscina de inmersión ligera perfecta para su espacio, ya sea en el piso 15 o en el interior. Sirviendo a Marbella, Málaga, Nerja, Alicante y Mallorca.",
-      "contact_btn": "Contáctenos Hoy",
+      "desc": "Creamos la piscina de inmersión ligera perfecta para su espacio, ya sea en el piso 15 o en el interior.",
+      "contact_btn": "Contáctenos hoy para una solución",
       "tech_btn": "Nuestra Tecnología"
     },
     "stats": {
@@ -35,7 +35,7 @@
       "lead_times": {
         "label": "Plazos de Entrega",
         "val": "Cortos",
-        "sub": "Lo construimos todo nosotros mismos"
+        "sub": "Dado que lo construimos todo nosotros mismos, mantenemos los plazos de entrega al mínimo."
       },
       "coverage": {
         "label": "Cobertura",
@@ -44,32 +44,32 @@
       }
     },
     "usps": {
-      "label": "Todo el Camino",
-      "title_1": "Desde la Idea hasta la Finalización",
-      "title_2": "y Más Allá",
+      "label": "TODO EL CAMINO",
+      "title_1": "Desde la Idea hasta la",
+      "title_2": "Finalización y Más Allá",
       "items": {
         "local": {
-          "title": "Presencia Local",
-          "desc": "Con nuestra sede convenientemente ubicada entre Marbella y Málaga, estamos 100% comprometidos con nuestra zona de origen."
+          "title": "Presencia local",
+          "desc": "Con nuestra sede convenientemente ubicada entre Marbella y Málaga, estamos 100% comprometidos con nuestra zona de origen"
         },
         "tailored": {
-          "title": "Totalmente a Medida",
-          "desc": "Nuestras piscinas se adaptan totalmente a sus necesidades, espacio y condiciones. Cada proyecto es único."
+          "title": "Totalmente a medida",
+          "desc": "Nuestras piscinas se adaptan totalmente a sus necesidades, espacio y condiciones"
         },
         "lead_times": {
-          "title": "Breves Plazos de Entrega",
+          "title": "Breves plazos de entrega",
           "desc": "Dado que lo construimos todo nosotros mismos, mantenemos los plazos de entrega al mínimo."
         },
         "warranty": {
-          "title": "35 Años de Garantía",
-          "desc": "Ofrecemos 35 años de garantía en nuestras piscinas de terraza y reformas de piscinas. Líderes en el mercado."
+          "title": "Garantía líder en el mercado",
+          "desc": "Ofrecemos 35 años de garantía en nuestras piscinas de terraza y reformas de piscinas"
         }
       }
     },
     "services": {
       "renovations": {
-        "title": "Reformas de Piscinas con una Mejora.",
-        "desc": "¿Busca renovar su piscina en Marbella, Málaga, Nerja, Torrevieja, Alicante o Mallorca? Tenemos experiencia en las reformas más exigentes.",
+        "title": "Reformas de piscinas con una mejora.",
+        "desc": "¿Busca renovar su piscina en Marbella, Málaga, Nerja, Torrevieja, Alicante o Mallorca? Tenemos experiencia en las reformas de piscinas más exigentes.",
         "features": [
           "Garantía estructural de 35 años",
           "Revisión estética y técnica completa",
@@ -81,11 +81,11 @@
         "label": "Piscinas de Terraza",
         "title": "Península y Mallorca",
         "desc": "¿Se pregunta si podría poner una pequeña piscina en su terraza? ¡Probablemente sí!",
-        "btn": "Descubra Cómo"
+        "btn": "Haga clic aquí para que le contemos cómo"
       },
       "tech": {
         "label": "Tecnología de Piscinas",
-        "title": "Por Qué Nuestra Tecnología es la Mejor",
+        "title": "Por qué nuestra tecnología es la mejor",
         "desc": "Construcción ligera y duradera con estándares de calidad escandinavos.",
         "btn": "Nuestra Tecnología"
       },
@@ -97,27 +97,27 @@
       }
     },
     "process": {
-      "label": "Construyendo una Piscina de Terraza",
+      "label": "Construyendo una piscina de terraza",
       "title_1": "El Proceso en",
       "title_2": "6 Pasos",
       "steps": {
-        "1": { "title": "Requisitos", "desc": "Necesidades y evaluación del sitio." },
-        "2": { "title": "Planificación", "desc": "Detalles resueltos, permisos solicitados." },
-        "3": { "title": "Preparación", "desc": "Trabajos de preparación en el sitio." },
-        "4": { "title": "Construcción", "desc": "Construido en nuestras instalaciones." },
-        "5": { "title": "Entrega", "desc": "Entregado e instalado." },
-        "6": { "title": "Verificación", "desc": "Inspección y pruebas." }
+        "1": { "title": "Requisitos", "desc": "Especificación de sus necesidades, evaluación del sitio de instalación" },
+        "2": { "title": "Planificación", "desc": "Se resuelven todos los detalles de construcción y entrega, se solicitan los permisos" },
+        "3": { "title": "Preparación", "desc": "El trabajo de preparación se realiza en el sitio" },
+        "4": { "title": "Construcción", "desc": "La construcción de la piscina se realiza en nuestras instalaciones" },
+        "5": { "title": "Entrega", "desc": "El casco de la piscina construida se entrega e instala" },
+        "6": { "title": "Verificación", "desc": "Inspección de entrega, llenado y pruebas" }
       },
-      "btn": "Inicie su Viaje de Piscina"
+      "btn": "¿Listo para iniciar su viaje de piscina?"
     },
     "installations": {
       "label": "Nuestro Trabajo",
       "title_1": "Recientes",
       "title_2": "Instalaciones",
       "projects": {
-        "1": { "title": "Piscina de Terraza en Ojén, Marbella", "desc": "Una impresionante terraza en la azotea con una piscina privada." },
-        "2": { "title": "Piscina de Terraza en La Quinta, Marbella", "desc": "Diseño inteligente. Acabado elegante. Calidad escandinava." },
-        "3": { "title": "Piscina de Terraza en El Higuerón, Fuengirola", "desc": "Exquisita piscina de terraza en el prestigioso El Higuerón." }
+        "1": { "title": "Piscina de Terraza en Ojén (Marbella)", "desc": "Creación de una impresionante terraza en la azotea con piscina privada. Esta elegante y estilizada piscina está perfectamente ubicada en lo alto de la residencia." },
+        "2": { "title": "Piscina de Terraza en La Quinta, Marbella", "desc": "Diseño inteligente. Acabado elegante. Calidad escandinava. En la exclusiva zona de La Quinta, Marbella, instalamos una piscina de terraza a medida." },
+        "3": { "title": "Piscina de terraza en El Higuerón, Fuengirola", "desc": "Situado en la prestigiosa urbanización de El Higuerón, este apartamento cuenta ahora con una exquisita piscina de terraza, ofreciendo una serena..." }
       }
     },
     "cta": {
@@ -224,6 +224,25 @@
       "title_2": "Servicio",
       "desc": "Servicios de renovación de piscinas en las regiones más bellas de España."
     },
+    "technical": {
+      "title": "Reforma de Piscinas y Reparación de Fugas con Paneles de Fibra Compuesta",
+      "desc": "¿Su piscina muestra signos de desgaste, fugas o acabados anticuados? Los métodos tradicionales de reparación de piscinas pueden implicar excavaciones y sustituciones extensas, lo que puede resultar muy costoso y llevar mucho tiempo. Nuestro revolucionario método de reforma y reparación de fugas ofrece una solución moderna y duradera mediante paneles de fibra compuesta compactos y altamente resistentes, diseñados para ofrecer integridad estructural, flexibilidad y estilo.",
+      "features": {
+        "leak_proof": { "title": "Solución Antifugas", "desc": "Su construcción no porosa crea una barrera sin fisuras que elimina la pérdida de agua y protege las estructuras subyacentes." },
+        "durability": { "title": "Durabilidad", "desc": "Resistentes a la humedad, la putrefacción, los productos químicos y la exposición a los rayos UV, los compuestos de fibra se utilizan en algunas de las partes más críticas de los aviones." },
+        "strength": { "title": "Ligero y Fuerte", "desc": "A diferencia del hormigón tradicional o los materiales basados en la madera, los paneles compuestos combinan resistencia con una fácil manipulación e instalación." },
+        "cost": { "title": "Rentable", "desc": "Al minimizar la necesidad de excavaciones y sustituciones extensas, los paneles de fibra compuesta proporcionan una solución de reparación más económica." }
+      }
+    },
+    "finishes": {
+      "title": "Un Acabado que se Adapta a su Estilo",
+      "desc": "Una vez instalada, la superficie de fibra compuesta puede acabarse en virtualmente cualquier estilo para que coincida con su visión de diseño:",
+      "options": {
+        "liners": { "title": "Laminado de Piscina", "desc": "Elija entre una amplia gama de colores y texturas para un aspecto limpio y moderno." },
+        "mosaic": { "title": "Mosaico de Cerámica o Cristal", "desc": "Añada elegancia y lujo con un intrincado trabajo de azulejos." },
+        "tiles": { "title": "Azulejos Tradicionales", "desc": "Para un acabado clásico, nuestros paneles de fibra proporcionan una base perfecta para todo tipo de aplicaciones de azulejos." }
+      }
+    },
     "cta": {
       "title_1": "¿Listo para",
       "title_2": "Renovar?",
@@ -260,40 +279,27 @@
   },
   "prices": {
     "hero": {
-      "label": "Precios Transparentes",
+      "label": "PISCINAS DE TERRAZA HECHAS A MEDIDA",
       "title_1": "Precios de",
-      "title_2": "Piscina",
-      "desc": "Cada proyecto es único, al igual que cada presupuesto. A continuación encontrará nuestros rangos de precios iniciales. Contáctenos para un presupuesto detallado y sin compromiso adaptado a sus necesidades específicas."
+      "title_2": "Piscina de Terraza",
+      "desc": "Convierta su espacio exterior en un elegante refugio de bienestar con nuestra piscina de terraza más solicitada, ideal para terrazas, patios o jardines."
     },
-    "cards": {
-      "popular": "Popular",
-      "get_quote": "Obtener Presupuesto",
-      "discuss": "Discutir Su Proyecto",
-      "terrace": {
-        "title": "Piscina de Terraza",
-        "price": "Desde €15.000",
-        "price_label": "Precio inicial",
-        "desc": "Piscina de terraza ligera a medida diseñada para su espacio. Incluye construcción, entrega e instalación.",
-        "features": ["Diseño totalmente a medida", "Construcción ligera", "35 años de garantía estructural", "Entrega e instalación", "Evaluación del sitio incluida"]
-      },
-      "renovation": {
-        "title": "Reforma de Piscina",
-        "price": "Desde €8.000",
-        "price_label": "Precio inicial",
-        "desc": "Renovación completa de su piscina existente con tecnología moderna. Incluye reparación estructural, nuevos acabados y sistemas actualizados.",
-        "features": ["Revisión estructural completa", "Sistemas de filtración modernos", "35 años de garantía", "Opciones de acabado premium", "Mejoras de fontanería y electricidad", "Áreas circundantes opcionales"]
-      },
-      "custom": {
-        "title": "Proyecto Personalizado",
-        "price": "A Medida",
-        "price_label": "Adaptado a su visión",
-        "desc": "Para proyectos verdaderamente únicos: piscinas cubiertas, instalaciones comerciales o desafíos arquitectónicos complejos. Todo es posible.",
-        "features": ["Personalización ilimitada", "Interior o exterior", "Visualización de diseño 3D", "Gestión integral del proyecto", "Materiales premium"]
-      }
+    "card": {
+      "title": "Piscina de Terraza",
+      "price": "15.900 € IVA incl.",
+      "price_label": "Precio desde:",
+      "cta": "Contáctenos para una consulta y un presupuesto personalizado: ¡estamos a su lado desde la idea hasta la instalación!",
+      "features": [
+        "Dimensiones exteriores: 4,00 × 2,50 m",
+        "Profundidad: 116 cm",
+        "Incluido: Equipamiento técnico estándar (filtro y bomba)",
+        "No incluido: Alicatado, conexión eléctrica, transporte y descarga",
+        "Extras disponibles: Chorros de masaje, escaleras, iluminación LED y acabados premium"
+      ]
     },
     "note": {
       "title": "Cada Proyecto es Único",
-      "desc": "Los precios mostrados son puntos de partida indicativos. El precio final depende de las dimensiones, condiciones del sitio, acabados elegidos y características adicionales. Ofrecemos presupuestos detallados y transparentes, sin costes ocultos.",
+      "desc": "El precio final depende de las dimensiones, condiciones del sitio, acabados elegidos y características adicionales. Ofrecemos presupuestos detallados y transparentes, sin costes ocultos.",
       "link": "Contáctenos para su presupuesto personalizado"
     }
   },
@@ -351,6 +357,47 @@
         "2": { "title": "Piscina de Terraza a Medida", "location": "La Quinta" },
         "3": { "title": "Piscina de Inmersión", "location": "El Higuerón" },
         "4": { "title": "Reforma Completa", "location": "Costa del Sol" }
+      },
+      "details": {
+        "ojen-marbella": {
+          "title": "Piscina de Terraza en Ojén (Marbella)",
+          "location": "Ojén, Marbella",
+          "description": "Una elegante y estilizada piscina en la azotea, perfectamente ubicada sobre un ático en Ojén, a pocos minutos de Marbella. Fue construida a medida para ajustarse a las dimensiones exactas de la terraza y adaptada a la visión del cliente.",
+          "features_label": "Características del Proyecto",
+          "features": [
+            "Ubicación en ático",
+            "Dimensiones construidas a medida",
+            "Oasis privado al aire libre",
+            "Ingeniería escandinava",
+            "Vistas panorámicas a la montaña"
+          ]
+        },
+        "la-quinta-marbella": {
+          "title": "Piscina de Terraza en La Quinta, Marbella",
+          "location": "La Quinta, Marbella",
+          "description": "Una piscina de terraza construida a medida en la exclusiva zona de La Quinta, Marbella, diseñada para combinar lujo con alta funcionalidad. Construida con precisión escandinava y materiales de primera calidad.",
+          "features_label": "Características del Proyecto",
+          "features": [
+            "Peso total inferior a 400 kg/m² (incluida el agua)",
+            "Sin necesidad de licencia de obra",
+            "Azulejos de Ceramic Malor",
+            "Transporte propio e instalación con grúa",
+            "Ejecución rápida y limpia"
+          ]
+        },
+        "el-higueron-fuengirola": {
+          "title": "Piscina de Terraza en El Higuerón",
+          "location": "El Higuerón, Fuengirola",
+          "description": "Situada en la prestigiosa urbanización de El Higuerón, este apartamento cuenta con una exquisita piscina de terraza que ofrece un oasis sereno de lujo y relajación con vistas impresionantes.",
+          "features_label": "Características del Proyecto",
+          "features": [
+            "Entorno de urbanización de lujo",
+            "Diseño y construcción a medida",
+            "Impresionantes vistas a la costa",
+            "Sistema de filtración avanzado",
+            "Zona de estar integrada"
+          ]
+        }
       }
     },
     "cta_btn": "Comienza Tu Propio Proyecto"

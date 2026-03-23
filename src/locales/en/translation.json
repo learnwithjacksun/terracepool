@@ -22,102 +22,102 @@
       "scandinavian_quality": "Scandinavian Quality",
       "title_1": "Tailor Made",
       "title_2": "Pools.",
-      "desc": "We create the perfect lightweight plunge pool for your space, whether it is on the 15th floor or indoors. Serving Marbella, Málaga, Nerja, Alicante & Mallorca.",
-      "contact_btn": "Contact Us Today",
+      "desc": "We create the perfect lightweight plunge pool for your space, whether it is on the 15th floor or indoors.",
+      "contact_btn": "Contact us today for a solution",
       "tech_btn": "Our Technology"
     },
     "stats": {
       "warranty": {
         "label": "Warranty",
         "val": "35 Years",
-        "sub": "Market-leading guarantee"
+        "sub": "Market Leading Warranty"
       },
       "lead_times": {
         "label": "Lead Times",
         "val": "Short",
-        "sub": "We build it all ourselves"
+        "sub": "Since we build it all ourselves, we keep the lead times to a minimum."
       },
       "coverage": {
         "label": "Coverage",
         "val": "Spain",
-        "sub": "Mainland & Mallorca"
+        "sub": "Mainland Spain & Mallorca"
       }
     },
     "usps": {
-      "label": "Going All The Way",
-      "title_1": "From Idea to Completion",
-      "title_2": "and Beyond",
+      "label": "GOING ALL THE WAY",
+      "title_1": "From Idea to",
+      "title_2": "Completion and Beyond",
       "items": {
         "local": {
-          "title": "Local Presence",
-          "desc": "With our HQ conveniently located between Marbella and Malaga we are 100% committed to our home area."
+          "title": "Local presence",
+          "desc": "With our HQ conveniently located between Marbella and Malaga we are 100% committed to our home area"
         },
         "tailored": {
           "title": "Fully Tailored",
-          "desc": "Our pools are fully tailored to your needs, space and conditions. Every project is unique."
+          "desc": "Our pools are fully tailored to your needs, space and conditions"
         },
         "lead_times": {
           "title": "Short Lead Times",
           "desc": "Since we build it all ourselves, we keep the lead times to a minimum."
         },
         "warranty": {
-          "title": "35 Year Warranty",
-          "desc": "We offer 35 years warranty on our terrace pools and pool renovations. Market leading."
+          "title": "Market Leading Warranty",
+          "desc": "We offer 35 years warranty on our terrace pools and pool renovations"
         }
       }
     },
     "services": {
       "renovations": {
-        "title": "Pool Renovations with an Upgrade.",
-        "desc": "Looking to renovate your pool in the Marbella, Málaga, Nerja, Torrevieja, Alicante or Mallorca region? We have experience from the most demanding pool renovations.",
+        "title": "Pool Renovations with an upgrade.",
+        "desc": "Looking to renovate your pool in the Marbella/Malaga/Nerja, Torrevieja/Alicante or Mallorca region? Look no further, we have experience from the most demanding pool renovations!",
         "features": [
-          "35-year structural guarantee",
-          "Complete aesthetic and tech overhaul",
-          "Sustainable energy-efficient systems"
+          "35 years structural guarantee",
+          "Complete aesthetic and technical overhaul",
+          "Sustainable and energy-efficient systems"
         ],
         "learn_more": "Learn More"
       },
       "terrace_pools": {
         "label": "Terrace Pools",
-        "title": "Mainland & Mallorca",
-        "desc": "Wondering if you could fit a splash pool to your terrace? You probably could!",
-        "btn": "Find Out How"
+        "title": "Mainland Spain & Mallorca",
+        "desc": "Wondering whether you could fit a splash pool to your terrace? You probably could!",
+        "btn": "Click here to let us tell you how!"
       },
       "tech": {
         "label": "Pool Technology",
-        "title": "Why Our Tech is Best",
-        "desc": "Lightweight, durable construction with Scandinavian quality standards.",
+        "title": "Why Our Pool Tech is the Best",
+        "desc": "Lightweight and durable construction with Scandinavian quality standards.",
         "btn": "Our Technology"
       },
       "prices": {
         "label": "Transparent",
-        "title": "Pool Prices",
+        "title": "Pool Pricing",
         "desc": "Clear, upfront pricing with no hidden costs.",
-        "btn": "View Pricing"
+        "btn": "See Prices"
       }
     },
     "process": {
-      "label": "Building a Terrace Pool",
+      "label": "Building a terrace pool",
       "title_1": "The Process in",
       "title_2": "6 Steps",
       "steps": {
-        "1": { "title": "Requirements", "desc": "Needs and site assessment." },
-        "2": { "title": "Planning", "desc": "Details sorted, permits applied." },
-        "3": { "title": "On-site Prep", "desc": "Preparation on site." },
-        "4": { "title": "Construction", "desc": "Built in our facility." },
-        "5": { "title": "Delivery", "desc": "Delivered and installed." },
-        "6": { "title": "Verification", "desc": "Inspection and testing." }
+        "1": { "title": "Requirements", "desc": "Specifying your needs, installation site assessment" },
+        "2": { "title": "Planning", "desc": "All details in construction and delivery are sorted, permits applied for" },
+        "3": { "title": "On-site prep", "desc": "Preparation work is done on site" },
+        "4": { "title": "Construction", "desc": "The pool construction is built in our facility" },
+        "5": { "title": "Delivery", "desc": "The built pool shell is delivered and installed" },
+        "6": { "title": "Verification", "desc": "Delivery inspection, filling and testing" }
       },
-      "btn": "Start Your Pool Journey"
+      "btn": "Ready to start your Pool Journey?"
     },
     "installations": {
       "label": "Our Work",
       "title_1": "Recent",
       "title_2": "Installations",
       "projects": {
-        "1": { "title": "Terrace Pool in Ojén, Marbella", "desc": "A stunning rooftop terrace with a private pool." },
-        "2": { "title": "Terrace Pool in La Quinta, Marbella", "desc": "Smart design. Elegant finish. Scandinavian quality." },
-        "3": { "title": "Terrace Pool in El Higuerón, Fuengirola", "desc": "Exquisite terrace pool in the prestigious El Higuerón." }
+        "1": { "title": "Terrace Pool in Ojén (Marbella)", "desc": "Creating a Stunning Rooftop Terrace With a Private Pool his elegant and stylish rooftop pool is perfectly placed atop a…" },
+        "2": { "title": "Terrace Pool in La Quinta, Marbella", "desc": "Smart design. Elegant finish. Scandinavian quality. In the exclusive area of La Quinta, Marbella, we installed a custom-built terrace pool…" },
+        "3": { "title": "Terrace pool in El Higuerón, Fuengirola", "desc": "Set in the prestigious urbanization of El Higuerón, this apartment now counts with an exquisite terrace pool, offering a serene…" }
       }
     },
     "cta": {
@@ -224,6 +224,25 @@
       "title_2": "Areas",
       "desc": "Pool renovation services across Spain's most beautiful regions."
     },
+    "technical": {
+      "title": "Pool Renovation & Leak Repair with Fiber Composite Boards",
+      "desc": "Is your pool showing signs of wear, leakage, or outdated finishes? Traditional pool repair methods can involve extensive excavation and replacement, which can be both very costly and time-consuming. Our revolutionary pool renovation and leak repair method offer a modern and long-lasting solution using compact and highly durable fiber composite boards—engineered for structural integrity, flexibility and style.",
+      "features": {
+        "leak_proof": { "title": "Leak-Proof Solution", "desc": "Their non-porous construction creates a seamless barrier that eliminates water loss and protects underlying structures." },
+        "durability": { "title": "Durability", "desc": "Resistant to moisture, rot, chemicals, and UV exposure, fiber composites are used in some of the most critical parts of airplanes." },
+        "strength": { "title": "Lightweight & Strong", "desc": "Unlike traditional concrete or wood-based materials, composite boards combine strength with easy handling and installation." },
+        "cost": { "title": "Cost-Effective", "desc": "By minimizing the need for extensive excavation and replacement, fiber composite boards provide a more economical repair solution." }
+      }
+    },
+    "finishes": {
+      "title": "A Finish That Fits Your Style",
+      "desc": "Once installed, the fiber composite surface can be finished in virtually any style to match your design vision:",
+      "options": {
+        "liners": { "title": "Pool Liners", "desc": "Choose from a wide range of colors and textures for a clean, modern look." },
+        "mosaic": { "title": "Ceramic or Glass Mosaic", "desc": "Add elegance and luxury with intricate tilework." },
+        "tiles": { "title": "Traditional Tiles", "desc": "For a classic finish, our fiber boards provide a perfect base for all types of tile applications." }
+      }
+    },
     "cta": {
       "title_1": "Ready to",
       "title_2": "Renovate?",
@@ -260,40 +279,27 @@
   },
   "prices": {
     "hero": {
-      "label": "Transparent Pricing",
-      "title_1": "Pool",
-      "title_2": "Prices",
-      "desc": "Every project is unique, and so is every quote. Below you'll find our starting price ranges. Contact us for a detailed, no-obligation quote tailored to your specific requirements."
+      "label": "TAILOR MADE TERRACE POOLS",
+      "title_1": "Terrace Pool",
+      "title_2": "Pricing",
+      "desc": "Turn your outdoor space into a stylish wellness retreat with our most in-demand Terrace Pool – ideal for terraces, patios or gardens."
     },
-    "cards": {
-      "popular": "Popular",
-      "get_quote": "Get a Quote",
-      "discuss": "Discuss Your Project",
-      "terrace": {
-        "title": "Terrace Pool",
-        "price": "From €15,000",
-        "price_label": "Starting price",
-        "desc": "Custom-built lightweight terrace pool designed for your space. Includes construction, delivery and installation.",
-        "features": ["Fully tailored design", "Lightweight construction", "35-year structural warranty", "Delivery & installation", "Site assessment included"]
-      },
-      "renovation": {
-        "title": "Pool Renovation",
-        "price": "From €8,000",
-        "price_label": "Starting price",
-        "desc": "Complete renovation of your existing pool with modern technology. Includes structural repair, new finishes and upgraded systems.",
-        "features": ["Complete structural overhaul", "Modern filtration systems", "35-year guarantee", "Premium finish options", "Plumbing & electrical upgrades", "Surrounding areas optional"]
-      },
-      "custom": {
-        "title": "Custom Project",
-        "price": "Bespoke",
-        "price_label": "Tailored to your vision",
-        "desc": "For truly unique projects — indoor pools, commercial installations, or complex architectural challenges. Everything is possible.",
-        "features": ["Unlimited customisation", "Indoor or outdoor", "3D design visualisation", "Full project management", "Premium materials"]
-      }
+    "card": {
+      "title": "Terrace Pool",
+      "price": "€ 15,900 incl. VAT",
+      "price_label": "Price From:",
+      "cta": "Contact us for a consultation and personalized quote – we are at your side from idea to installation!",
+      "features": [
+        "External dimensions: 4.00 × 2.50 m",
+        "Depth: 116 cm",
+        "Included: Standard technical equipment (filter & pump)",
+        "Not included: Tiling, electrical connection, transport & unloading",
+        "Available extras: Massage jets, stairs, LED lighting and premium finishes"
+      ]
     },
     "note": {
       "title": "Every Project is Unique",
-      "desc": "The prices shown above are indicative starting points. Final pricing depends on pool dimensions, site conditions, chosen finishes, and additional features. We provide detailed, transparent quotes with no hidden costs — always.",
+      "desc": "Final pricing depends on pool dimensions, site conditions, chosen finishes, and additional features. We provide detailed, transparent quotes with no hidden costs — always.",
       "link": "Contact us for your personalised quote"
     }
   },
@@ -348,9 +354,50 @@
       },
       "items": {
         "1": { "title": "Rooftop Terrace Pool", "location": "Ojén, Marbella" },
-        "2": { "title": "Custom Terrace Pool", "location": "La Quinta" },
-        "3": { "title": "Terrace Plunge Pool", "location": "El Higuerón" },
-        "4": { "title": "Complete Renovation", "location": "Costa del Sol" }
+        "2": { "title": "Custom Terrace Pool", "location": "La Quinta, Marbella" },
+        "3": { "title": "Plunge Terrace Pool", "location": "El Higuerón, Fuengirola" },
+        "4": { "title": "Full Pool Renovation", "location": "Costa del Sol" }
+      },
+      "details": {
+        "ojen-marbella": {
+          "title": "Terrace Pool in Ojén (Marbella)",
+          "location": "Ojén, Marbella",
+          "description": "An elegant and stylish rooftop pool perfectly placed atop a penthouse in Ojén, just minutes from Marbella. It was custom-built to match the exact dimensions of the terrace and tailored to the client's vision.",
+          "features_label": "Project Features",
+          "features": [
+            "Rooftop penthouse location",
+            "Custom-built dimensions",
+            "Private outdoor oasis",
+            "Scandinavian engineering",
+            "Panoramic mountain views"
+          ]
+        },
+        "la-quinta-marbella": {
+          "title": "Terrace Pool in La Quinta, Marbella",
+          "location": "La Quinta, Marbella",
+          "description": "A custom-built terrace pool in the exclusive area of La Quinta, Marbella, designed to combine luxury with high functionality. Built with Scandinavian precision and premium materials.",
+          "features_label": "Project Features",
+          "features": [
+            "Total weight under 400 kg/m² (including water)",
+            "No building permit required",
+            "Tiles from Ceramic Malor",
+            "In-house transport & crane installation",
+            "Fast and clean execution"
+          ]
+        },
+        "el-higueron-fuengirola": {
+          "title": "Terrace Pool in El Higuerón",
+          "location": "El Higuerón, Fuengirola",
+          "description": "Located in the prestigious urbanization of El Higuerón, this apartment features an exquisite terrace pool offering a serene oasis of luxury and relaxation with breathtaking views.",
+          "features_label": "Project Features",
+          "features": [
+            "High-end urbanization setting",
+            "Tailor-made design and construction",
+            "Breathtaking coastal views",
+            "Advanced filtration system",
+            "Integrated lounge area"
+          ]
+        }
       }
     },
     "cta_btn": "Start Your Own Project"

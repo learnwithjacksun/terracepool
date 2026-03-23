@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "sonner";
 import { ScrollToTop } from "@/components/ui";
-import { LandingPage, ContactPage, PortfolioPage, RenovationsPage, InstallationsPage, PoolTechPage, PricesPage } from "@/pages";
+import { LandingPage, ContactPage, PortfolioPage, RenovationsPage, InstallationsPage, PoolTechPage, PricesPage, PortfolioDetailPage } from "@/pages";
 
 export default function App() {
   return (
@@ -15,11 +15,8 @@ export default function App() {
         <Route path="/pool-tech" element={<PoolTechPage />} />
         <Route path="/prices" element={<PricesPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        {/* Legacy routes for compatibility */}
-        <Route path="/quote" element={<ContactPage />} />
-        <Route path="/renovations" element={<RenovationsPage />} />
-        <Route path="/installations" element={<InstallationsPage />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/portfolio/:slug" element={<PortfolioDetailPage />} />
       </Routes>
     </>
   );
