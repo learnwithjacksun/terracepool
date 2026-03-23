@@ -13,7 +13,7 @@ const LandingPage: React.FC = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center overflow-hidden hide-scrollbar">
         <div className="absolute inset-0 z-0">
           <img
             alt="Terrace pool overlooking Mediterranean"
@@ -26,7 +26,7 @@ const LandingPage: React.FC = () => {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-8 w-full pt-32 pb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
+            <div data-aos="fade-up">
               <span className="inline-flex items-center gap-2 py-1.5 px-4 mb-6 md:mb-8 rounded-full bg-gold/10 text-gold text-[10px] md:text-xs font-label tracking-widest uppercase border border-gold/20">
                 <Sparkles size={14} />
                 {t('landing.hero.scandinavian_quality')}
@@ -84,13 +84,13 @@ const LandingPage: React.FC = () => {
           </div>
 
           {/* Mobile stat strip */}
-          <div className="flex lg:hidden gap-3 mt-10 overflow-x-auto pb-2 -mx-2 px-2 flex-wrap">
+          <div className="flex lg:hidden gap-3 mt-10 overflow-x-auto pb-2 -mx-2 px-2 flex-wrap hide-scrollbar">
             {[
               { label: t('landing.stats.warranty.val'), sub: t('landing.stats.warranty.label') },
               { label: t('landing.stats.lead_times.val'), sub: t('landing.stats.lead_times.label') },
               { label: t('landing.stats.coverage.val'), sub: t('landing.stats.coverage.label') },
             ].map((s, i) => (
-              <div key={i} className="warm-glass-strong rounded-xl p-4 min-w-[130px] gold-border shrink-0">
+              <div key={i} data-aos="fade-up" data-aos-delay={i * 200} className="warm-glass-strong rounded-xl p-4 min-w-[130px] gold-border shrink-0">
                 <p className="text-lg font-bold text-warm-text">{s.label}</p>
                 <p className="text-warm-muted text-xs">{s.sub}</p>
               </div>
@@ -103,7 +103,7 @@ const LandingPage: React.FC = () => {
       {/* USPs */}
       <section className="py-16 md:py-28 bg-milk relative">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <div className="text-center mb-10 md:mb-16">
+          <div className="text-center mb-10 md:mb-16" data-aos="fade-up">
             <span className="text-gold text-xs font-label tracking-widest uppercase block mb-4">{t('landing.usps.label')}</span>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tighter text-warm-text">
               {t('landing.usps.title_1')} <span className="font-serif italic gold-text">{t('landing.usps.title_2')}</span>
@@ -116,7 +116,7 @@ const LandingPage: React.FC = () => {
               { icon: Gauge, title: t('landing.usps.items.lead_times.title'), desc: t('landing.usps.items.lead_times.desc') },
               { icon: ShieldCheck, title: t('landing.usps.items.warranty.title'), desc: t('landing.usps.items.warranty.desc') },
             ].map((item, i) => (
-              <div key={i} className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 group hover:gold-border transition-all duration-500 warm-shadow relative overflow-hidden">
+              <div key={i} data-aos="fade-up" data-aos-delay={i * 200} className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 group hover:gold-border transition-all duration-500 warm-shadow relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-40 h-40 bg-gold/3 rounded-full blur-[60px] group-hover:bg-gold/6 transition-all duration-700"></div>
                 <div className="relative z-10">
                   <div className="w-12 md:w-14 h-12 md:h-14 rounded-xl md:rounded-2xl bg-gold/10 flex items-center justify-center mb-4 md:mb-6">
@@ -136,7 +136,7 @@ const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-5">
             {/* Large Feature Card */}
-            <div className="md:col-span-7 bg-white rounded-2xl md:rounded-3xl p-7 md:p-10 relative overflow-hidden group hover:gold-border transition-all duration-500 warm-shadow">
+            <div data-aos="fade-up" className="md:col-span-7 bg-white rounded-2xl md:rounded-3xl p-7 md:p-10 relative overflow-hidden group hover:gold-border transition-all duration-500 warm-shadow">
               <div className="absolute top-0 right-0 w-64 h-64 bg-gold/3 rounded-full blur-[80px] group-hover:bg-gold/6 transition-all duration-700"></div>
               <div className="relative z-10">
                 <div className="w-12 md:w-14 h-12 md:h-14 rounded-xl md:rounded-2xl bg-gold/10 flex items-center justify-center mb-4 md:mb-6">
@@ -164,19 +164,19 @@ const LandingPage: React.FC = () => {
 
             {/* Side Cards */}
             <div className="md:col-span-5 grid grid-cols-1 gap-4 md:gap-5">
-              <div className="gold-gradient rounded-2xl md:rounded-3xl p-6 md:p-8 gold-glow animate-gradient-shift">
+              <div data-aos="fade-up" className="gold-gradient rounded-2xl md:rounded-3xl p-6 md:p-8 gold-glow animate-gradient-shift">
                 <p className="text-white/70 font-label text-[10px] tracking-widest uppercase mb-1">{t('landing.services.terrace_pools.label')}</p>
                 <h3 className="text-xl md:text-2xl font-bold text-white">{t('landing.services.terrace_pools.title')}</h3>
                 <p className="text-white/60 text-sm mt-1">{t('landing.services.terrace_pools.desc')}</p>
                 <Link to="/terrace-pools" className="inline-flex items-center gap-2 mt-4 text-white font-bold text-sm hover:gap-3 transition-all">{t('landing.services.terrace_pools.btn')} <ArrowRight size={16} /></Link>
               </div>
-              <div className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 group hover:gold-border transition-all duration-500 warm-shadow">
+              <div data-aos="fade-up" data-aos-delay={200} className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 group hover:gold-border transition-all duration-500 warm-shadow">
                 <p className="text-gold text-[10px] font-label tracking-widest uppercase mb-1">{t('landing.services.tech.label')}</p>
                 <h3 className="text-xl md:text-2xl font-bold text-warm-text">{t('landing.services.tech.title')}</h3>
                 <p className="text-warm-muted text-sm mt-1">{t('landing.services.tech.desc')}</p>
                 <Link to="/pool-tech" className="inline-flex items-center gap-2 mt-4 text-gold font-bold text-sm hover:gap-3 transition-all">{t('landing.services.tech.btn')} <ArrowRight size={16} /></Link>
               </div>
-              <div className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 group hover:gold-border transition-all duration-500 warm-shadow">
+              <div data-aos="fade-up" data-aos-delay={300} className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 group hover:gold-border transition-all duration-500 warm-shadow">
                 <p className="text-gold text-[10px] font-label tracking-widest uppercase mb-1">{t('landing.services.prices.label')}</p>
                 <h3 className="text-xl md:text-2xl font-bold text-warm-text">{t('landing.services.prices.title')}</h3>
                 <p className="text-warm-muted text-sm mt-1">{t('landing.services.prices.desc')}</p>
@@ -190,7 +190,7 @@ const LandingPage: React.FC = () => {
       {/* Build Process */}
       <section className="py-16 md:py-28 bg-cream-dark">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <div className="text-center mb-10 md:mb-16">
+          <div className="text-center mb-10 md:mb-16" data-aos="fade-up">
             <span className="text-gold text-xs font-label tracking-widest uppercase block mb-4">{t('landing.process.label')}</span>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tighter text-warm-text">
               {t('landing.process.title_1')} <span className="font-serif italic gold-text">{t('landing.process.title_2')}</span>
@@ -204,15 +204,15 @@ const LandingPage: React.FC = () => {
               { id: '04', title: t('landing.process.steps.4.title'), desc: t('landing.process.steps.4.desc') },
               { id: '05', title: t('landing.process.steps.5.title'), desc: t('landing.process.steps.5.desc') },
               { id: '06', title: t('landing.process.steps.6.title'), desc: t('landing.process.steps.6.desc') },
-            ].map(step => (
-              <div key={step.id} className="bg-white rounded-xl md:rounded-2xl p-4 md:p-5 group hover:gold-border transition-all duration-500 warm-shadow text-center">
+            ].map((step, i) => (
+              <div key={step.id} data-aos="fade-up" data-aos-delay={i * 200} className="bg-white rounded-xl md:rounded-2xl p-4 md:p-5 group hover:gold-border transition-all duration-500 warm-shadow text-center">
                 <span className="text-2xl md:text-3xl font-black gold-text block mb-2 md:mb-3">{step.id}</span>
                 <h3 className="text-xs md:text-sm font-bold mb-1 md:mb-2 text-warm-text">{step.title}</h3>
                 <p className="text-warm-muted text-[11px] md:text-xs leading-relaxed">{step.desc}</p>
               </div>
             ))}
           </div>
-          <div className="mt-8 md:mt-12 text-center">
+          <div className="mt-8 md:mt-12 text-center" data-aos="zoom-in">
             <Link to="/contact" className="gold-gradient text-white px-8 md:px-10 py-3.5 md:py-4 rounded-2xl font-bold text-sm md:text-base gold-glow hover:translate-y-[-2px] transition-all duration-300 inline-flex items-center gap-2">
               {t('landing.process.btn')} <ArrowRight size={18} />
             </Link>
@@ -223,7 +223,7 @@ const LandingPage: React.FC = () => {
       {/* Recent Installations */}
       <section className="py-16 md:py-28 bg-milk">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
-          <div className="text-center mb-10 md:mb-16">
+          <div className="text-center mb-10 md:mb-16" data-aos="fade-up">
             <span className="text-gold text-xs font-label tracking-widest uppercase block mb-4">{t('landing.installations.label')}</span>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tighter text-warm-text">
               {t('landing.installations.title_1')} <span className="font-serif italic gold-text">{t('landing.installations.title_2')}</span>
@@ -235,7 +235,7 @@ const LandingPage: React.FC = () => {
               { slug: 'la-quinta-marbella', title: t('landing.installations.projects.2.title'), desc: t('landing.installations.projects.2.desc'), img: 'https://terracepool.com/wp-content/uploads/2025/07/Plunge-pool-Marbella-e1752060744592.jpg' },
               { slug: 'el-higueron-fuengirola', title: t('landing.installations.projects.3.title'), desc: t('landing.installations.projects.3.desc'), img: 'https://terracepool.com/wp-content/uploads/2021/03/Terrace-pool-Fuengirola.jpg' },
             ].map((project, i) => (
-              <Link key={i} to={`/portfolio/${project.slug}`} className="group cursor-pointer block">
+              <Link key={i} to={`/portfolio/${project.slug}`} data-aos="fade-up" data-aos-delay={i * 200} className="group cursor-pointer block">
                 <div className="relative h-[220px] md:h-[300px] rounded-2xl md:rounded-3xl overflow-hidden warm-shadow mb-4 md:mb-5">
                   <img src={project.img} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 </div>
@@ -248,7 +248,7 @@ const LandingPage: React.FC = () => {
       </section>
 
       {/* Still Got Questions? */}
-      <section className="py-16 md:py-28 px-6 md:px-8 bg-cream">
+      <section className="py-16 md:py-28 px-6 md:px-8 bg-cream" data-aos="fade-up">
         <div className="max-w-7xl mx-auto">
           <div className="gold-gradient rounded-2xl md:rounded-[3rem] p-8 md:p-20 relative overflow-hidden text-center warm-shadow-lg animate-gradient-shift">
             <div className="relative z-10">

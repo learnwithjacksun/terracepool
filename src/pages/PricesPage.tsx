@@ -14,7 +14,7 @@ const PricesPage: React.FC = () => {
 
       <main className="pt-32 md:pt-36 pb-20 md:pb-28">
         {/* Hero */}
-        <section className="max-w-7xl mx-auto px-6 md:px-8 mb-14 md:mb-20 text-center">
+        <section data-aos="fade-up" className="max-w-7xl mx-auto px-6 md:px-8 mb-14 md:mb-20 text-center">
           <span className="inline-flex items-center gap-2 text-gold text-[10px] md:text-xs font-label tracking-widest uppercase mb-4 md:mb-6">
             <Sparkles size={14} /> {t('prices.hero.label')}
           </span>
@@ -27,7 +27,7 @@ const PricesPage: React.FC = () => {
         </section>
 
         {/* Pricing Card */}
-        <section className="max-w-4xl mx-auto px-6 md:px-8">
+        <section data-aos="fade-up" className="max-w-4xl mx-auto px-6 md:px-8">
           <div className="bg-white rounded-3xl p-8 md:p-12 relative overflow-hidden warm-shadow border border-gold/10 group">
             <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-[80px]"></div>
 
@@ -77,7 +77,7 @@ const PricesPage: React.FC = () => {
         </section>
 
         {/* Note */}
-        <section className="max-w-3xl mx-auto px-6 md:px-8 mt-12 md:mt-16 text-center">
+        <section data-aos="fade-up" className="max-w-3xl mx-auto px-6 md:px-8 mt-12 md:mt-16 text-center">
           <div className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-10 warm-shadow gold-border">
             <h3 className="text-lg md:text-xl font-bold text-warm-text mb-3 md:mb-4">{t('prices.note.title')}</h3>
             <p className="text-warm-muted text-sm leading-relaxed mb-5 md:mb-6">

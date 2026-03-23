@@ -14,7 +14,7 @@ const RenovationsPage: React.FC = () => {
 
       <main className="pt-24">
         {/* Hero */}
-        <section className="relative min-h-[60vh] md:min-h-[80vh] flex items-center overflow-hidden">
+        <section data-aos="fade-up" className="relative min-h-[60vh] md:min-h-[80vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img alt="Pool renovation" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdoyKLXMKDlY79S3ScwnN2sLoujYKPfdJS2gPvzB-FqtYcNHVOxvzSNsnCbBJrhABaCx4rvmoX9EGvNXeNQM1YkJ1CPFfB6mtZAvL1aoLhozfVb4wqYbXI3Ce8L5l-9FfDoYDBvSsePocvkr_P8QoDZ9t74mbQ3Ivvy0AqiybV_yuAjXGGg4dO55M1ZwPD0Jl0HytinUA3EswXbmoRmg1fvIDsLnBMY5QKYN1zzsuYzXsloyKj7scHp6x_qe0nrRX7D3tkBIy9pyln" />
             <div className="absolute inset-0 bg-gradient-to-r from-cream via-cream/85 to-cream/20"></div>
@@ -47,7 +47,7 @@ const RenovationsPage: React.FC = () => {
 
         {/* Why Renovate */}
         <section className="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-28">
-          <div className="text-center mb-10 md:mb-16">
+          <div data-aos="fade-up" className="text-center mb-10 md:mb-16">
             <span className="text-gold text-xs font-label tracking-widest uppercase block mb-4">{t('renovations.why.label')}</span>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tighter text-warm-text">
               {t('renovations.why.title_1')} <span className="font-serif italic gold-text">{t('renovations.why.title_2')}</span>
@@ -65,7 +65,7 @@ const RenovationsPage: React.FC = () => {
               { title: t('renovations.why.items.electrical.title'), desc: t('renovations.why.items.electrical.desc') },
               { title: t('renovations.why.items.surrounding.title'), desc: t('renovations.why.items.surrounding.desc') },
             ].map((item, i) => (
-              <div key={i} className="bg-white rounded-xl md:rounded-2xl p-5 md:p-7 group hover:gold-border transition-all duration-500 warm-shadow">
+              <div key={i} data-aos="fade-up" data-aos-delay={i * 200} className="bg-white rounded-xl md:rounded-2xl p-5 md:p-7 group hover:gold-border transition-all duration-500 warm-shadow">
                 <CheckCircle2 className="text-teal-accent mb-3 md:mb-4" size={22} />
                 <h3 className="text-base md:text-lg font-bold mb-2 md:mb-3 text-warm-text">{item.title}</h3>
                 <p className="text-warm-muted text-sm leading-relaxed">{item.desc}</p>
@@ -75,7 +75,7 @@ const RenovationsPage: React.FC = () => {
         </section>
 
         {/* Technical: Fiber Composite Boards */}
-        <section className="py-20 md:py-32 bg-white overflow-hidden">
+        <section data-aos="fade-up" className="py-20 md:py-32 bg-white overflow-hidden">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
               <div className="lg:col-span-7">
@@ -90,7 +90,7 @@ const RenovationsPage: React.FC = () => {
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
-                  <div className="space-y-4">
+                  <div data-aos="fade-up" data-aos-delay={200} className="space-y-4">
                     <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
                       {/* Image Placeholder */}
                       <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Waterproofing-Swimming-Pools-Spain-1536x863.webp' />
@@ -100,7 +100,7 @@ const RenovationsPage: React.FC = () => {
                       <p className="text-sm text-warm-muted leading-relaxed">{t('renovations.technical.features.leak_proof.desc')}</p>
                     </div>
                   </div>
-                  <div className="space-y-4">
+                  <div data-aos="fade-up" data-aos-delay={300} className="space-y-4">
                     <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
                       {/* Image Placeholder */}
                       <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Composite-Fibre-Durability-1536x843.webp' />
@@ -110,7 +110,7 @@ const RenovationsPage: React.FC = () => {
                       <p className="text-sm text-warm-muted leading-relaxed">{t('renovations.technical.features.durability.desc')}</p>
                     </div>
                   </div>
-                  <div className="space-y-4">
+                  <div data-aos="fade-up" data-aos-delay={400} className="space-y-4">
                     <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
                       {/* Image Placeholder */}
                       <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Durable-Pool-Renovation-768x547.webp' />
@@ -120,7 +120,7 @@ const RenovationsPage: React.FC = () => {
                       <p className="text-sm text-warm-muted leading-relaxed">{t('renovations.technical.features.strength.desc')}</p>
                     </div>
                   </div>
-                  <div className="space-y-4">
+                  <div data-aos="fade-up" data-aos-delay={500} className="space-y-4">
                     <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
                       {/* Image Placeholder */}
                       <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Cheap-Pool-Renovation.webp' />
@@ -141,7 +141,7 @@ const RenovationsPage: React.FC = () => {
         </section>
 
         {/* Finish Section */}
-        <section className="relative py-20 md:py-32 bg-cream-dark/30 overflow-hidden">
+        <section data-aos="fade-up" className="relative py-20 md:py-32 bg-cream-dark/30 overflow-hidden">
           {/* Water background effect */}
           <div className="absolute inset-0 z-0 opacity-20">
             <img
@@ -153,7 +153,7 @@ const RenovationsPage: React.FC = () => {
           </div>
 
           <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-8">
-            <div className="text-center max-w-3xl mx-auto mb-16">
+            <div data-aos="fade-up" className="text-center max-w-3xl mx-auto mb-16">
               <span className="inline-flex items-center gap-2 text-gold text-[10px] md:text-xs font-label tracking-widest uppercase mb-4">
                 <Sparkles size={14} /> Custom Finish
               </span>
@@ -165,22 +165,22 @@ const RenovationsPage: React.FC = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-              <div className="space-y-6">
+            <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              <div data-aos="fade-up" data-aos-delay={100} className="space-y-6">
                 <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/swimming-pool-glass-mosaic-tiles-768x606.jpg' />
                 <div>
                   <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.liners.title')}</h3>
                   <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.liners.desc')}</p>
                 </div>
               </div>
-              <div className="space-y-6">
+              <div data-aos="fade-up" data-aos-delay={200} className="space-y-6">
                 <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/swimming-pool-glass-mosaic-tiles-768x606.jpg' />
                 <div>
                   <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.mosaic.title')}</h3>
                   <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.mosaic.desc')}</p>
                 </div>
               </div>
-              <div className="space-y-6">
+              <div data-aos="fade-up" data-aos-delay={300} className="space-y-6">
                 <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/Luxury-pool-tile-768x668.webp' />
                 <div>
                   <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.tiles.title')}</h3>
@@ -192,10 +192,10 @@ const RenovationsPage: React.FC = () => {
         </section>
 
         {/* Guarantee Section */}
-        <section className="py-16 md:py-28 bg-milk overflow-hidden">
+        <section data-aos="fade-up" className="py-16 md:py-28 bg-milk overflow-hidden">
           <div className="max-w-7xl mx-auto px-6 md:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
-              <div className="relative">
+              <div data-aos="fade-up" className="relative">
                 <div className="rounded-2xl md:rounded-3xl overflow-hidden warm-shadow-lg">
                   <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMxpNtg8hHbRIuZV10cB2e3DpSPR0G9n-QwN7pyq6ZIYsmTDm-TxAyA5J85aWd__CvJ2SR-6DxkaCToaK7AZD3phi6TulCvp8QEwz56Eb3NzfLq0AXhubccImGhqAKzZuOj6xxb9qzm7-mdpz_nwP03sd-pqqKKqdN5HqXAiPqDjN_v6tIRKDmarLC7VxlshXdhLcHfUDQ59i0o_z5wTIqvW5wE4d5Sz8rBgw-RE_feywCYCX24bFf6EkfcT4o155byAV6Ga3SGTDQ" alt="Renovation detail" className="w-full h-[300px] md:h-[450px] object-cover" />
                 </div>
@@ -204,7 +204,7 @@ const RenovationsPage: React.FC = () => {
                   <span className="block text-warm-text font-bold tracking-tighter mt-1 md:mt-2 text-xs md:text-sm uppercase">{t('renovations.hero.warranty_label')}</span>
                 </div>
               </div>
-              <div className="space-y-5 md:space-y-8">
+              <div data-aos="fade-up" className="space-y-5 md:space-y-8">
                 <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-warm-text leading-tight">
                   {t('renovations.guarantee.title_1')} <span className="font-serif italic gold-text">{t('renovations.guarantee.title_2')}</span>
                 </h2>
@@ -225,7 +225,7 @@ const RenovationsPage: React.FC = () => {
         </section>
 
         {/* Service Areas */}
-        <section className="py-14 md:py-20 px-6 md:px-8 max-w-7xl mx-auto text-center">
+        <section data-aos="fade-up" className="py-14 md:py-20 px-6 md:px-8 max-w-7xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tighter text-warm-text mb-4">{t('renovations.areas.title_1')} <span className="font-serif italic gold-text">{t('renovations.areas.title_2')}</span></h2>
           <p className="text-warm-text-light mb-6 md:mb-10 max-w-xl mx-auto text-sm md:text-base">{t('renovations.areas.desc')}</p>
           <div className="flex flex-wrap justify-center gap-2 md:gap-3">
@@ -236,7 +236,7 @@ const RenovationsPage: React.FC = () => {
         </section>
 
         {/* CTA */}
-        <section className="max-w-7xl mx-auto px-6 md:px-8 py-14 md:py-20">
+        <section data-aos="fade-up" className="max-w-7xl mx-auto px-6 md:px-8 py-14 md:py-20">
           <div className="gold-gradient rounded-2xl md:rounded-[3rem] p-8 md:p-20 relative overflow-hidden warm-shadow-lg animate-gradient-shift text-center">
             <div className="relative z-10 space-y-5 md:space-y-8">
               <h2 className="text-white text-3xl md:text-6xl font-bold tracking-tighter">{t('renovations.cta.title_1')} <span className="font-serif italic">{t('renovations.cta.title_2')}</span></h2>
