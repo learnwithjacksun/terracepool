@@ -6,7 +6,7 @@ const languages = [
   { code: 'en', name: 'English (EN)' },
   { code: 'es', name: 'Español (ES)' },
   { code: 'fr', name: 'Français (FR)' },
-  { code: 'it', name: 'Italiano (IT)' }
+  { code: 'sv', name: 'Svenska (SV)' }
 ];
 
 const Footer: React.FC = () => {

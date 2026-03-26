@@ -1,0 +1,612 @@
+{
+  "nav": {
+    "home": "Hem",
+    "terrace_pools": "Terrass pooler",
+    "pool_renovations": "Pool renoveringar",
+    "pool_technology": "Poolteknik",
+    "prices": "Priser",
+    "contact_us": "Kontakta oss"
+  },
+  "footer": {
+    "services": "Tjänster",
+    "contact": "Kontakta",
+    "locations": "Platser",
+    "desc": "Terrasspooler & poolrenoveringar över Sverige och Mallorca.",
+    "hours": "Timmar",
+    "hours_val": "Mån - Fre: 10:00 - 18:00",
+    "language": "Språk",
+    "rights": "Alla rättigheter reserverade."
+  },
+  "landing": {
+    "hero": {
+      "scandinavian_quality": "Skandinavisk kvalitet",
+      "title_1": "Skräddarsydd",
+      "title_2": "Pooler.",
+      "desc": "Vi skapar den perfekta lätta avsvalkningspoolen för ditt utrymme, oavsett om det är på 15:e våningen eller inomhus.",
+      "contact_btn": "Kontakta oss idag för en lösning",
+      "tech_btn": "Vår teknik"
+    },
+    "stats": {
+      "warranty": {
+        "label": "Garanti",
+        "val": "35 år",
+        "sub": "Marknadsledande garanti"
+      },
+      "lead_times": {
+        "label": "Ledtider",
+        "val": "Kort",
+        "sub": "Eftersom vi bygger allt själva håller vi ledtiderna på ett minimum."
+      },
+      "coverage": {
+        "label": "Rapportering",
+        "val": "Sverige",
+        "sub": "Fastlandssverige & Mallorca"
+      }
+    },
+    "usps": {
+      "label": "GÅR HELA VÄGEN",
+      "title_1": "Från idé till",
+      "title_2": "Slutförande och bortom",
+      "items": {
+        "local": {
+          "title": "Lokal närvaro",
+          "desc": "Med vårt huvudkontor bekvämt beläget mellan Marbella och Malaga är vi 100 % engagerade i vårt hemområde"
+        },
+        "tailored": {
+          "title": "Helt skräddarsydd",
+          "desc": "Våra pooler är helt skräddarsydda efter dina behov, utrymme och förutsättningar"
+        },
+        "lead_times": {
+          "title": "Korta ledtider",
+          "desc": "Eftersom vi bygger allt själva håller vi ledtiderna på ett minimum."
+        },
+        "warranty": {
+          "title": "Marknadsledande garanti",
+          "desc": "Vi erbjuder 35 års garanti på våra terrasspooler och poolrenoveringar"
+        }
+      }
+    },
+    "services": {
+      "renovations": {
+        "title": "Poolrenovering med uppgradering.",
+        "desc": "Vill du renovera din pool i regionen Marbella/Malaga/Nerja, Torrevieja/Alicante eller Mallorca? Leta inte längre, vi har erfarenhet från de mest krävande poolrenoveringarna!",
+        "features": [
+          "35 års strukturgaranti",
+          "Komplett estetisk och teknisk översyn",
+          "Hållbara och energieffektiva system"
+        ],
+        "learn_more": "Läs mer"
+      },
+      "terrace_pools": {
+        "label": "Terrass pooler",
+        "title": "Fastlandssverige & Mallorca",
+        "desc": "Undrar du om du skulle kunna montera en plaskbassäng på din terrass? Det kunde du nog!",
+        "btn": "Click here to let us tell you how!"
+      },
+      "tech": {
+        "label": "Poolteknik",
+        "title": "Why Our Pool Tech is the Best",
+        "desc": "Lätt och hållbar konstruktion med skandinaviska kvalitetsstandarder.",
+        "btn": "Vår teknik"
+      },
+      "prices": {
+        "label": "Transparent",
+        "title": "Pool Priser",
+        "desc": "Tydlig, förhandsprissättning utan dolda kostnader.",
+        "btn": "Se priser"
+      }
+    },
+    "process": {
+      "label": "Bygga en terrasspool",
+      "title_1": "Processen i",
+      "title_2": "6 steg",
+      "steps": {
+        "1": {
+          "title": "Krav",
+          "desc": "Specificering av dina behov, bedömning av installationsplatsen"
+        },
+        "2": {
+          "title": "Planering",
+          "desc": "Alla detaljer inom byggnation och leverans är sorterade, tillstånd sökt"
+        },
+        "3": {
+          "title": "Förberedelser på plats",
+          "desc": "Förberedelsearbete görs på plats"
+        },
+        "4": {
+          "title": "Konstruktion",
+          "desc": "Poolkonstruktionen är byggd i vår anläggning"
+        },
+        "5": {
+          "title": "Leverans",
+          "desc": "Det byggda poolskalet levereras och monteras"
+        },
+        "6": {
+          "title": "Kontroll",
+          "desc": "Leveranskontroll, fyllning och provning"
+        }
+      },
+      "btn": "Redo att börja din poolresa?"
+    },
+    "installations": {
+      "label": "Vårt arbete",
+      "title_1": "Ny",
+      "title_2": "Installationer",
+      "projects": {
+        "1": {
+          "title": "Terrasspool i Ojén (Marbella)",
+          "desc": "Skapa en fantastisk takterrass med en privat pool, hans eleganta och eleganta takpool är perfekt placerad ovanpå en..."
+        },
+        "2": {
+          "title": "Terrasspool i La Quinta, Marbella",
+          "desc": "Smart design. Elegant finish. Skandinavisk kvalitet. I det exklusiva området La Quinta, Marbella, installerade vi en specialbyggd terrasspool..."
+        },
+        "3": {
+          "title": "Terrasspool i El Higuerón, Fuengirola",
+          "desc": "Denna lägenhet ligger i den prestigefyllda urbaniseringen El Higuerón och har nu en utsökt terrasspool som erbjuder en fridfull…"
+        }
+      }
+    },
+    "cta": {
+      "title_1": "Har fortfarande",
+      "title_2": "frågor?",
+      "desc": "Vi finns alltid här för att hjälpa dig att förbereda och gå vidare med ditt poolprojekt. Ring oss, maila oss eller fyll i ett förfrågningsformulär.",
+      "contact_btn": "Kontakta oss",
+      "call_btn": "Samtal"
+    }
+  },
+  "terrace_pools": {
+    "hero": {
+      "label": "Fastlandssverige & Mallorca",
+      "title_1": "Terrass",
+      "title_2": "Pooler.",
+      "desc": "Undrar du om du skulle kunna montera en plaskbassäng på din terrass? Det kunde du nog! Vi skapar den perfekta lätta avsvalkningspoolen för ditt utrymme, oavsett om det är på 15:e våningen eller inomhus.",
+      "btn": "Låt oss berätta hur",
+      "tech_btn": "Vår teknik"
+    },
+    "advantages": {
+      "label": "Varför terrasspool",
+      "title_1": "Skräddarsydd för",
+      "title_2": "Ditt utrymme",
+      "items": {
+        "tailored": {
+          "title": "Helt skräddarsydd",
+          "desc": "Varje pool är helt skräddarsydd efter dina behov, utrymme och förutsättningar. Inget projekt är det andra likt."
+        },
+        "warranty": {
+          "title": "35 års garanti",
+          "desc": "Marknadsledande 35 års strukturell garanti på varje terrasspool vi bygger."
+        },
+        "lead_times": {
+          "title": "Korta ledtider",
+          "desc": "Eftersom vi bygger allt själva håller vi ledtiderna på ett absolut minimum."
+        },
+        "local": {
+          "title": "Lokal närvaro",
+          "desc": "HQ mellan Marbella och Malaga, med ett andra kontor i Palma de Mallorca."
+        }
+      }
+    },
+    "process": {
+      "label": "Processen",
+      "title_1": "Bygga en terrasspool i",
+      "title_2": "6 steg",
+      "steps": {
+        "1": "Specificering av dina behov, bedömning av installationsplatsen. Vi analyserar den strukturella kapaciteten, åtkomsten och förutsättningarna för din plats.",
+        "2": "Alla detaljer i konstruktion och leverans är utsorterade. Tillstånd söks. Vi skapar en detaljerad plan och tidslinje.",
+        "3": "Förberedelsearbete görs på plats. Detta inkluderar strukturell förstärkning vid behov, VVS-förberedelser och tillträdesinstallation.",
+        "4": "Poolkonstruktionen är byggd i vår anläggning med hjälp av vår lätta, hållbara teknik. Kvalitetskontrollerad i varje led.",
+        "5": "Det byggda poolskalet levereras och monteras på din terrass. Vi sköter all logistik och krandrift vid behov.",
+        "6": "Leveranskontroll, fyllning och provning. Vi kontrollerar att allt fungerar perfekt innan vi lämnar över nycklarna till din nya pool."
+      },
+      "journey_btn": "Redo att börja din poolresa?"
+    },
+    "installations": {
+      "projects": {
+        "1": "Skapa en fantastisk takterrass med en privat pool. Denna eleganta och eleganta takpool är perfekt placerad ovanpå bostaden.",
+        "2": "Smart design. Elegant finish. Scandinavian quality. In the exclusive area of La Quinta, we installed a custom-built terrace pool.",
+        "3": "Denna lägenhet ligger i den prestigefyllda urbaniseringen El Higuerón och har nu en utsökt terrasspool."
+      }
+    },
+    "cta": {
+      "title_1": "Kan din terrass ha en",
+      "title_2": "Slå samman?",
+      "desc": "Ta reda på hur vi kan förvandla din terrass till en privat vattenoas.",
+      "btn": "Klicka här för att låta oss berätta hur"
+    }
+  },
+  "renovations": {
+    "hero": {
+      "label": "Komplett poolöversyn",
+      "title_1": "Pool renoveringar",
+      "title_2": "med en uppgradering.",
+      "desc": "Vill du renovera din pool i Marbella, Málaga, Nerja, Torrevieja, Alicante eller Mallorca? Vi har erfarenhet från de mest krävande poolrenoveringarna.",
+      "warranty_val": "35",
+      "warranty_label": "Årsgaranti",
+      "quote_btn": "Begär en offert"
+    },
+    "why": {
+      "label": "Varför välja oss",
+      "title_1": "Mer än bara en",
+      "title_2": "Ansiktslyftning",
+      "desc": "Vår renoveringsprocess är en fullständig teknisk och estetisk översyn. Vi uppgraderar allt från filtrering till finish.",
+      "items": {
+        "structural": {
+          "title": "Strukturell förstärkning",
+          "desc": "Vi förstärker din pools grund och väggar, vilket säkerställer årtionden av problemfri användning med vår 35-åriga garanti."
+        },
+        "filtration": {
+          "title": "Modern filtrering",
+          "desc": "Uppgradering med energieffektiv cirkulation och filtrering för kristallklart vatten året runt."
+        },
+        "finishes": {
+          "title": "Premium finish",
+          "desc": "Från hantverksmässigt kakel till släta gipsfinisher använder vi endast de finaste materialen för medelhavsklimatet."
+        },
+        "plumbing": {
+          "title": "VVS översyn",
+          "desc": "Komplett ersättning av åldrande VVS med moderna, hållbara rör och anslutningar."
+        },
+        "electrical": {
+          "title": "Elektriska uppgraderingar",
+          "desc": "Smart belysning, automatiserade kåpor och energieffektiva värmesystem integrerade sömlöst."
+        },
+        "surrounding": {
+          "title": "Omgivande områden",
+          "desc": "Vi kan även renovera terrasser, trädäck, dränering och landskap runt din pool."
+        }
+      }
+    },
+    "guarantee": {
+      "title_1": "Lär dig hur vi kan ge",
+      "title_2": "35 års garanti",
+      "desc": "Vårt förtroende bygger på skandinaviska ingenjörsstandarder och årtionden av erfarenhet av medelhavsklimat.",
+      "tech_btn": "Vår teknik",
+      "contact_btn": "Kontakta oss för en offert"
+    },
+    "areas": {
+      "title_1": "Service",
+      "title_2": "Områden",
+      "desc": "Poolrenoveringstjänster över Sveriges vackraste regioner."
+    },
+    "technical": {
+      "title": "Poolrenovering & läckagereparation med fiberkompositskivor",
+      "desc": "Uppvisar din pool tecken på slitage, läckage eller föråldrade ytbehandlingar? Traditionella poolreparationsmetoder kan innebära omfattande schaktning och utbyte, vilket kan vara både mycket kostsamt och tidskrävande. Vår revolutionerande metod för poolrenovering och läckagereparation erbjuder en modern och långvarig lösning med kompakta och mycket hållbara fiberkompositskivor – konstruerade för strukturell integritet, flexibilitet och stil.",
+      "features": {
+        "leak_proof": {
+          "title": "Läcksäker lösning",
+          "desc": "Deras icke-porösa konstruktion skapar en sömlös barriär som eliminerar vattenförlust och skyddar underliggande strukturer."
+        },
+        "durability": {
+          "title": "Varaktighet",
+          "desc": "Resistent mot fukt, röta, kemikalier och UV-exponering, fiberkompositer används i några av de mest kritiska delarna av flygplan."
+        },
+        "strength": {
+          "title": "Lätt och stark",
+          "desc": "Till skillnad från traditionella betong- eller träbaserade material kombinerar kompositskivor styrka med enkel hantering och installation."
+        },
+        "cost": {
+          "title": "Kostnadseffektiv",
+          "desc": "Genom att minimera behovet av omfattande schaktning och utbyte ger fiberkompositskivor en mer ekonomisk reparationslösning."
+        }
+      }
+    },
+    "finishes": {
+      "title": "En finish som passar din stil",
+      "desc": "När den väl har installerats kan fiberkompositytan ytbehandlas i praktiskt taget vilken stil som helst för att matcha din designvision:",
+      "options": {
+        "liners": {
+          "title": "Pool liners",
+          "desc": "Välj från ett brett utbud av färger och texturer för en ren, modern look."
+        },
+        "mosaic": {
+          "title": "Keramik eller glasmosaik",
+          "desc": "Lägg till elegans och lyx med invecklat kakelarbete."
+        },
+        "tiles": {
+          "title": "Traditionella plattor",
+          "desc": "För en klassisk finish ger våra fiberskivor en perfekt bas för alla typer av kakelapplikationer."
+        }
+      }
+    },
+    "cta": {
+      "title_1": "Redo att",
+      "title_2": "Renovera?",
+      "desc": "Gratis konsultation och oförpliktande offert för din poolrenovering.",
+      "btn": "Kontakta oss för en offert"
+    }
+  },
+  "pool_tech": {
+    "hero": {
+      "label": "Teknisk excellens",
+      "title_1": "Slå samman",
+      "title_2": "Teknologi.",
+      "desc": "Ta reda på varför vår poolteknik är det bästa valet för din terrass. Lätt, hållbar konstruktion med skandinaviska kvalitetsstandarder."
+    },
+    "why": {
+      "title_1": "Varför vår teknik är",
+      "title_2": "Det bästa",
+      "items": {
+        "lightweight": {
+          "title": "Lättviktskonstruktion",
+          "desc": "Konstruerad för att vara betydligt lättare än traditionell betong, perfekt för terrasser, tak och övre våningar."
+        },
+        "durability": {
+          "title": "Hållbarhet i flera lager",
+          "desc": "Egenutvecklad flerskiktskonstruktion skapar en otroligt stark struktur som bibehåller integriteten i årtionden."
+        },
+        "warranty": {
+          "title": "35-års garanti",
+          "desc": "Vi backar upp vår teknik med en branschledande 35-årig strukturell garanti. Ingenjörssäkerhet."
+        },
+        "filtration": {
+          "title": "Avancerad filtrering",
+          "desc": "Toppmodern cirkulation och filtrering för kristallklart vatten med minimal energianvändning."
+        },
+        "climate": {
+          "title": "Klimatoptimerad",
+          "desc": "Konstruerad för det svenska medelhavsklimatet, med UV-beständighet och termisk hantering."
+        },
+        "efficiency": {
+          "title": "Energieffektiv",
+          "desc": "Från isolerade väggar till smarta pumpar, vilket minskar dina långsiktiga driftskostnader."
+        }
+      }
+    },
+    "putting_tech": {
+      "label": "Att sätta tekniken i arbete",
+      "title": "Att ha den bästa tekniken till hands",
+      "p1": "Det finns många material tillgängliga för att bygga pooler, alla med sina egna bästa användningsfall – glasfiber, betong, EP och fiberkompositer. Det är inte svårt att föreställa sig hur viktigt det är att använda rätt material för en konstruktion av en pools storlek, exponering och livslängd.",
+      "p2_prefix": "Scandinavian Quality är förmodligen den enda poolbyggaren i Sverige som kan",
+      "p2_bold": "erbjuda alltid den perfekta tekniken för din pool.",
+      "p3": "Det betyder att vi inte behöver göra kompromisser när vi väljer det bästa sättet att bygga din pool.",
+      "p4_prefix": "Men",
+      "p4_bold": "speciellt för terrasspooler,",
+      "p4_suffix": "vilket skulle vara det bästa materialet? I de flesta fall ska den vara kompakt, lätt, tålig och hållbar.",
+      "p4_link": "Som fiberkompositer."
+    },
+    "premier_material": {
+      "label": "Ultimate i material",
+      "title": "Det främsta materialet för densitetskritiska tillämpningar",
+      "card_title": "Fler poolmöjligheter med fiberkompositer",
+      "card_desc": "Det senaste tillskottet i vår portfölj av material är fiberkompositer. Idealisk för privata poolägare som vill dra nytta av dess kompakthet och lätthet, våra kompositer ger pålitlig funktionalitet och hållbarhet i terrasspooler och poolrenoveringar.",
+      "card_detail": "Varje detalj övervägs noggrant för att möta dina unika behov.",
+      "benefits": {
+        "lightweight": "Lätt men ändå robust, säkerställer effektivitet utan kompromisser",
+        "durability": "Tidlös hållbarhet med minimalt underhåll, år efter år",
+        "resistance": "Överlägsen motståndskraft mot fukt och korrosion, perfekt för poolmiljöer"
+      }
+    },
+    "fact_box": {
+      "label": "Lättvikt. Kraftfull. Byggd för framtiden.",
+      "title": "Faktaruta – avancerade fiberkompositer",
+      "intro": "Fiberkompositer kombinerar högpresterande fibrer (som kol eller glas) med en polymermatris för att skapa ett material som är starkare, lättare och mer hållbart än traditionella metaller eller plaster.",
+      "tagline": "Oavsett om du bygger för hastighet, styrka, hållbarhet – eller alla tre – levererar fiberkompositer.",
+      "why_title": "Varför fiberkompositer?",
+      "why_items": {
+        "strength": {
+          "title": "Oöverträffad styrka till vikt",
+          "desc": "Upp till 80 % lättare än stål. Lika stark. Perfekt för industrier där varje gram är viktigt."
+        },
+        "maintenance": {
+          "title": "Underhållsfri och väderbeständig",
+          "desc": "Ingen rost. Ingen ommålning. Bara långsiktig tillförlitlighet – inomhus eller utomhus."
+        },
+        "engineering": {
+          "title": "Precisionsteknik",
+          "desc": "Anpassa fiberorientering och form för målinriktad prestanda. Komplexa geometrier? inga problem."
+        },
+        "sustainable": {
+          "title": "Hållbar genom design",
+          "desc": "Lång livslängd, mindre material, lägre CO₂-avtryck. Plus återvinningsbara och biobaserade alternativ växer."
+        }
+      },
+      "where_title": "Där de presterar bäst",
+      "where_items": {
+        "aerospace": "Aerospace & Aviation – Minska vikten, öka räckvidden",
+        "automotive": "Fordon och elbilar – Lägre utsläpp, bättre effektivitet",
+        "infrastructure": "Infrastruktur – Broar, fasader och rör som håller i decennier",
+        "energy": "Energi och vind – Lätt, väderbeständig och högpresterande strukturer",
+        "marine": "Marine & Sports – Saltbeständig, ultrastark, perfekt för prestanda"
+      }
+    },
+    "warranty_section": {
+      "title_1": "35 år",
+      "title_2": "Garanti",
+      "desc": "Marknadsledande 35 års garanti på våra terrasspooler och poolrenoveringar. Testad och beprövad i medelhavsmiljö i över två decennier.",
+      "contact_btn": "Hör av dig",
+      "pricing_btn": "Visa priser"
+    }
+  },
+  "prices": {
+    "hero": {
+      "label": "SKRÄDDARSYDD TERASSPOOL",
+      "title_1": "Terrass Pool",
+      "title_2": "Prissättning",
+      "desc": "Förvandla ditt utomhusutrymme till en elegant wellness-tillflyktsort med vår mest efterfrågade terrasspool – perfekt för terrasser, uteplatser eller trädgårdar."
+    },
+    "card": {
+      "title": "Terrass Pool",
+      "price": "15 900 € inkl. MOMS",
+      "price_label": "Pris från:",
+      "cta": "Kontakta oss för konsultation och personlig offert – vi finns vid din sida från idé till installation!",
+      "features": [
+        "Yttermått: 4,00 × 2,50 m",
+        "Djup: 116 cm",
+        "Ingår: Teknisk standardutrustning (filter & pump)",
+        "Ingår ej: Plattläggning, elanslutning, transport & lossning",
+        "Tillgängliga extrafunktioner: Massagestrålar, trappor, LED-belysning och premiumfinish"
+      ]
+    },
+    "note": {
+      "title": "Varje projekt är unikt",
+      "desc": "Slutlig prissättning beror på pooldimensioner, platsförhållanden, valda ytbehandlingar och ytterligare funktioner. Vi tillhandahåller detaljerade, transparenta offerter utan dolda kostnader — alltid.",
+      "link": "Kontakta oss för din personliga offert"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Hör av dig",
+      "title_1": "Låt oss prata om",
+      "title_2": "ditt projekt.",
+      "desc": "Vi kommer att svara på ditt meddelande så snart som möjligt. Ring oss, maila oss eller fyll i förfrågningsformuläret nedan."
+    },
+    "form": {
+      "title": "Skicka ett meddelande",
+      "name": "Namn",
+      "name_placeholder": "Ditt namn",
+      "email": "E-post",
+      "email_placeholder": "din@e-post.com",
+      "phone": "Telefon",
+      "phone_placeholder": "+34 ...",
+      "subject": "Ämne",
+      "subjects": {
+        "terrace": "Terrass Pool",
+        "renovation": "Pool renovering",
+        "other": "Andra"
+      },
+      "message": "Vad kan vi göra för dig?",
+      "message_placeholder": "Berätta om ditt projekt...",
+      "send_btn": "Skicka meddelande"
+    },
+    "sidebar": {
+      "direct": "Direktkontakt",
+      "phone": "Telefon / WhatsApp",
+      "email": "E-post",
+      "hours": "Timmar",
+      "hours_val": "Mån - Fre: 10:00 - 18:00",
+      "offices": "Våra kontor",
+      "hq": "HQ — Costa del Sol",
+      "mallorca": "Mallorca",
+      "serving": "Servering: Estepona · Marbella · Málaga · Nerja · Torrevieja · Alicante · Mallorca"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "label": "Våra produkter",
+      "title_1": "Premie",
+      "title_2": "Installationer",
+      "desc": "Utforska våra två flaggskeppsprodukter: de specialbyggda ultralätta EPS-poolerna och våra lyxiga hamam- och turkiska bastur."
+    },
+    "why": {
+      "title": "Varför Terracepool",
+      "items": {
+        "1": "Lättvikts EPS-struktur",
+        "2": "Designad för terrasser och tak",
+        "3": "Levereras helt vattentät",
+        "4": "Premiummaterial från Tyskland",
+        "5": "Tillverkad i Sverige"
+      }
+    },
+    "pools": {
+      "title": "Pooler",
+      "desc": "Kompakt, Urban, Stad, Skyline, Panorama, Lounge, Infinity, Penthouse, Familj, Signatur"
+    },
+    "list": {
+      "label": "Våra projekt",
+      "title_1": "Ny",
+      "title_2": "Installationer"
+    },
+    "projects": {
+      "labels": {
+        "terrace_pool": "Terrass Pool",
+        "renovation": "Pool renovering"
+      },
+      "items": {
+        "1": {
+          "title": "Pool på takterrassen",
+          "location": "Ojén, Marbella"
+        },
+        "2": {
+          "title": "Anpassad terrasspool",
+          "location": "La Quinta, Marbella"
+        },
+        "3": {
+          "title": "Avsvalkningspool med terrass",
+          "location": "El Higuerón, Fuengirola"
+        },
+        "4": {
+          "title": "Full Pool Renovering",
+          "location": "Costa del Sol"
+        }
+      },
+      "details": {
+        "eps-pools": {
+          "title": "Lätta EPS terrasspooler",
+          "location": "Anpassade installationer",
+          "description": "Våra signatur lätta EPS-pooler är speciellt designade för terrasser, hustak och modern arkitektur där viktbegränsningar gäller. Levereras helt vattentät och redo för din valda finish.",
+          "features_label": "Projektfunktioner",
+          "features": [
+            "Ultralätt EPS-struktur",
+            "Perfekt för viktbegränsade områden",
+            "Tyska premiummaterial",
+            "Tillverkad med skandinavisk precision",
+            "Fullt anpassningsbara former och storlekar"
+          ]
+        },
+        "hammam-turkisksauna": {
+          "title": "Lyxigt hamam och turkisk bastu",
+          "location": "Privata bostäder",
+          "description": "Upplev det ultimata inom avkoppling med våra specialbyggda hamam och turkiska bastur. Kombinerar autentiska ångtraditioner med modern skandinavisk design och förstklassig vattentätning.",
+          "features_label": "Projektfunktioner",
+          "features": [
+            "Autentisk turkisk bastuupplevelse",
+            "Ergonomisk sittdesign",
+            "Avancerade ånggenereringssystem",
+            "100% vattentät konstruktion",
+            "Premium kakel och mosaikfinish"
+          ]
+        }
+      }
+    },
+    "cta_btn": "Starta ditt eget projekt"
+  },
+  "pricing": {
+    "title": "Bygg din pool",
+    "desc": "Skräddarsy din drömterrasspool och få ett omedelbart uppskattat pris. Börja med att välja din föredragna basmodell.",
+    "base_price": "Baspris",
+    "total_price": "Totalt uppskattat pris",
+    "excl_vat": "exkl. MOMS",
+    "select_model": "Välj Basmodell",
+    "options_title": "Anpassa tillägg",
+    "no_options": "Inga alternativ har valts",
+    "contact_cta": "Begär officiell offert",
+    "models": {
+      "ibiza": "Ibiza (3000 × 4800 × 1200 mm)",
+      "formentera": "Formentera (3000 × 6000 × 1200 mm)",
+      "sotogrande": "Sotogrande (2300 × 3600 × 900 mm)",
+      "alicante": "Alicante (3500 × 3600 × 900 mm)",
+      "mallorca": "Mallorca (2300 × 4800 × 900 mm)",
+      "menorca": "Menorca - Glas (5600 × 3000 × 1400 mm)"
+    },
+    "categories": {
+      "stairs": "Trappa",
+      "benches": "Bänkar & Jets",
+      "equipment": "Poolutrustning",
+      "finish": "Pool Finish",
+      "covers": "Omslag",
+      "transport": "Transport"
+    },
+    "options": {
+      "step_small": "Litet steg",
+      "step_big": "Stort steg",
+      "special_step": "Specialsteg",
+      "tech_room_step": "Technical Room Step",
+      "bench_short": "Bänk kort (1800 mm)",
+      "bench_long": "Bänk lång (3000 mm)",
+      "air_bench": "Air Bench (12 munstycken + pump)",
+      "pipe_package": "Rörpaket + Sandfilter + Pump",
+      "electric_heater": "Elvärmare (3 kW)",
+      "heat_pump": "Värmepumpsomriktare (13 kW) inkl. gå förbi",
+      "salt_chlorinator": "Saltklorinator (inkl. pH & Redox)",
+      "ceramic_interior": "Keramisk inredning",
+      "ceramic_top": "Keramisk topp & exteriör",
+      "bubble_cover": "Bubbelskydd",
+      "spa_cover_25": "Spaskydd (max 2,5 × 3 m)",
+      "spa_cover_36": "Spaskydd (max 3 × 6 m)",
+      "lamella_cover": "Lamelltäcke (Ovan mark) *startar kl",
+      "mainland_spain": "Fastlandet Spanien / Sverige",
+      "balearic_islands": "Balearerna"
+    }
+  }
+}

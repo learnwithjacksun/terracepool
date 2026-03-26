@@ -7,7 +7,7 @@ const languages = [
   { code: 'en', name: 'EN' },
   { code: 'es', name: 'ES' },
   { code: 'fr', name: 'FR' },
-  { code: 'it', name: 'IT' }
+  { code: 'sv', name: 'SV' }
 ];
 
 const Navbar: React.FC = () => {
