@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generated Utilities & Extraction Files
+read_pdf.*
+extract_images.py
+patch_*.cjs
+"pricing .pdf"

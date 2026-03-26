@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, Sparkles, ArrowRight, MapPin, Gauge, Ruler } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { portfolioProjects } from '../data/portfolio';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -114,18 +115,14 @@ const InstallationsPage: React.FC = () => {
                 {t('landing.installations.title_1')} <span className="font-serif italic gold-text">{t('landing.installations.title_2')}</span>
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
-              {[
-                { slug: 'ojen-marbella', title: t('landing.installations.projects.1.title'), desc: t('landing.installations.projects.1.desc'), img: 'https://terracepool.com/wp-content/uploads/2025/07/Roof-Terrace-Pool.webp' },
-                { slug: 'la-quinta-marbella', title: t('landing.installations.projects.2.title'), desc: t('landing.installations.projects.2.desc'), img: 'https://terracepool.com/wp-content/uploads/2025/07/Plunge-pool-Marbella-e1752060744592.jpg' },
-                { slug: 'el-higueron-fuengirola', title: t('landing.installations.projects.3.title'), desc: t('landing.installations.projects.3.desc'), img: 'https://terracepool.com/wp-content/uploads/2021/03/Terrace-pool-Fuengirola.jpg' },
-              ].map((project, i) => (
-                <Link key={i} to={`/portfolio/${project.slug}`} data-aos="fade-up" data-aos-delay={i * 200} className="group cursor-pointer block">
+            <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-5 md:gap-6">
+              {portfolioProjects.slice(0, 2).map((project, i) => (
+                <Link key={project.slug} to={`/portfolio/${project.slug}`} data-aos="fade-up" data-aos-delay={i * 200} className="group cursor-pointer block">
                   <div className="relative h-[220px] md:h-[300px] rounded-2xl md:rounded-3xl overflow-hidden warm-shadow mb-4 md:mb-5">
-                    <img src={project.img} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                    <img src={project.image} alt={t(`portfolio.projects.details.${project.slug}.title`)} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-warm-text mb-1 md:mb-2">{project.title}</h3>
-                  <p className="text-warm-muted text-sm leading-relaxed">{project.desc}</p>
+                  <h3 className="text-base md:text-lg font-bold text-warm-text mb-1 md:mb-2">{t(`portfolio.projects.details.${project.slug}.title`)}</h3>
+                  <p className="text-warm-muted text-sm leading-relaxed line-clamp-3">{t(`portfolio.projects.details.${project.slug}.description`)}</p>
                 </Link>
               ))}
             </div>

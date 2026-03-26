@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight, MapPin, Sparkles } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { portfolioProjects } from '../data/portfolio';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { portfolioProjects } from '../data/portfolio';
 
 const PortfolioPage: React.FC = () => {
   const { t } = useTranslation();
@@ -33,8 +33,8 @@ const PortfolioPage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-5">
             {portfolioProjects.map((project, index) => {
               const isLarge = Math.floor(index / 2) % 2 === 0 ? index % 2 === 0 : index % 2 !== 0;
-              const title = t(`portfolio.projects.items.${index + 1}.title`);
-              const location = t(`portfolio.projects.items.${index + 1}.location`);
+              const title = t(`portfolio.projects.details.${project.slug}.title`);
+              const location = t(`portfolio.projects.details.${project.slug}.location`);
               const category = t(project.categoryKey);
 
               return (

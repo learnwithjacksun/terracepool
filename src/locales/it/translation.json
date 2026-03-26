@@ -11,7 +11,7 @@
     "services": "Servizi",
     "contact": "Contatti",
     "locations": "Sedi",
-    "desc": "Piscine da terrazza e ristrutturazioni in tutta la Spagna continentale e Maiorca.",
+    "desc": "Piscine da terrazza e ristrutturazioni in tutta la Svezia continentale e Maiorca.",
     "hours": "Orari",
     "hours_val": "Lun - Ven: 10:00 – 18:00",
     "language": "Lingua",
@@ -39,8 +39,8 @@
       },
       "coverage": {
         "label": "Copertura",
-        "val": "Spagna",
-        "sub": "Spagna continentale e Maiorca"
+        "val": "Svezia",
+        "sub": "Svezia continentale e Maiorca"
       }
     },
     "usps": {
@@ -79,7 +79,7 @@
       },
       "terrace_pools": {
         "label": "Piscine da Terrazza",
-        "title": "Spagna Continentale & Maiorca",
+        "title": "Svezia Continentale & Maiorca",
         "desc": "Ti chiedi se puoi inserire una piscina sulla tua terrazza? Probabilmente sì!",
         "btn": "Clicca qui per sapere come"
       },
@@ -101,12 +101,30 @@
       "title_1": "Il Processo in",
       "title_2": "6 Passaggi",
       "steps": {
-        "1": { "title": "Requisiti", "desc": "Specifica delle tue esigenze, valutazione del sito di installazione" },
-        "2": { "title": "Pianificazione", "desc": "Tutti i dettagli di costruzione e consegna sono definiti, permessi richiesti" },
-        "3": { "title": "Preparazione", "desc": "Il lavoro di preparazione viene eseguito sul posto" },
-        "4": { "title": "Costruzione", "desc": "La costruzione della piscina viene eseguita nella nostra struttura" },
-        "5": { "title": "Consegna", "desc": "Il guscio della piscina costruito viene consegnato e installato" },
-        "6": { "title": "Verifica", "desc": "Ispezione alla consegna, riempimento e collaudo" }
+        "1": {
+          "title": "Requisiti",
+          "desc": "Specifica delle tue esigenze, valutazione del sito di installazione"
+        },
+        "2": {
+          "title": "Pianificazione",
+          "desc": "Tutti i dettagli di costruzione e consegna sono definiti, permessi richiesti"
+        },
+        "3": {
+          "title": "Preparazione",
+          "desc": "Il lavoro di preparazione viene eseguito sul posto"
+        },
+        "4": {
+          "title": "Costruzione",
+          "desc": "La costruzione della piscina viene eseguita nella nostra struttura"
+        },
+        "5": {
+          "title": "Consegna",
+          "desc": "Il guscio della piscina costruito viene consegnato e installato"
+        },
+        "6": {
+          "title": "Verifica",
+          "desc": "Ispezione alla consegna, riempimento e collaudo"
+        }
       },
       "btn": "Pronto per iniziare il tuo progetto?"
     },
@@ -115,9 +133,18 @@
       "title_1": "Recenti",
       "title_2": "Installations",
       "projects": {
-        "1": { "title": "Piscina da Terrazza a Ojén (Marbella)", "desc": "Creazione di una splendida terrazza sul tetto con piscina privata. Questa piscina è perfettamente posizionata sopra la residenza." },
-        "2": { "title": "Piscina da Terrazza a La Quinta, Marbella", "desc": "Design intelligente. Finiture eleganti. Qualità scandinava. In esclusiva a La Quinta, abbiamo installato una piscina su misura." },
-        "3": { "title": "Piscina da terrazza a El Higuerón, Fuengirola", "desc": "Situato nel prestigioso El Higuerón, questo appartamento dispone ora di un'esclusiva piscina da terrazza..." }
+        "1": {
+          "title": "Piscina da Terrazza a Ojén (Marbella)",
+          "desc": "Creazione di una splendida terrazza sul tetto con piscina privata. Questa piscina è perfettamente posizionata sopra la residenza."
+        },
+        "2": {
+          "title": "Piscina da Terrazza a La Quinta, Marbella",
+          "desc": "Design intelligente. Finiture eleganti. Qualità scandinava. In esclusiva a La Quinta, abbiamo installato una piscina su misura."
+        },
+        "3": {
+          "title": "Piscina da terrazza a El Higuerón, Fuengirola",
+          "desc": "Situato nel prestigioso El Higuerón, questo appartamento dispone ora di un'esclusiva piscina da terrazza..."
+        }
       }
     },
     "cta": {
@@ -130,7 +157,7 @@
   },
   "terrace_pools": {
     "hero": {
-      "label": "Spagna Continentale e Maiorca",
+      "label": "Svezia Continentale e Maiorca",
       "title_1": "Piscine da",
       "title_2": "Terrazza.",
       "desc": "Ti chiedi se puoi inserire una piscina sulla tua terrazza? Probabilmente sì! Creiamo la piscina leggera perfetta per il tuo spazio.",
@@ -204,12 +231,30 @@
       "title_2": "Restyling",
       "desc": "Il nostro processo di ristrutturazione è una revisione tecnologica ed estetica completa. Miglioriamo tutto, dalla filtrazione alle finiture.",
       "items": {
-        "structural": { "title": "Rinforzo Strutturale", "desc": "Rinforsiamo le fondamenta e le pareti della tua piscina, garantendo decenni di utilizzo senza problemi con la nostra garanzia di 35 anni." },
-        "filtration": { "title": "Filtrazione Moderna", "desc": "Aggiornamento con circolazione e filtrazione a risparmio energetico per un'acqua cristallina tutto l'anno." },
-        "finishes": { "title": "Finiture Premium", "desc": "Dai rivestimenti artigianali agli intonaci lisci, utilizziamo solo i migliori materiali per il clima mediterraneo." },
-        "plumbing": { "title": "Revisione Idraulica", "desc": "Sostituzione completa delle vecchie tubature con connessioni moderne e durevoli." },
-        "electrical": { "title": "Aggiornamenti Elettrici", "desc": "Illuminazione intelligente, coperture automatiche e sistemi di riscaldamento efficienti integrati perfettamente." },
-        "surrounding": { "title": "Aree Circostanti", "desc": "Possiamo anche ristrutturare terrazze, pavimentazioni, drenaggi e il paesaggio intorno alla tua piscina." }
+        "structural": {
+          "title": "Rinforzo Strutturale",
+          "desc": "Rinforsiamo le fondamenta e le pareti della tua piscina, garantendo decenni di utilizzo senza problemi con la nostra garanzia di 35 anni."
+        },
+        "filtration": {
+          "title": "Filtrazione Moderna",
+          "desc": "Aggiornamento con circolazione e filtrazione a risparmio energetico per un'acqua cristallina tutto l'anno."
+        },
+        "finishes": {
+          "title": "Finiture Premium",
+          "desc": "Dai rivestimenti artigianali agli intonaci lisci, utilizziamo solo i migliori materiali per il clima mediterraneo."
+        },
+        "plumbing": {
+          "title": "Revisione Idraulica",
+          "desc": "Sostituzione completa delle vecchie tubature con connessioni moderne e durevoli."
+        },
+        "electrical": {
+          "title": "Aggiornamenti Elettrici",
+          "desc": "Illuminazione intelligente, coperture automatiche e sistemi di riscaldamento efficienti integrati perfettamente."
+        },
+        "surrounding": {
+          "title": "Aree Circostanti",
+          "desc": "Possiamo anche ristrutturare terrazze, pavimentazioni, drenaggi e il paesaggio intorno alla tua piscina."
+        }
       }
     },
     "guarantee": {
@@ -222,25 +267,46 @@
     "areas": {
       "title_1": "Aree di",
       "title_2": "Servizio",
-      "desc": "Servizi di ristrutturazione piscine nelle regioni più belle della Spagna."
+      "desc": "Servizi di ristrutturazione piscine nelle regioni più belle della Svezia."
     },
     "technical": {
       "title": "Ristrutturazione Piscine e Riparazione Perdite con Pannelli in Fibra Composita",
       "desc": "La tua piscina mostra segni di usura, perdite o finiture superate? I metodi tradizionali di riparazione delle piscine possono comportare scavi e sostituzioni estese, che possono essere molto costosi e richiedere molto tempo. Il nostro metodo rivoluzionario di ristrutturazione delle piscine e riparazione delle perdite offre una soluzione moderna e duratura utilizzando pannelli in fibra composita compatti e altamente resistenti, progettati per integrità strutturale, flessibilità e stile.",
       "features": {
-        "leak_proof": { "title": "Soluzione Anti-Perdite", "desc": "La loro costruzione non porosa crea una barriera continua che elimina la perdita d'acqua e protegge le strutture sottostanti." },
-        "durability": { "title": "Durata", "desc": "Resistenti all'umidità, alla putrefazione, agli agenti chimici e all'esposizione ai raggi UV, i compositi in fibra sono utilizzati in alcune delle parti più critiche degli aeroplani." },
-        "strength": { "title": "Leggero e Resistente", "desc": "A differenza del calcestruzzo tradizionale o dei materiali a base di legno, i pannelli compositi combinano resistenza con facilità di movimentazione e installazione." },
-        "cost": { "title": "Conveniente", "desc": "Riducendo al minimo la necessità di scavi e sostituzioni estese, i pannelli in fibra composita offrono una soluzione di riparazione più economica." }
+        "leak_proof": {
+          "title": "Soluzione Anti-Perdite",
+          "desc": "La loro costruzione non porosa crea una barriera continua che elimina la perdita d'acqua e protegge le strutture sottostanti."
+        },
+        "durability": {
+          "title": "Durata",
+          "desc": "Resistenti all'umidità, alla putrefazione, agli agenti chimici e all'esposizione ai raggi UV, i compositi in fibra sono utilizzati in alcune delle parti più critiche degli aeroplani."
+        },
+        "strength": {
+          "title": "Leggero e Resistente",
+          "desc": "A differenza del calcestruzzo tradizionale o dei materiali a base di legno, i pannelli compositi combinano resistenza con facilità di movimentazione e installazione."
+        },
+        "cost": {
+          "title": "Conveniente",
+          "desc": "Riducendo al minimo la necessità di scavi e sostituzioni estese, i pannelli in fibra composita offrono una soluzione di riparazione più economica."
+        }
       }
     },
     "finishes": {
       "title": "Una Finitura che si Adatta al tuo Stile",
       "desc": "Una volta installata, la superficie in fibra composita può essere rifinita in virtualmente qualsiasi stile per adattarsi alla tua visione del design:",
       "options": {
-        "liners": { "title": "Liner per Piscina", "desc": "Scegli tra una vasta gamma di colori e texture per un look pulito e moderno." },
-        "mosaic": { "title": "Mosaico in Ceramica o Vetro", "desc": "Aggiungi eleganza e lusso con intricate lavorazioni in piastrelle." },
-        "tiles": { "title": "Piastrelle Tradizionali", "desc": "Per una finitura classica, i nostri pannelli in fibra offrono una base perfetta per tutti i tipi di applicazioni di piastrelle." }
+        "liners": {
+          "title": "Liner per Piscina",
+          "desc": "Scegli tra una vasta gamma di colori e texture per un look pulito e moderno."
+        },
+        "mosaic": {
+          "title": "Mosaico in Ceramica o Vetro",
+          "desc": "Aggiungi eleganza e lusso con intricate lavorazioni in piastrelle."
+        },
+        "tiles": {
+          "title": "Piastrelle Tradizionali",
+          "desc": "Per una finitura classica, i nostri pannelli in fibra offrono una base perfetta per tutti i tipi di applicazioni di piastrelle."
+        }
       }
     },
     "cta": {
@@ -261,19 +327,37 @@
       "title_1": "Perché la Nostra Tech è",
       "title_2": "La Migliore",
       "items": {
-        "lightweight": { "title": "Costruzione Leggera", "desc": "Progettata per essere significativamente più leggera del cemento tradizionale, ideale per terrazze e attici." },
-        "durability": { "title": "Durata Multistrato", "desc": "La costruzione multistrato proprietaria crea una struttura incredibilmente forte che dura decenni." },
-        "warranty": { "title": "Garanzia 35 Anni", "desc": "Garantiamo la nostra tecnologia con una garanzia strutturale di 35 anni leader del settore. Certezza tecnica." },
-        "filtration": { "title": "Filtrazione Avanzata", "desc": "Circolazione e filtrazione all'avanguardia per acqua cristallina con il minimo consumo energetico." },
-        "climate": { "title": "Ottimizzata per il Clima", "desc": "Progettata per il clima mediterraneo, con resistenza ai raggi UV e gestione termica." },
-        "efficiency": { "title": "Efficienza Energetica", "desc": "Dalle pareti isolate alle pompe intelligenti, riducendo i costi operativi a lungo termine." }
+        "lightweight": {
+          "title": "Costruzione Leggera",
+          "desc": "Progettata per essere significativamente più leggera del cemento tradizionale, ideale per terrazze e attici."
+        },
+        "durability": {
+          "title": "Durata Multistrato",
+          "desc": "La costruzione multistrato proprietaria crea una struttura incredibilmente forte che dura decenni."
+        },
+        "warranty": {
+          "title": "Garanzia 35 Anni",
+          "desc": "Garantiamo la nostra tecnologia con una garanzia strutturale di 35 anni leader del settore. Certezza tecnica."
+        },
+        "filtration": {
+          "title": "Filtrazione Avanzata",
+          "desc": "Circolazione e filtrazione all'avanguardia per acqua cristallina con il minimo consumo energetico."
+        },
+        "climate": {
+          "title": "Ottimizzata per il Clima",
+          "desc": "Progettata per il clima mediterraneo, con resistenza ai raggi UV e gestione termica."
+        },
+        "efficiency": {
+          "title": "Efficienza Energetica",
+          "desc": "Dalle pareti isolate alle pompe intelligenti, riducendo i costi operativi a lungo termine."
+        }
       }
     },
     "putting_tech": {
       "label": "Tecnologia in Azione",
       "title": "La migliore tecnologia a portata di mano",
       "p1": "Ci sono molti materiali disponibili per costruire piscine, ognuno con i propri casi d'uso – fibra di vetro, cemento, EP e compositi in fibra. Non è difficile immaginare quanto sia importante usare il materiale corretto per una costruzione delle dimensioni, esposizione e durata di una piscina.",
-      "p2_prefix": "Scandinavian Quality è probabilmente l'unico costruttore di piscine in Spagna che può",
+      "p2_prefix": "Scandinavian Quality è probabilmente l'unico costruttore di piscine in Svezia che può",
       "p2_bold": "offrire sempre la tecnologia ideale per la tua piscina.",
       "p3": "Questo significa che non dobbiamo fare compromessi nella scelta del modo migliore per costruire la tua piscina.",
       "p4_prefix": "Ma",
@@ -300,10 +384,22 @@
       "tagline": "Che tu stia costruendo per velocità, resistenza, sostenibilità o tutte e tre, i compositi in fibra sono la soluzione.",
       "why_title": "Perché i Compositi in Fibra?",
       "why_items": {
-        "strength": { "title": "Rapporto Resistenza-Peso Imbattibile", "desc": "Fino all'80% più leggero dell'acciaio. Altrettanto forte. Perfetto per industrie dove ogni grammo conta." },
-        "maintenance": { "title": "Senza Manutenzione e Resistente", "desc": "Niente ruggine. Niente riverniciatura. Solo affidabilità a lungo termine, in interni o all'esterno." },
-        "engineering": { "title": "Ingegneria di Precisione", "desc": "Personalizza l'orientamento e la forma della fibra per prestazioni mirate. Geometrie complesse? Nessun problema." },
-        "sustainable": { "title": "Sostenibile per Design", "desc": "Lunga vita, meno materiale, impronta di CO₂ inferiore. Inoltre, le opzioni riciclabili e a base biologica sono in crescita." }
+        "strength": {
+          "title": "Rapporto Resistenza-Peso Imbattibile",
+          "desc": "Fino all'80% più leggero dell'acciaio. Altrettanto forte. Perfetto per industrie dove ogni grammo conta."
+        },
+        "maintenance": {
+          "title": "Senza Manutenzione e Resistente",
+          "desc": "Niente ruggine. Niente riverniciatura. Solo affidabilità a lungo termine, in interni o all'esterno."
+        },
+        "engineering": {
+          "title": "Ingegneria di Precisione",
+          "desc": "Personalizza l'orientamento e la forma della fibra per prestazioni mirate. Geometrie complesse? Nessun problema."
+        },
+        "sustainable": {
+          "title": "Sostenibile per Design",
+          "desc": "Lunga vita, meno materiale, impronta di CO₂ inferiore. Inoltre, le opzioni riciclabili e a base biologica sono in crescita."
+        }
       },
       "where_title": "Dove Eccellono",
       "where_items": {
@@ -387,10 +483,29 @@
   },
   "portfolio": {
     "hero": {
+      "label": "I Nostri Prodotti",
+      "title_1": "Installazioni",
+      "title_2": "Premium",
+      "desc": "Esplora i nostri due prodotti di punta: le piscine in EPS ultra-leggere su misura e i nostri lussuosi Hammam e bagni turchi."
+    },
+    "why": {
+      "title": "Perché Terracepool",
+      "items": {
+        "1": "Struttura leggera in EPS",
+        "2": "Progettata per terrazze e attici",
+        "3": "Consegnata completamente impermeabile",
+        "4": "Materiali premium dalla Germania",
+        "5": "Prodotta in Svezia"
+      }
+    },
+    "pools": {
+      "title": "Piscine",
+      "desc": "Compatta, Urbana, Città, Skyline, Panorama, Lounge, Infinity, Penthouse, Familiare, Signature"
+    },
+    "list": {
       "label": "I Nostri Progetti",
       "title_1": "Installazioni",
-      "title_2": "Recenti",
-      "desc": "Esplora le nostre recenti installazioni di piscine da terrazza e ristrutturazioni nella Costa del Sol e a Maiorca. Ogni progetto mostra l'artigianalità della qualità scandinava."
+      "title_2": "Recenti"
     },
     "projects": {
       "labels": {
@@ -398,53 +513,100 @@
         "renovation": "Ristrutturazione Piscine"
       },
       "items": {
-        "1": { "title": "Piscina su Terrazzo Panoramico", "location": "Ojén, Marbella" },
-        "2": { "title": "Piscina da Terrazza su Misura", "location": "La Quinta" },
-        "3": { "title": "Piscina da Terrazza Plunge", "location": "El Higuerón" },
-        "4": { "title": "Ristrutturazione Completa", "location": "Costa del Sol" }
+        "1": {
+          "title": "Piscina su Terrazzo Panoramico",
+          "location": "Ojén, Marbella"
+        },
+        "2": {
+          "title": "Piscina da Terrazza su Misura",
+          "location": "La Quinta"
+        },
+        "3": {
+          "title": "Piscina da Terrazza Plunge",
+          "location": "El Higuerón"
+        },
+        "4": {
+          "title": "Ristrutturazione Completa",
+          "location": "Costa del Sol"
+        }
       },
       "details": {
-        "ojen-marbella": {
-          "title": "Piscina da Terrazza a Ojén (Marbella)",
-          "location": "Ojén, Marbella",
-          "description": "Una piscina panoramica elegante e raffinata, perfettamente posizionata sopra un attico a Ojén, a pochi minuti da Marbella. È stata costruita su misura per adattarsi alle dimensioni esatte della terrazza e alla visione del cliente.",
-          "features_label": "Caratteristiche del Progetto",
+        "eps-pools": {
+          "title": "Piscine Leggere in EPS",
+          "location": "Installazioni su Misura",
+          "description": "Le nostre piscine leggere in EPS sono specificamente progettate per terrazze, attici e architettura moderna soggetta a restrizioni di peso. Consegnate completamente impermeabilizzate.",
+          "features_label": "Caratteristiche",
           "features": [
-            "Posizione su attico panoramico",
-            "Dimensioni costruite su misura",
-            "Oasi privata all'aperto",
-            "Ingegneria scandinava",
-            "Vista panoramica sulle montagne"
+            "Struttura ultra-leggera in EPS",
+            "Ideale per aree con restrizioni di peso",
+            "Materiali premium tedeschi",
+            "Precisione scandinava",
+            "Forme e dimensioni completamente personalizzabili"
           ]
         },
-        "la-quinta-marbella": {
-          "title": "Piscina da Terrazza a La Quinta, Marbella",
-          "location": "La Quinta, Marbella",
-          "description": "Una piscina da terrazza costruita su misura nella zona esclusiva di La Quinta, Marbella, progettata per unire lusso e alta funzionalità. Costruita con precisione scandinava e materiali premium.",
-          "features_label": "Caratteristiche del Progetto",
+        "hammam-turkisksauna": {
+          "title": "Hammam & Bagno Turco di Lusso",
+          "location": "Residenze Private",
+          "description": "Goditi il massimo del relax con i nostri hammam e bagni turistici su misura. Combina l'autentica tradizione del vapore con il moderno design scandinavo.",
+          "features_label": "Caratteristiche",
           "features": [
-            "Peso totale inferiore a 400 kg/m² (acqua inclusa)",
-            "Nessun permesso di costruzione richiesto",
-            "Piastrelle Ceramic Malor",
-            "Trasporto interno e installazione con gru",
-            "Esecuzione rapida e pulita"
-          ]
-        },
-        "el-higueron-fuengirola": {
-          "title": "Piscina da Terrazza a El Higuerón",
-          "location": "El Higuerón, Fuengirola",
-          "description": "Situato nella prestigiosa urbanizzazione di El Higuerón, questo appartamento dispone di una squisita piscina da terrazza che offre un'oasi serena di lusso e relax con viste mozzafiato.",
-          "features_label": "Caratteristiche del Progetto",
-          "features": [
-            "Contesto residenziale di alto livello",
-            "Progettazione e costruzione su misura",
-            "Vista costiera mozzafiato",
-            "Sistema di filtrazione avanzato",
-            "Area lounge integrata"
+            "Autentica esperienza di bagno turco",
+            "Design ergonomico dei sedili",
+            "Sistemi avanzati di generazione vapore",
+            "Costruzione impermeabile al 100%",
+            "Finiture premium in piastrelle e mosaico"
           ]
         }
       }
     },
     "cta_btn": "Inizia il Tuo Progetto"
+  },
+  "pricing": {
+    "title": "Crea la tua Piscina",
+    "desc": "Personalizza la piscina dei tuoi sogni e ottieni un preventivo istantaneo. Inizia selezionando il modello base.",
+    "base_price": "Prezzo Base",
+    "total_price": "Prezzo Totale Stimato",
+    "excl_vat": "IVA escl.",
+    "select_model": "Seleziona il Modello Base",
+    "options_title": "Opzioni e Accessori",
+    "no_options": "Nessuna opzione",
+    "contact_cta": "Richiedi un Preventivo",
+    "models": {
+      "ibiza": "Ibiza (3000 × 4800 × 1200 mm)",
+      "formentera": "Formentera (3000 × 6000 × 1200 mm)",
+      "sotogrande": "Sotogrande (2300 × 3600 × 900 mm)",
+      "alicante": "Alicante (3500 × 3600 × 900 mm)",
+      "mallorca": "Mallorca (2300 × 4800 × 900 mm)",
+      "menorca": "Menorca - Vetro (5600 × 3000 × 1400 mm)"
+    },
+    "categories": {
+      "stairs": "Scale",
+      "benches": "Panche e Getti",
+      "equipment": "Attrezzatura",
+      "finish": "Finiture",
+      "covers": "Coperture",
+      "transport": "Trasporto"
+    },
+    "options": {
+      "step_small": "Scalino Piccolo",
+      "step_big": "Scalino Grande",
+      "special_step": "Scalino Speciale",
+      "tech_room_step": "Scalino con Vano Tecnico",
+      "bench_short": "Panca Corta (1800mm)",
+      "bench_long": "Panca Lunga (3000mm)",
+      "air_bench": "Panca ad Aria (12 bocchette + pompa)",
+      "pipe_package": "Set tubature + Filtro a sabbia + Pompa",
+      "electric_heater": "Riscaldatore elettrico (3 kW)",
+      "heat_pump": "Pompa di calore inverter (13 kW) incl. bypass",
+      "salt_chlorinator": "Cloratore a sale (incl. pH & Redox)",
+      "ceramic_interior": "Interno in Ceramica",
+      "ceramic_top": "Esterno e Bordo in Ceramica",
+      "bubble_cover": "Copertura a Bolle",
+      "spa_cover_25": "Copertura Spa (max 2.5 × 3 m)",
+      "spa_cover_36": "Copertura Spa (max 3 × 6 m)",
+      "lamella_cover": "Copertura a Tapparella *a partire da",
+      "mainland_spain": "Continente / Svezia",
+      "balearic_islands": "Isole Baleari"
+    }
   }
 }

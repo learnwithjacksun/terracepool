@@ -11,7 +11,7 @@
     "services": "Services",
     "contact": "Contact",
     "locations": "Locations",
-    "desc": "Terrace Pools & Pool Renovations across Mainland Spain & Mallorca.",
+    "desc": "Terrace Pools & Pool Renovations across Mainland Sweden & Mallorca.",
     "hours": "Hours",
     "hours_val": "Mon - Fri: 10:00 – 18:00",
     "language": "Language",
@@ -39,8 +39,8 @@
       },
       "coverage": {
         "label": "Coverage",
-        "val": "Spain",
-        "sub": "Mainland Spain & Mallorca"
+        "val": "Sweden",
+        "sub": "Mainland Sweden & Mallorca"
       }
     },
     "usps": {
@@ -79,7 +79,7 @@
       },
       "terrace_pools": {
         "label": "Terrace Pools",
-        "title": "Mainland Spain & Mallorca",
+        "title": "Mainland Sweden & Mallorca",
         "desc": "Wondering whether you could fit a splash pool to your terrace? You probably could!",
         "btn": "Click here to let us tell you how!"
       },
@@ -101,12 +101,30 @@
       "title_1": "The Process in",
       "title_2": "6 Steps",
       "steps": {
-        "1": { "title": "Requirements", "desc": "Specifying your needs, installation site assessment" },
-        "2": { "title": "Planning", "desc": "All details in construction and delivery are sorted, permits applied for" },
-        "3": { "title": "On-site prep", "desc": "Preparation work is done on site" },
-        "4": { "title": "Construction", "desc": "The pool construction is built in our facility" },
-        "5": { "title": "Delivery", "desc": "The built pool shell is delivered and installed" },
-        "6": { "title": "Verification", "desc": "Delivery inspection, filling and testing" }
+        "1": {
+          "title": "Requirements",
+          "desc": "Specifying your needs, installation site assessment"
+        },
+        "2": {
+          "title": "Planning",
+          "desc": "All details in construction and delivery are sorted, permits applied for"
+        },
+        "3": {
+          "title": "On-site prep",
+          "desc": "Preparation work is done on site"
+        },
+        "4": {
+          "title": "Construction",
+          "desc": "The pool construction is built in our facility"
+        },
+        "5": {
+          "title": "Delivery",
+          "desc": "The built pool shell is delivered and installed"
+        },
+        "6": {
+          "title": "Verification",
+          "desc": "Delivery inspection, filling and testing"
+        }
       },
       "btn": "Ready to start your Pool Journey?"
     },
@@ -115,9 +133,18 @@
       "title_1": "Recent",
       "title_2": "Installations",
       "projects": {
-        "1": { "title": "Terrace Pool in Ojén (Marbella)", "desc": "Creating a Stunning Rooftop Terrace With a Private Pool his elegant and stylish rooftop pool is perfectly placed atop a…" },
-        "2": { "title": "Terrace Pool in La Quinta, Marbella", "desc": "Smart design. Elegant finish. Scandinavian quality. In the exclusive area of La Quinta, Marbella, we installed a custom-built terrace pool…" },
-        "3": { "title": "Terrace pool in El Higuerón, Fuengirola", "desc": "Set in the prestigious urbanization of El Higuerón, this apartment now counts with an exquisite terrace pool, offering a serene…" }
+        "1": {
+          "title": "Terrace Pool in Ojén (Marbella)",
+          "desc": "Creating a Stunning Rooftop Terrace With a Private Pool his elegant and stylish rooftop pool is perfectly placed atop a…"
+        },
+        "2": {
+          "title": "Terrace Pool in La Quinta, Marbella",
+          "desc": "Smart design. Elegant finish. Scandinavian quality. In the exclusive area of La Quinta, Marbella, we installed a custom-built terrace pool…"
+        },
+        "3": {
+          "title": "Terrace pool in El Higuerón, Fuengirola",
+          "desc": "Set in the prestigious urbanization of El Higuerón, this apartment now counts with an exquisite terrace pool, offering a serene…"
+        }
       }
     },
     "cta": {
@@ -130,7 +157,7 @@
   },
   "terrace_pools": {
     "hero": {
-      "label": "Mainland Spain & Mallorca",
+      "label": "Mainland Sweden & Mallorca",
       "title_1": "Terrace",
       "title_2": "Pools.",
       "desc": "Wondering whether you could fit a splash pool to your terrace? You probably could! We create the perfect lightweight plunge pool for your space, whether it is on the 15th floor or indoors.",
@@ -204,12 +231,30 @@
       "title_2": "Face-lift",
       "desc": "Our renovation process is a complete technological and aesthetic overhaul. We upgrade everything from filtration to finish.",
       "items": {
-        "structural": { "title": "Structural Reinforcement", "desc": "We reinforce your pool's foundation and walls, ensuring decades of trouble-free use with our 35-year guarantee." },
-        "filtration": { "title": "Modern Filtration", "desc": "Upgrading with energy-efficient circulation and filtration for crystal-clear water year-round." },
-        "finishes": { "title": "Premium Finishes", "desc": "From artisanal tiling to smooth plaster finishes, we use only the finest materials for the Mediterranean climate." },
-        "plumbing": { "title": "Plumbing Overhaul", "desc": "Complete replacement of aging plumbing with modern, durable piping and connections." },
-        "electrical": { "title": "Electrical Upgrades", "desc": "Smart lighting, automated covers, and energy-efficient heating systems integrated seamlessly." },
-        "surrounding": { "title": "Surrounding Areas", "desc": "We can also renovate terraces, decking, drainage, and landscaping around your pool." }
+        "structural": {
+          "title": "Structural Reinforcement",
+          "desc": "We reinforce your pool's foundation and walls, ensuring decades of trouble-free use with our 35-year guarantee."
+        },
+        "filtration": {
+          "title": "Modern Filtration",
+          "desc": "Upgrading with energy-efficient circulation and filtration for crystal-clear water year-round."
+        },
+        "finishes": {
+          "title": "Premium Finishes",
+          "desc": "From artisanal tiling to smooth plaster finishes, we use only the finest materials for the Mediterranean climate."
+        },
+        "plumbing": {
+          "title": "Plumbing Overhaul",
+          "desc": "Complete replacement of aging plumbing with modern, durable piping and connections."
+        },
+        "electrical": {
+          "title": "Electrical Upgrades",
+          "desc": "Smart lighting, automated covers, and energy-efficient heating systems integrated seamlessly."
+        },
+        "surrounding": {
+          "title": "Surrounding Areas",
+          "desc": "We can also renovate terraces, decking, drainage, and landscaping around your pool."
+        }
       }
     },
     "guarantee": {
@@ -222,25 +267,46 @@
     "areas": {
       "title_1": "Service",
       "title_2": "Areas",
-      "desc": "Pool renovation services across Spain's most beautiful regions."
+      "desc": "Pool renovation services across Sweden's most beautiful regions."
     },
     "technical": {
       "title": "Pool Renovation & Leak Repair with Fiber Composite Boards",
       "desc": "Is your pool showing signs of wear, leakage, or outdated finishes? Traditional pool repair methods can involve extensive excavation and replacement, which can be both very costly and time-consuming. Our revolutionary pool renovation and leak repair method offer a modern and long-lasting solution using compact and highly durable fiber composite boards—engineered for structural integrity, flexibility and style.",
       "features": {
-        "leak_proof": { "title": "Leak-Proof Solution", "desc": "Their non-porous construction creates a seamless barrier that eliminates water loss and protects underlying structures." },
-        "durability": { "title": "Durability", "desc": "Resistant to moisture, rot, chemicals, and UV exposure, fiber composites are used in some of the most critical parts of airplanes." },
-        "strength": { "title": "Lightweight & Strong", "desc": "Unlike traditional concrete or wood-based materials, composite boards combine strength with easy handling and installation." },
-        "cost": { "title": "Cost-Effective", "desc": "By minimizing the need for extensive excavation and replacement, fiber composite boards provide a more economical repair solution." }
+        "leak_proof": {
+          "title": "Leak-Proof Solution",
+          "desc": "Their non-porous construction creates a seamless barrier that eliminates water loss and protects underlying structures."
+        },
+        "durability": {
+          "title": "Durability",
+          "desc": "Resistant to moisture, rot, chemicals, and UV exposure, fiber composites are used in some of the most critical parts of airplanes."
+        },
+        "strength": {
+          "title": "Lightweight & Strong",
+          "desc": "Unlike traditional concrete or wood-based materials, composite boards combine strength with easy handling and installation."
+        },
+        "cost": {
+          "title": "Cost-Effective",
+          "desc": "By minimizing the need for extensive excavation and replacement, fiber composite boards provide a more economical repair solution."
+        }
       }
     },
     "finishes": {
       "title": "A Finish That Fits Your Style",
       "desc": "Once installed, the fiber composite surface can be finished in virtually any style to match your design vision:",
       "options": {
-        "liners": { "title": "Pool Liners", "desc": "Choose from a wide range of colors and textures for a clean, modern look." },
-        "mosaic": { "title": "Ceramic or Glass Mosaic", "desc": "Add elegance and luxury with intricate tilework." },
-        "tiles": { "title": "Traditional Tiles", "desc": "For a classic finish, our fiber boards provide a perfect base for all types of tile applications." }
+        "liners": {
+          "title": "Pool Liners",
+          "desc": "Choose from a wide range of colors and textures for a clean, modern look."
+        },
+        "mosaic": {
+          "title": "Ceramic or Glass Mosaic",
+          "desc": "Add elegance and luxury with intricate tilework."
+        },
+        "tiles": {
+          "title": "Traditional Tiles",
+          "desc": "For a classic finish, our fiber boards provide a perfect base for all types of tile applications."
+        }
       }
     },
     "cta": {
@@ -261,19 +327,37 @@
       "title_1": "Why Our Tech is",
       "title_2": "The Best",
       "items": {
-        "lightweight": { "title": "Lightweight Construction", "desc": "Engineered to be significantly lighter than traditional concrete, ideal for terraces, rooftops, and upper floors." },
-        "durability": { "title": "Multi-Layer Durability", "desc": "Proprietary multi-layer construction creates an incredibly strong structure that maintains integrity for decades." },
-        "warranty": { "title": "35-Year Warranty", "desc": "We back our technology with an industry-leading 35-year structural warranty. Engineering certainty." },
-        "filtration": { "title": "Advanced Filtration", "desc": "State-of-the-art circulation and filtration for crystal clear water with minimal energy use." },
-        "climate": { "title": "Climate Optimised", "desc": "Engineered for the Spanish Mediterranean climate, with UV resistance and thermal management." },
-        "efficiency": { "title": "Energy Efficient", "desc": "From insulated walls to smart pumps, reducing your long-term operating costs." }
+        "lightweight": {
+          "title": "Lightweight Construction",
+          "desc": "Engineered to be significantly lighter than traditional concrete, ideal for terraces, rooftops, and upper floors."
+        },
+        "durability": {
+          "title": "Multi-Layer Durability",
+          "desc": "Proprietary multi-layer construction creates an incredibly strong structure that maintains integrity for decades."
+        },
+        "warranty": {
+          "title": "35-Year Warranty",
+          "desc": "We back our technology with an industry-leading 35-year structural warranty. Engineering certainty."
+        },
+        "filtration": {
+          "title": "Advanced Filtration",
+          "desc": "State-of-the-art circulation and filtration for crystal clear water with minimal energy use."
+        },
+        "climate": {
+          "title": "Climate Optimised",
+          "desc": "Engineered for the Swedish Mediterranean climate, with UV resistance and thermal management."
+        },
+        "efficiency": {
+          "title": "Energy Efficient",
+          "desc": "From insulated walls to smart pumps, reducing your long-term operating costs."
+        }
       }
     },
     "putting_tech": {
       "label": "Putting Tech to Work",
       "title": "Having the best tech at hand",
       "p1": "There are many materials available for constructing pools, each with their own best use cases – fibreglass, concrete, EP and fibre composites. It is not hard to imagine how important it is to use the correct material for a construction of the size, exposure and lifespan of a pool.",
-      "p2_prefix": "Scandinavian Quality is probably the only pool constructor in Spain that can",
+      "p2_prefix": "Scandinavian Quality is probably the only pool constructor in Sweden that can",
       "p2_bold": "always offer the ideal technology for your pool.",
       "p3": "This means we don't have to make compromises when choosing the best way to build your pool.",
       "p4_prefix": "But",
@@ -300,10 +384,22 @@
       "tagline": "Whether you're building for speed, strength, sustainability—or all three—fiber composites deliver.",
       "why_title": "Why Fiber Composites?",
       "why_items": {
-        "strength": { "title": "Unmatched Strength-to-Weight", "desc": "Up to 80% lighter than steel. Just as strong. Perfect for industries where every gram matters." },
-        "maintenance": { "title": "Maintenance-Free & Weatherproof", "desc": "No rust. No repainting. Just long-term reliability—indoors or out." },
-        "engineering": { "title": "Precision Engineering", "desc": "Customise fiber orientation and shape for targeted performance. Complex geometries? No problem." },
-        "sustainable": { "title": "Sustainable by Design", "desc": "Long life, less material, lower CO₂ footprint. Plus recyclable and bio-based options are growing." }
+        "strength": {
+          "title": "Unmatched Strength-to-Weight",
+          "desc": "Up to 80% lighter than steel. Just as strong. Perfect for industries where every gram matters."
+        },
+        "maintenance": {
+          "title": "Maintenance-Free & Weatherproof",
+          "desc": "No rust. No repainting. Just long-term reliability—indoors or out."
+        },
+        "engineering": {
+          "title": "Precision Engineering",
+          "desc": "Customise fiber orientation and shape for targeted performance. Complex geometries? No problem."
+        },
+        "sustainable": {
+          "title": "Sustainable by Design",
+          "desc": "Long life, less material, lower CO₂ footprint. Plus recyclable and bio-based options are growing."
+        }
       },
       "where_title": "Where They Perform Best",
       "where_items": {
@@ -387,10 +483,29 @@
   },
   "portfolio": {
     "hero": {
+      "label": "Our Products",
+      "title_1": "Premium",
+      "title_2": "Installations",
+      "desc": "Explore our two flagship products: the custom-built ultra-lightweight EPS Pools and our luxury Hammam & Turkish saunas."
+    },
+    "why": {
+      "title": "Why Terracepool",
+      "items": {
+        "1": "Lightweight EPS structure",
+        "2": "Designed for terraces and rooftops",
+        "3": "Delivered fully waterproof",
+        "4": "Premium materials from Germany",
+        "5": "Manufactured in Sweden"
+      }
+    },
+    "pools": {
+      "title": "Pools",
+      "desc": "Compact, Urban, City, Skyline, Panorama, Lounge, Infinity, Penthouse, Family, Signature"
+    },
+    "list": {
       "label": "Our Projects",
       "title_1": "Recent",
-      "title_2": "Installations",
-      "desc": "Explore our recent terrace pool installations and pool renovations across the Costa del Sol and Mallorca. Each project showcases Scandinavian quality craftsmanship."
+      "title_2": "Installations"
     },
     "projects": {
       "labels": {
@@ -398,53 +513,100 @@
         "renovation": "Pool Renovation"
       },
       "items": {
-        "1": { "title": "Rooftop Terrace Pool", "location": "Ojén, Marbella" },
-        "2": { "title": "Custom Terrace Pool", "location": "La Quinta, Marbella" },
-        "3": { "title": "Plunge Terrace Pool", "location": "El Higuerón, Fuengirola" },
-        "4": { "title": "Full Pool Renovation", "location": "Costa del Sol" }
+        "1": {
+          "title": "Rooftop Terrace Pool",
+          "location": "Ojén, Marbella"
+        },
+        "2": {
+          "title": "Custom Terrace Pool",
+          "location": "La Quinta, Marbella"
+        },
+        "3": {
+          "title": "Plunge Terrace Pool",
+          "location": "El Higuerón, Fuengirola"
+        },
+        "4": {
+          "title": "Full Pool Renovation",
+          "location": "Costa del Sol"
+        }
       },
       "details": {
-        "ojen-marbella": {
-          "title": "Terrace Pool in Ojén (Marbella)",
-          "location": "Ojén, Marbella",
-          "description": "An elegant and stylish rooftop pool perfectly placed atop a penthouse in Ojén, just minutes from Marbella. It was custom-built to match the exact dimensions of the terrace and tailored to the client's vision.",
+        "eps-pools": {
+          "title": "Lightweight EPS Terrace Pools",
+          "location": "Custom Installations",
+          "description": "Our signature lightweight EPS pools are specifically designed for terraces, rooftops, and modern architecture where weight restrictions apply. Delivered fully waterproof and ready for your chosen finish.",
           "features_label": "Project Features",
           "features": [
-            "Rooftop penthouse location",
-            "Custom-built dimensions",
-            "Private outdoor oasis",
-            "Scandinavian engineering",
-            "Panoramic mountain views"
+            "Ultra-lightweight EPS structure",
+            "Perfect for weight-restricted areas",
+            "Premium German materials",
+            "Manufactured with Scandinavian precision",
+            "Fully customizable shapes and sizes"
           ]
         },
-        "la-quinta-marbella": {
-          "title": "Terrace Pool in La Quinta, Marbella",
-          "location": "La Quinta, Marbella",
-          "description": "A custom-built terrace pool in the exclusive area of La Quinta, Marbella, designed to combine luxury with high functionality. Built with Scandinavian precision and premium materials.",
+        "hammam-turkisksauna": {
+          "title": "Luxury Hammam & Turkisksauna",
+          "location": "Private Residences",
+          "description": "Experience the ultimate in relaxation with our custom-built Hammam and Turkish saunas. Combining authentic steam traditions with modern Scandinavian design and premium waterproofing.",
           "features_label": "Project Features",
           "features": [
-            "Total weight under 400 kg/m² (including water)",
-            "No building permit required",
-            "Tiles from Ceramic Malor",
-            "In-house transport & crane installation",
-            "Fast and clean execution"
-          ]
-        },
-        "el-higueron-fuengirola": {
-          "title": "Terrace Pool in El Higuerón",
-          "location": "El Higuerón, Fuengirola",
-          "description": "Located in the prestigious urbanization of El Higuerón, this apartment features an exquisite terrace pool offering a serene oasis of luxury and relaxation with breathtaking views.",
-          "features_label": "Project Features",
-          "features": [
-            "High-end urbanization setting",
-            "Tailor-made design and construction",
-            "Breathtaking coastal views",
-            "Advanced filtration system",
-            "Integrated lounge area"
+            "Authentic Turkish sauna experience",
+            "Ergonomic seating design",
+            "Advanced steam generation systems",
+            "100% waterproof construction",
+            "Premium tile and mosaic finishes"
           ]
         }
       }
     },
     "cta_btn": "Start Your Own Project"
+  },
+  "pricing": {
+    "title": "Build Your Pool",
+    "desc": "Customize your dream terrace pool and get an instant estimated price. Start by selecting your preferred base model.",
+    "base_price": "Base Price",
+    "total_price": "Total Estimated Price",
+    "excl_vat": "excl. VAT",
+    "select_model": "Select Base Model",
+    "options_title": "Customize Add-ons",
+    "no_options": "No options selected",
+    "contact_cta": "Request Official Quote",
+    "models": {
+      "ibiza": "Ibiza (3000 × 4800 × 1200 mm)",
+      "formentera": "Formentera (3000 × 6000 × 1200 mm)",
+      "sotogrande": "Sotogrande (2300 × 3600 × 900 mm)",
+      "alicante": "Alicante (3500 × 3600 × 900 mm)",
+      "mallorca": "Mallorca (2300 × 4800 × 900 mm)",
+      "menorca": "Menorca - Glass (5600 × 3000 × 1400 mm)"
+    },
+    "categories": {
+      "stairs": "Stairs",
+      "benches": "Benches & Jets",
+      "equipment": "Pool Equipment",
+      "finish": "Pool Finish",
+      "covers": "Covers",
+      "transport": "Transport"
+    },
+    "options": {
+      "step_small": "Small Step",
+      "step_big": "Big Step",
+      "special_step": "Special Step",
+      "tech_room_step": "Technical Room Step",
+      "bench_short": "Bench Short (1800mm)",
+      "bench_long": "Bench Long (3000mm)",
+      "air_bench": "Air Bench (12 nozzles + pump)",
+      "pipe_package": "Pipe package + Sand filter + Pump",
+      "electric_heater": "Electric heater (3 kW)",
+      "heat_pump": "Heat pump inverter (13 kW) incl. bypass",
+      "salt_chlorinator": "Salt chlorinator (incl. pH & Redox)",
+      "ceramic_interior": "Ceramic Interior",
+      "ceramic_top": "Ceramic Top & Exterior",
+      "bubble_cover": "Bubble Cover",
+      "spa_cover_25": "Spa Cover (max 2.5 × 3 m)",
+      "spa_cover_36": "Spa Cover (max 3 × 6 m)",
+      "lamella_cover": "Lamella Cover (Above Ground) *starts at",
+      "mainland_spain": "Mainland Spain / Sweden",
+      "balearic_islands": "Balearic Islands"
+    }
   }
 }
