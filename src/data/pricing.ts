@@ -61,7 +61,8 @@ export const pricingCategories: PricingCategory[] = [
     type: 'single',
     options: [
       { id: 'ceramic_interior', nameKey: 'pricing.options.ceramic_interior', price: 3100 },
-      { id: 'ceramic_top', nameKey: 'pricing.options.ceramic_top', price: 3900 }
+      { id: 'ceramic_top', nameKey: 'pricing.options.ceramic_top', price: 3900 },
+      { id: 'tiling', nameKey: 'pricing.options.tiling', price: 6650 }
     ]
   },
   {
