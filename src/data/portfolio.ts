@@ -18,7 +18,8 @@ export const portfolioProjects: PortfolioProject[] = [
       '/esp/gallery 5.jpeg',
       '/esp/gallery 6.jpeg',
       '/esp/gallery 7.jpeg',
-      '/esp/gallery 8.jpeg'
+      '/esp/gallery 8.jpeg',
+      '/gallery/img16.jpeg'
     ]
   },
   {

@@ -7,3 +7,4 @@ export { default as InstallationsPage } from "./InstallationsPage";
 export { default as PoolTechPage } from "./PoolTechPage";
 export { default as PortfolioDetailPage } from "./PortfolioDetailPage";
 export { default as PricesPage } from "./PricesPage";
+export { default as GalleryPage } from "./gallery";

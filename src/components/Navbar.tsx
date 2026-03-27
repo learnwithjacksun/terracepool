@@ -16,11 +16,22 @@ const Navbar: React.FC = () => {
   const location = useLocation();
   const { t, i18n } = useTranslation();
 
+  const isNavActive = (path: string) => {
+    if (path === '/building-renovation-gallery') {
+      return (
+        location.pathname === '/building-renovation-gallery' ||
+        location.pathname === '/gallery'
+      );
+    }
+    return location.pathname === path;
+  };
+
   const navLinks = [
     { label: t('nav.home'), path: '/' },
     { label: t('nav.terrace_pools'), path: '/terrace-pools' },
     { label: t('nav.pool_renovations'), path: '/pool-renovations' },
     { label: t('nav.pool_technology'), path: '/pool-tech' },
+    { label: t('nav.building_renovation_gallery'), path: '/building-renovation-gallery' },
     { label: t('nav.prices'), path: '/prices' },
   ];
 
@@ -44,7 +55,7 @@ const Navbar: React.FC = () => {
                 key={link.path}
                 to={link.path}
                 className={
-                  location.pathname === link.path
+                  isNavActive(link.path)
                     ? 'text-gold border-b border-gold pb-0.5 whitespace-nowrap'
                     : 'text-warm-muted hover:text-gold transition-colors duration-300 whitespace-nowrap'
                 }
@@ -137,7 +148,7 @@ const Navbar: React.FC = () => {
                 to={link.path}
                 onClick={() => setOpen(false)}
                 className={`px-4 py-3 rounded-xl text-base font-medium transition-all duration-200 ${
-                  location.pathname === link.path
+                  isNavActive(link.path)
                     ? 'bg-gold/10 text-gold font-bold'
                     : 'text-warm-text hover:bg-cream-dark'
                 }`}

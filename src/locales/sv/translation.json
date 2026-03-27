@@ -4,6 +4,7 @@
     "terrace_pools": "Terrass pooler",
     "pool_renovations": "Pool renoveringar",
     "pool_technology": "Poolteknik",
+    "building_renovation_gallery": "Byggnads- och renoveringsgalleri",
     "prices": "Priser",
     "contact_us": "Kontakta oss"
   },
@@ -616,5 +617,33 @@
       "mainland_spain": "Fastlandet Spanien / Sverige",
       "balearic_islands": "Balearerna"
     }
+  },
+  "gallery": {
+    "hero": {
+      "label": "VÅRT ARBETE",
+      "title_1": "Byggnation &",
+      "title_2": "renovering",
+      "desc": "Terrasspoolinstallationer och renoveringsprojekt i Spanien och utöver. Klicka på en bild för att se den i fullskärm."
+    },
+    "building": {
+      "title": "Terrasspoolbyggnation",
+      "desc": "Nya lätta konstruktioner, leveranser och montage på plats."
+    },
+    "renovation": {
+      "title": "Poolrenoveringar",
+      "desc": "Ombyggnad, tätskikt, tekniska uppgraderingar och finish."
+    },
+    "image_alt_building": "Terrasspoolinstallation",
+    "image_alt_renovation": "Poolrenoveringsprojekt",
+    "videos": {
+      "title": "Videor från platsen",
+      "desc": "Korta klipp från terrasspoolbyggnation och renoveringar.",
+      "clip_label": "Platsvideo"
+    },
+    "cta_title": "Planerar du pool eller renovering?",
+    "cta_desc": "Berätta om din terrass eller befintliga pool så hjälper vi med modeller, omfattning och budget.",
+    "cta_btn": "Kontakta oss",
+    "lightbox_label": "Förstorad galleribild",
+    "close": "Stäng"
   }
 }

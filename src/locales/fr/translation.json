@@ -4,6 +4,7 @@
     "terrace_pools": "Piscines de Terrasse",
     "pool_renovations": "Rénovation de Piscines",
     "pool_technology": "Technologie de Piscine",
+    "building_renovation_gallery": "Galerie de Construction et Rénovation",
     "prices": "Prix",
     "contact_us": "Contactez-nous"
   },
@@ -616,5 +617,33 @@
       "mainland_spain": "Continente / Suède",
       "balearic_islands": "Îles Baléares"
     }
+  },
+  "gallery": {
+    "hero": {
+      "label": "NOTRE TRAVAIL",
+      "title_1": "Construction &",
+      "title_2": "rénovation",
+      "desc": "Installations de piscines terrasse et chantiers de rénovation en Espagne et au-delà. Cliquez sur une image pour l’afficher en plein écran."
+    },
+    "building": {
+      "title": "Construction piscine terrasse",
+      "desc": "Nouvelles structures légères, livraisons et mise en œuvre sur site."
+    },
+    "renovation": {
+      "title": "Rénovations de piscines",
+      "desc": "Réhabilitation, étanchéité, équipements techniques et finitions."
+    },
+    "image_alt_building": "Installation piscine terrasse",
+    "image_alt_renovation": "Projet de rénovation de piscine",
+    "videos": {
+      "title": "Vidéos chantier",
+      "desc": "Extraits de construction de piscines terrasse et de rénovations.",
+      "clip_label": "Vidéo chantier"
+    },
+    "cta_title": "Un projet de piscine ou de rénovation ?",
+    "cta_desc": "Parlez-nous de votre terrasse ou de votre piscine existante : modèles, périmètre et budget.",
+    "cta_btn": "Nous contacter",
+    "lightbox_label": "Image agrandie de la galerie",
+    "close": "Fermer"
   }
 }

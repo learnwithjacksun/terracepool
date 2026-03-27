@@ -4,6 +4,7 @@
     "terrace_pools": "Terrace Pools",
     "pool_renovations": "Pool Renovations",
     "pool_technology": "Pool Technology",
+    "building_renovation_gallery": "Building & Renovation Gallery",
     "prices": "Prices",
     "contact_us": "Contact Us"
   },
@@ -616,5 +617,33 @@
       "mainland_spain": "Mainland Spain / Sweden",
       "balearic_islands": "Balearic Islands"
     }
+  },
+  "gallery": {
+    "hero": {
+      "label": "OUR WORK",
+      "title_1": "Building &",
+      "title_2": "Renovation",
+      "desc": "Terrace pool installations and renovation projects from our sites across Spain and beyond. Click an image to view it full screen."
+    },
+    "building": {
+      "title": "Terrace pool builds",
+      "desc": "New lightweight pool structures, deliveries, and on-site installation work."
+    },
+    "renovation": {
+      "title": "Pool renovations",
+      "desc": "Refurbishment, waterproofing, technical upgrades, and finishing details."
+    },
+    "image_alt_building": "Terrace pool installation",
+    "image_alt_renovation": "Pool renovation project",
+    "videos": {
+      "title": "On-site videos",
+      "desc": "Short clips from terrace pool builds and renovation projects.",
+      "clip_label": "Site video"
+    },
+    "cta_title": "Planning a pool or a renovation?",
+    "cta_desc": "Tell us about your terrace or existing pool and we will advise on models, scope, and budget.",
+    "cta_btn": "Get in touch",
+    "lightbox_label": "Enlarged gallery image",
+    "close": "Close"
   }
 }

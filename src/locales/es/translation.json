@@ -4,6 +4,7 @@
     "terrace_pools": "Piscinas de Terraza",
     "pool_renovations": "Reformas de Piscinas",
     "pool_technology": "Tecnología de Piscinas",
+    "building_renovation_gallery": "Galería de Construcción y Reforma",
     "prices": "Precios",
     "contact_us": "Contáctenos"
   },
@@ -616,5 +617,33 @@
       "mainland_spain": "Península / Suecia",
       "balearic_islands": "Islas Baleares"
     }
+  },
+  "gallery": {
+    "hero": {
+      "label": "NUESTRO TRABAJO",
+      "title_1": "Construcción y",
+      "title_2": "reforma",
+      "desc": "Instalaciones de piscinas en terraza y proyectos de reforma en España y más allá. Pulse una imagen para verla a pantalla completa."
+    },
+    "building": {
+      "title": "Construcción de piscinas en terraza",
+      "desc": "Nuevas estructuras ligeras, entregas y montaje en obra."
+    },
+    "renovation": {
+      "title": "Reformas de piscinas",
+      "desc": "Rehabilitación, impermeabilización, equipamiento y acabados."
+    },
+    "image_alt_building": "Instalación de piscina en terraza",
+    "image_alt_renovation": "Proyecto de reforma de piscina",
+    "videos": {
+      "title": "Vídeos en obra",
+      "desc": "Clips cortos de construcción de piscinas en terraza y reformas.",
+      "clip_label": "Vídeo de obra"
+    },
+    "cta_title": "¿Planea una piscina o una reforma?",
+    "cta_desc": "Cuéntenos su terraza o piscina existente y le asesoramos sobre modelos, alcance y presupuesto.",
+    "cta_btn": "Contactar",
+    "lightbox_label": "Imagen ampliada de la galería",
+    "close": "Cerrar"
   }
 }
