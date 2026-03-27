@@ -313,7 +313,7 @@ const PricesPage: React.FC = () => {
               rel="noopener noreferrer"
               className="group flex flex-col rounded-2xl border-2 border-warm-border/30 bg-white p-5 md:p-6 warm-shadow hover:border-gold/40 hover:bg-cream/50 transition-all duration-300"
             >
-              <div className="flex items-start gap-4 mb-3">
+              <div className="flex items-start flex-col md:flex-row gap-4 mb-3">
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gold/10 text-gold group-hover:bg-gold/15 transition-colors">
                   <FileText size={24} strokeWidth={1.75} />
                 </span>
@@ -336,7 +336,7 @@ const PricesPage: React.FC = () => {
               rel="noopener noreferrer"
               className="group flex flex-col rounded-2xl border-2 border-warm-border/30 bg-white p-5 md:p-6 warm-shadow hover:border-gold/40 hover:bg-cream/50 transition-all duration-300"
             >
-              <div className="flex items-start gap-4 mb-3">
+              <div className="flex items-start flex-col md:flex-row gap-4 mb-3">
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gold/10 text-gold group-hover:bg-gold/15 transition-colors">
                   <FileText size={24} strokeWidth={1.75} />
                 </span>
