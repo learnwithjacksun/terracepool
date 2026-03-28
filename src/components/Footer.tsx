@@ -114,11 +114,13 @@ const Footer: React.FC = () => {
             </li>
           </ul>
         </div>
-      <div className="">
+      
+      </div>
+      <div className="max-w-7xl mx-auto">
         <div className="flex items-center  gap-2 mb-3 text-warm-muted text-xs font-bold uppercase tracking-widest">
           <Globe size={14} /> {t("footer.language")}
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col md:flex-row gap-2">
           {languages.map((lng) => (
             <div
               key={lng.code}
@@ -129,7 +131,6 @@ const Footer: React.FC = () => {
             </div>
           ))}
         </div>
-      </div>
       </div>
       <div className="max-w-7xl mx-auto mt-10 md:mt-12 pt-6 md:pt-8 border-t border-warm-border text-center">
         <p className="text-warm-muted text-xs md:text-sm">
