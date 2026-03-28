@@ -279,8 +279,8 @@
       "desc": "Services de rénovation de piscines dans les plus belles régions de Suède."
     },
     "technical": {
-      "title": "Rénovation de Piscines et Réparation de Fuites avec Panneaux en Composite de Fibre",
-      "desc": "Votre piscine présente-t-elle des signes d'usure, des fuites ou des finitions démodées ? Les méthodes traditionnelles de réparation de piscines peuvent impliquer des excavations et des remplacements importants, ce qui peut s'avérer très coûteux et prendre beaucoup de temps. Notre méthode révolutionnaire de rénovation et de réparation de fuites offre une solution moderne et durable utilisant des panneaux composites en fibres compacts et hautement résistants, conçus pour l'intégrité structurelle, la flexibilité et le style.",
+      "title": "Rénovation de Piscines et Réparation de Fuites avec EPS",
+      "desc": "Votre piscine présente-t-elle des signes d'usure, des fuites ou des finitions démodées ? Les méthodes traditionnelles de réparation de piscines peuvent impliquer des excavations et des remplacements importants, ce qui peut s'avérer très coûteux et prendre beaucoup de temps. Notre méthode révolutionnaire de rénovation et de réparation de fuites offre une solution moderne et durable utilisant des EPS compacts et hautement résistants, conçus pour l'intégrité structurelle, la flexibilité et le style.",
       "features": {
         "leak_proof": {
           "title": "Solution Anti-fuite",
@@ -296,7 +296,7 @@
         },
         "cost": {
           "title": "Économique",
-          "desc": "En minimisant le besoin d'excavations et de remplacements importants, les panneaux composites en fibres constituent une solution de réparation plus économique."
+          "desc": "En minimisant le besoin d'excavations et de remplacements importants, EPS constituent une solution de réparation plus économique."
         }
       }
     },

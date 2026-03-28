@@ -279,8 +279,8 @@
       "desc": "Pool renovation services across Sweden's most beautiful regions."
     },
     "technical": {
-      "title": "Pool Renovation & Leak Repair with Fiber Composite Boards",
-      "desc": "Is your pool showing signs of wear, leakage, or outdated finishes? Traditional pool repair methods can involve extensive excavation and replacement, which can be both very costly and time-consuming. Our revolutionary pool renovation and leak repair method offer a modern and long-lasting solution using compact and highly durable fiber composite boards—engineered for structural integrity, flexibility and style.",
+      "title": "Pool Renovation & Leak Repair with EPS",
+      "desc": "Is your pool showing signs of wear, leakage, or outdated finishes? Traditional pool repair methods can involve extensive excavation and replacement, which can be both very costly and time-consuming. Our revolutionary pool renovation and leak repair method offer a modern and long-lasting solution using compact and highly durable EPS—engineered for structural integrity, flexibility and style.",
       "features": {
         "leak_proof": {
           "title": "Leak-Proof Solution",
@@ -296,7 +296,7 @@
         },
         "cost": {
           "title": "Cost-Effective",
-          "desc": "By minimizing the need for extensive excavation and replacement, fiber composite boards provide a more economical repair solution."
+          "desc": "By minimizing the need for extensive excavation and replacement, EPS provide a more economical repair solution."
         }
       }
     },

@@ -93,7 +93,7 @@ const RenovationsPage: React.FC = () => {
                   <div data-aos="fade-up" data-aos-delay={200} className="space-y-4">
                     <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
                       {/* Image Placeholder */}
-                      <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Waterproofing-Swimming-Pools-Spain-1536x863.webp' />
+                      <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest object-cover' src='/gallery/img49.jpeg' />
                     </div>
                     <div>
                       <h3 className="text-lg font-bold text-warm-text mb-2">{t('renovations.technical.features.leak_proof.title')}</h3>
@@ -103,7 +103,7 @@ const RenovationsPage: React.FC = () => {
                   <div data-aos="fade-up" data-aos-delay={300} className="space-y-4">
                     <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
                       {/* Image Placeholder */}
-                      <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Composite-Fibre-Durability-1536x843.webp' />
+                      <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest object-cover' src='/gallery/img50.jpeg' />
                     </div>
                     <div>
                       <h3 className="text-lg font-bold text-warm-text mb-2">{t('renovations.technical.features.durability.title')}</h3>

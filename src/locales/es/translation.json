@@ -279,8 +279,8 @@
       "desc": "Servicios de renovación de piscinas en las regiones más bellas de Suecia."
     },
     "technical": {
-      "title": "Reforma de Piscinas y Reparación de Fugas con Paneles de Fibra Compuesta",
-      "desc": "¿Su piscina muestra signos de desgaste, fugas o acabados anticuados? Los métodos tradicionales de reparación de piscinas pueden implicar excavaciones y sustituciones extensas, lo que puede resultar muy costoso y llevar mucho tiempo. Nuestro revolucionario método de reforma y reparación de fugas ofrece una solución moderna y duradera mediante paneles de fibra compuesta compactos y altamente resistentes, diseñados para ofrecer integridad estructural, flexibilidad y estilo.",
+      "title": "Reforma de Piscinas y Reparación de Fugas con EPS",
+      "desc": "¿Su piscina muestra signos de desgaste, fugas o acabados anticuados? Los métodos tradicionales de reparación de piscinas pueden implicar excavaciones y sustituciones extensas, lo que puede resultar muy costoso y llevar mucho tiempo. Nuestro revolucionario método de reforma y reparación de fugas ofrece una solución moderna y duradera mediante EPS compactos y altamente resistentes, diseñados para ofrecer integridad estructural, flexibilidad y estilo.",
       "features": {
         "leak_proof": {
           "title": "Solución Antifugas",
@@ -296,7 +296,7 @@
         },
         "cost": {
           "title": "Rentable",
-          "desc": "Al minimizar la necesidad de excavaciones y sustituciones extensas, los paneles de fibra compuesta proporcionan una solución de reparación más económica."
+          "desc": "Al minimizar la necesidad de excavaciones y sustituciones extensas, EPS proporciona una solución de reparación más económica."
         }
       }
     },
