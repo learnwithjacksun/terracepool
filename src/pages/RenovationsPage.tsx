@@ -89,7 +89,14 @@ const RenovationsPage: React.FC = () => {
                   {t('renovations.technical.desc')}
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
+                
+              </div>
+
+              {/* <div className="lg:col-span-5 pt-10 lg:pt-0">
+                <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Pool-renovation-Composite-info-768x925.png' />
+              </div> */}
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
                   <div data-aos="fade-up" data-aos-delay={200} className="space-y-4">
                     <div className="w-full aspect-[16/9] bg-cream-dark rounded-xl overflow-hidden border border-warm-border/30">
                       {/* Image Placeholder */}
@@ -131,12 +138,6 @@ const RenovationsPage: React.FC = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="lg:col-span-5 pt-10 lg:pt-0">
-                <img className='w-full h-full flex items-center justify-center text-warm-muted/30 text-xs font-label uppercase tracking-widest' src='https://terracepool.com/wp-content/uploads/2025/07/Pool-renovation-Composite-info-768x925.png' />
-              </div>
-            </div>
           </div>
         </section>
 
