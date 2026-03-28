@@ -116,8 +116,8 @@ const Footer: React.FC = () => {
         </div>
       
       </div>
-      <div className="max-w-7xl mx-auto">
-        <div className="flex items-center  gap-2 mb-3 text-warm-muted text-xs font-bold uppercase tracking-widest">
+      <div className="max-w-7xl mx-auto mt-10">
+        <div className="flex items-center  md:gap-6 gap-2 mb-3 text-warm-muted text-xs font-bold uppercase tracking-widest">
           <Globe size={14} /> {t("footer.language")}
         </div>
         <div className="flex flex-col md:flex-row gap-2">
