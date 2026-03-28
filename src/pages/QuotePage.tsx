@@ -93,7 +93,9 @@ const ContactPage: React.FC = () => {
                     type="text"
                   />
                   {errors.name && (
-                    <p className="text-red-500 text-sm">{errors.name.message}</p>
+                    <p className="text-red-500 text-sm">
+                      {errors.name.message}
+                    </p>
                   )}
                 </div>
                 <div className="space-y-1.5">
@@ -107,7 +109,9 @@ const ContactPage: React.FC = () => {
                     type="email"
                   />
                   {errors.email && (
-                    <p className="text-red-500 text-sm">{errors.email.message}</p>
+                    <p className="text-red-500 text-sm">
+                      {errors.email.message}
+                    </p>
                   )}
                 </div>
                 <div className="space-y-1.5">
@@ -121,7 +125,9 @@ const ContactPage: React.FC = () => {
                     type="tel"
                   />
                   {errors.phone && (
-                    <p className="text-red-500 text-sm">{errors.phone.message}</p>
+                    <p className="text-red-500 text-sm">
+                      {errors.phone.message}
+                    </p>
                   )}
                 </div>
                 <div className="space-y-1.5">
@@ -130,13 +136,16 @@ const ContactPage: React.FC = () => {
                   </label>
                   <select
                     {...register("subject")}
-                    className="w-full bg-cream border border-warm-border rounded-xl px-4 py-3.5 md:py-4 text-warm-muted appearance-none focus:border-gold focus:gold-glow-sm transition-all duration-300 text-sm">
+                    className="w-full bg-cream border border-warm-border rounded-xl px-4 py-3.5 md:py-4 text-warm-muted appearance-none focus:border-gold focus:gold-glow-sm transition-all duration-300 text-sm"
+                  >
                     <option>{t("contact.form.subjects.terrace")}</option>
                     <option>{t("contact.form.subjects.renovation")}</option>
                     <option>{t("contact.form.subjects.other")}</option>
                   </select>
                   {errors.subject && (
-                    <p className="text-red-500 text-sm">{errors.subject.message}</p>
+                    <p className="text-red-500 text-sm">
+                      {errors.subject.message}
+                    </p>
                   )}
                 </div>
                 <div className="md:col-span-2 space-y-1.5">
@@ -150,7 +159,9 @@ const ContactPage: React.FC = () => {
                     {...register("message")}
                   ></textarea>
                   {errors.message && (
-                    <p className="text-red-500 text-sm">{errors.message.message}</p>
+                    <p className="text-red-500 text-sm">
+                      {errors.message.message}
+                    </p>
                   )}
                 </div>
                 <div className="md:col-span-2 pt-2">
@@ -164,7 +175,8 @@ const ContactPage: React.FC = () => {
                     ) : (
                       <>
                         {t("contact.form.send_btn")} <ArrowRight size={20} />
-                      </>)}
+                      </>
+                    )}
                   </button>
                 </div>
               </form>
@@ -225,46 +237,37 @@ const ContactPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-white p-6 md:p-8 rounded-2xl md:rounded-3xl warm-shadow">
-              <h3 className="text-base md:text-lg font-bold text-warm-text mb-4">
-                {t("contact.sidebar.offices")}
-              </h3>
-              <div className="space-y-4 md:space-y-5">
-                <div className="flex items-start gap-3 md:gap-4">
-                  <div className="w-10 md:w-11 h-10 md:h-11 rounded-xl bg-gold/10 flex items-center justify-center shrink-0">
-                    <MapPin className="text-gold" size={18} />
-                  </div>
-                  <div>
-                    <p className="text-warm-muted text-[10px] font-label uppercase tracking-widest mb-0.5">
-                      {t("contact.sidebar.hq")}
-                    </p>
-                    <p className="text-warm-text font-semibold text-sm">
-                      {t("contact.sidebar.hq_addr")}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3 md:gap-4">
-                  <div className="w-10 md:w-11 h-10 md:h-11 rounded-xl bg-gold/10 flex items-center justify-center shrink-0">
-                    <MapPin className="text-gold" size={18} />
-                  </div>
-                  <div>
-                    <p className="text-warm-muted text-[10px] font-label uppercase tracking-widest mb-0.5">
-                      {t("contact.sidebar.mallorca")}
-                    </p>
-                    <p className="text-warm-text font-semibold text-sm">
-                      {t("contact.sidebar.mallorca_addr")}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className="bg-white p-4 md:p-6 rounded-xl md:rounded-2xl warm-shadow">
               <p className="text-warm-text font-bold text-xs md:text-sm text-center">
                 {t("contact.sidebar.serving")}
               </p>
             </div>
           </aside>
+        </div>
+        <div className="bg-white p-6 md:p-8 rounded-2xl md:rounded-3xl warm-shadow mt-4 md:mt-10">
+          <h3 className="text-base md:text-lg font-bold text-warm-text mb-4">
+            {t("contact.sidebar.offices")}
+          </h3>
+          <div className="space-y-4 md:space-y-5">
+            {[
+              "Showroom in Spain Costa de Sol/ Marbella and Pamela de mallorca",
+              "Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
+              "Adress Costa De sol / Marbella & Estepona Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
+              "Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
+              "Adress Costa De sol / Marbella & Estepona Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
+              "Adress Palma de Mallorca Carrer d'Anselm Turmeda, 9, Nord, 07010 Palma, Illes Balears",
+            ].map((line, i) => (
+              <div
+                key={`office-${i}`}
+                className="flex items-center gap-3 md:gap-4"
+              >
+                <div className="w-10 md:w-11 h-10 md:h-11 rounded-xl bg-gold/10 flex items-center justify-center shrink-0">
+                  <MapPin className="text-gold" size={18} />
+                </div>
+                <p className="text-warm-text font-semibold text-sm">{line}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </main>
 
