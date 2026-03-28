@@ -9,8 +9,41 @@ const languages = [
   { code: "sv", name: "Svenska (SV)" },
 ];
 
+/** Legacy Google Maps embed (no API key). Centered on the geocoded address search. */
+function googleMapsEmbedSrc(query: string, hl: string) {
+  return `https://maps.google.com/maps?q=${encodeURIComponent(query)}&hl=${hl}&z=16&output=embed`;
+}
+
+function googleMapsOpenHref(query: string) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 const Footer: React.FC = () => {
   const { t, i18n } = useTranslation();
+  const hl = (() => {
+    const code = i18n.resolvedLanguage?.split("-")[0] || "en";
+    return ["en", "es", "fr", "sv"].includes(code) ? code : "en";
+  })();
+
+  const mapQueries = {
+    estepona: "Av. Puerta del Mar, 59, 29680 Estepona, Málaga, Spain",
+    palma: "Carrer d'Anselm Turmeda, 9, 07010 Palma, Illes Balears, Spain",
+  } as const;
+
+  const mapBlocks = [
+    {
+      labelKey: "footer.location_estepona_label" as const,
+      addressKey: "footer.location_estepona_address" as const,
+      titleKey: "footer.map_estepona_title" as const,
+      query: mapQueries.estepona,
+    },
+    {
+      labelKey: "footer.location_palma_label" as const,
+      addressKey: "footer.location_palma_address" as const,
+      titleKey: "footer.map_palma_title" as const,
+      query: mapQueries.palma,
+    },
+  ];
 
   return (
     <footer className="bg-cream-dark border-t border-warm-border py-12 md:py-16 px-6 md:px-8">
@@ -79,7 +112,7 @@ const Footer: React.FC = () => {
                 className="hover:text-gold transition-colors duration-300"
                 href="tel:+34632939849"
               >
-               +34 632 939 849
+                +34 632 939 849
               </a>
             </li>
             <li>
@@ -97,25 +130,51 @@ const Footer: React.FC = () => {
           <h4 className="font-bold text-gold text-xs uppercase tracking-widest mb-4 md:mb-5">
             {t("footer.locations")}
           </h4>
-          <ul className="space-y-2 md:space-y-3 text-sm text-warm-muted list-disc list-inside">
-            <li>
-              Showroom in Spain Costa de Sol/ Marbella and Pamela de mallorca
-            </li>
-            <li>Av. Puerta del Mar, 59, 29680 Estepona, Málaga</li>
-            <li>
-              Adress Costa De sol / Marbella & Estepona Av. Puerta del Mar, 59,
-              29680 Estepona, Málaga
-            </li>
-            <li>Av. Puerta del Mar, 59, 29680 Estepona, Málaga</li>
-          
-            <li>
-              Adress Palma de Mallorca Carrer d'Anselm Turmeda, 9, Nord, 07010
-              Palma, Illes Balears
-            </li>
+          <p className="text-warm-muted text-sm leading-relaxed mb-4">
+            {t("footer.location_blurb")}
+          </p>
+          <ul className="space-y-4 text-sm text-warm-muted">
+            {mapBlocks.map((m) => (
+              <li key={m.labelKey}>
+                <span className="font-bold text-warm-text block mb-1">
+                  {t(m.labelKey)}
+                </span>
+                <span className="leading-relaxed">{t(m.addressKey)}</span>
+              </li>
+            ))}
           </ul>
         </div>
-      
       </div>
+
+      <div className="max-w-7xl mx-auto mt-10 md:mt-12 pt-8 md:pt-10 border-t border-warm-border grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+        {mapBlocks.map((m) => (
+          <div key={m.labelKey} className="flex flex-col">
+            <p className="font-bold text-warm-text text-sm mb-1">{t(m.labelKey)}</p>
+            <p className="text-warm-muted text-xs mb-3 leading-relaxed">
+              {t(m.addressKey)}
+            </p>
+            <div className="relative w-full overflow-hidden rounded-xl border border-warm-border warm-shadow aspect-[4/3] min-h-[200px] max-h-[280px] bg-warm-border/20">
+              <iframe
+                title={t(m.titleKey)}
+                src={googleMapsEmbedSrc(m.query, hl)}
+                className="absolute inset-0 h-full w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
+            <a
+              href={googleMapsOpenHref(m.query)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 text-xs text-gold hover:underline font-medium"
+            >
+              {t("footer.open_in_maps")}
+            </a>
+          </div>
+        ))}
+      </div>
+
       <div className="max-w-7xl mx-auto mt-10">
         <div className="flex items-center  md:gap-6 gap-2 mb-3 text-warm-muted text-xs font-bold uppercase tracking-widest">
           <Globe size={14} /> {t("footer.language")}

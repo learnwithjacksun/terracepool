@@ -16,7 +16,15 @@
     "hours": "Horaires",
     "hours_val": "Lun - Ven : 10h00 – 18h00",
     "language": "Langue",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "location_blurb": "Showrooms sur la Costa del Sol et à Palma de Majorque.",
+    "location_estepona_label": "Costa del Sol / Estepona",
+    "location_estepona_address": "Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
+    "location_palma_label": "Palma de Majorque",
+    "location_palma_address": "Carrer d'Anselm Turmeda, 9, Nord, 07010 Palma, Illes Balears",
+    "map_estepona_title": "Google Maps — Showroom Terrace Pool Estepona",
+    "map_palma_title": "Google Maps — Showroom Terrace Pool Palma",
+    "open_in_maps": "Ouvrir dans Google Maps"
   },
   "landing": {
     "hero": {
@@ -322,7 +330,7 @@
       "label": "Excellence en Ingénierie",
       "title_1": "Technologie de",
       "title_2": "Piscine.",
-      "desc": "Découvrez pourquoi notre technologie est le meilleur choix pour votre terrasse. Construction légère et durable aux normes de qualité scandinaves."
+      "desc": "Nous concevons et construisons des piscines de terrasse sur mesure — cœur EPS allemand, standards scandinaves, dimensionnées pour votre espace exact."
     },
     "why": {
       "title_1": "Pourquoi notre Tech est",
@@ -357,20 +365,20 @@
     "putting_tech": {
       "label": "La Technologie en Action",
       "title": "La meilleure technologie à portée de main",
-      "p1": "Il existe de nombreux matériaux pour construire des piscines, chacun avec ses cas d'utilisation – fibre de verre, béton, EP et composites de fibres. Il n'est pas difficile d'imaginer l'importance d'utiliser le bon matériau pour une construction de la taille, de l'exposition et de la durée de vie d'une piscine.",
+      "p1": "Il existe de nombreux matériaux pour construire des piscines, chacun avec ses cas d'utilisation – fibre de verre, béton, acier et divers systèmes composites. Il n'est pas difficile d'imaginer l'importance d'utiliser le bon matériau pour une construction de la taille, de l'exposition et de la durée de vie d'une piscine.",
       "p2_prefix": "Scandinavian Quality est probablement le seul constructeur de piscines en Espagne qui peut",
       "p2_bold": "toujours offrir la technologie idéale pour votre piscine.",
       "p3": "Cela signifie que nous n'avons pas à faire de compromis en choisissant la meilleure façon de construire votre piscine.",
       "p4_prefix": "Mais",
       "p4_bold": "spécifiquement pour les Piscines de Terrasse,",
       "p4_suffix": "quel serait le meilleur matériau ? Dans la plupart des cas, il devrait être compact, léger, résistant et durable.",
-      "p4_link": "Comme les piscines EPS."
+      "p4_link": "Nos piscines EPS sur mesure"
     },
     "premier_material": {
       "label": "L'Ultime en Matériaux",
       "title": "Le Matériau Premier pour les Applications à Densité Critique",
-      "card_title": "Plus de Possibilités de Piscines avec les Composites de Fibres",
-      "card_desc": "Le dernier ajout à notre portefeuille de matériaux sont les composites de fibres. Idéaux pour les propriétaires de piscines privées souhaitant bénéficier de leur compacité et légèreté, nos composites offrent une fonctionnalité et une durabilité fiables pour les piscines de terrasse et les rénovations.",
+      "card_title": "Piscines EPS sur mesure — cœur allemand",
+      "card_desc": "Les piscines de terrasse sont notre cœur de métier : nous utilisons un EPS premium d'Allemagne et construisons chaque piscine selon votre projet — dimensions, accès et finition — plutôt que de vendre des unités de catalogue.",
       "card_detail": "Chaque détail est méticuleusement étudié pour répondre à vos besoins uniques.",
       "benefits": {
         "lightweight": "Léger mais robuste, assurant l'efficacité sans compromis",
@@ -380,41 +388,41 @@
     },
     "fact_box": {
       "label": "Léger. Puissant. Construit pour l'Avenir.",
-      "title": "Fiche Technique – Composites de Fibres Avancés",
-      "intro": "Les composites de fibres combinent des fibres haute performance (comme le carbone ou le verre) avec une matrice polymère pour créer un matériau plus solide, plus léger et plus durable que les métaux ou plastiques traditionnels.",
-      "tagline": "Que vous construisiez pour la vitesse, la résistance, la durabilité ou les trois, les composites de fibres sont la solution.",
-      "why_title": "Pourquoi les Composites de Fibres ?",
+      "title": "Fiche technique — technologie EPS (Allemagne)",
+      "intro": "Nous construisons des piscines de terrasse sur mesure en EPS (polystyrène expansé) d'origine allemande. Il offre un excellent rapport résistance/poids, isolation et stabilité dimensionnelle — idéal pour des structures de piscine calculées pour votre emprise au sol exacte.",
+      "tagline": "EPS allemand et fabrication sur mesure : votre piscine est fabriquée pour vous, pas choisie dans un catalogue.",
+      "why_title": "Pourquoi l'EPS allemand pour des piscines sur mesure ?",
       "why_items": {
         "strength": {
-          "title": "Rapport Résistance-Poids Inégalé",
-          "desc": "Jusqu'à 80% plus léger que l'acier. Tout aussi solide. Parfait pour les industries où chaque gramme compte."
+          "title": "Structure légère, résistance réelle",
+          "desc": "Les coques à base d'EPS restent bien plus légères que le béton traditionnel — crucial pour terrasses et toits — tandis que notre stratification assure une fiabilité à long terme."
         },
         "maintenance": {
-          "title": "Sans Entretien et Résistant",
-          "desc": "Pas de rouille. Pas de repeindre. Juste une fiabilité à long terme, en intérieur ou en extérieur."
+          "title": "Surfaces propres et étanches",
+          "desc": "Les systèmes EPS correctement stratifiés et finis évitent corrosion et gros travaux, pour un entretien prévisible saison après saison."
         },
         "engineering": {
-          "title": "Ingénierie de Précision",
-          "desc": "Personnalisez l'orientation et la forme des fibres pour des performances ciblées. Géométries complexes ? Aucun problème."
+          "title": "Une géométrie vraiment sur mesure",
+          "desc": "Chaque piscine est calculée selon vos plans : angles serrés, courbes, marches et accès — piscines EPS sur mesure, pas de gabarit unique."
         },
         "sustainable": {
-          "title": "Durable par Design",
-          "desc": "Longue durée de vie, moins de matériau, empreinte CO₂ réduite. De plus, les options recyclables et biosourcées se développent."
+          "title": "Cœur isolant et efficace",
+          "desc": "L'EPS apporte une isolation thermique à la structure, pour une eau plus stable et une meilleure efficacité énergétique dans la durée."
         }
       },
-      "where_title": "Où Ils Excellent",
+      "where_title": "Où les piscines EPS sur mesure excellent",
       "where_items": {
-        "aerospace": "Aérospatiale et Aviation – Réduire le poids, augmenter la portée",
-        "automotive": "Automobile et VE – Moins d'émissions, meilleure efficacité",
-        "infrastructure": "Infrastructure – Ponts, façades et tuyaux qui durent des décennies",
-        "energy": "Énergie et Éolien – Structures légères, résistantes et haute performance",
-        "marine": "Marine et Sport – Résistant au sel, ultra-résistant, parfait pour la performance"
+        "custom_built": "Piscines de terrasse sur mesure — chaque coque est calculée selon vos plans et votre espace.",
+        "roof_terrace": "Terrasses & toits — quand le poids et l'accès font de l'EPS léger le bon choix.",
+        "insulation": "Performance thermique — un cœur EPS isolant stabilise la température de l'eau.",
+        "precision": "Rénovations & terrains étroits — précision là où les kits standards ne passent pas.",
+        "solutions": "EPS allemand, réalisation scandinave — matériaux et finitions adaptés à votre projet."
       }
     },
     "warranty_section": {
       "title_1": "Garantie",
       "title_2": "35 Ans",
-      "desc": "Garantie de 35 ans leader du marché sur nos piscines de terrasse et rénovations. Testée et prouvée en milieu méditerranéen depuis plus de 20 ans.",
+      "desc": "Garantie de 35 ans leader du marché sur nos piscines de terrasse EPS sur mesure et rénovations. Testée et prouvée en milieu méditerranéen depuis plus de 20 ans.",
       "contact_btn": "Contactez-nous",
       "pricing_btn": "Voir les Tarifs"
     }

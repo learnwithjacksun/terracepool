@@ -16,7 +16,15 @@
     "hours": "Timmar",
     "hours_val": "Mån - Fre: 10:00 - 18:00",
     "language": "Språk",
-    "rights": "Alla rättigheter reserverade."
+    "rights": "Alla rättigheter reserverade.",
+    "location_blurb": "Showrooms på Costa del Sol och i Palma de Mallorca.",
+    "location_estepona_label": "Costa del Sol / Estepona",
+    "location_estepona_address": "Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
+    "location_palma_label": "Palma de Mallorca",
+    "location_palma_address": "Carrer d'Anselm Turmeda, 9, Nord, 07010 Palma, Illes Balears",
+    "map_estepona_title": "Google Maps — Terrace Pool Estepona showroom",
+    "map_palma_title": "Google Maps — Terrace Pool Palma showroom",
+    "open_in_maps": "Öppna i Google Maps"
   },
   "landing": {
     "hero": {
@@ -322,7 +330,7 @@
       "label": "Teknisk excellens",
       "title_1": "Slå samman",
       "title_2": "Teknologi.",
-      "desc": "Ta reda på varför vår poolteknik är det bästa valet för din terrass. Lätt, hållbar konstruktion med skandinaviska kvalitetsstandarder."
+      "desc": "Vi designar och bygger skräddarsydda terrasspooler—tysk EPS-kärna, skandinaviska standarder och anpassning till exakt din plats."
     },
     "why": {
       "title_1": "Varför vår teknik är",
@@ -357,20 +365,20 @@
     "putting_tech": {
       "label": "Att sätta tekniken i arbete",
       "title": "Att ha den bästa tekniken till hands",
-      "p1": "Det finns många material tillgängliga för att bygga pooler, alla med sina egna bästa användningsfall – glasfiber, betong, EP och fiberkompositer. Det är inte svårt att föreställa sig hur viktigt det är att använda rätt material för en konstruktion av en pools storlek, exponering och livslängd.",
+      "p1": "Det finns många material tillgängliga för att bygga pooler, alla med sina egna bästa användningsfall – glasfiber, betong, stål och olika kompositlösningar. Det är inte svårt att föreställa sig hur viktigt det är att använda rätt material för en konstruktion av en pools storlek, exponering och livslängd.",
       "p2_prefix": "Scandinavian Quality är förmodligen den enda poolbyggaren i Spanien som kan",
       "p2_bold": "erbjuda alltid den perfekta tekniken för din pool.",
       "p3": "Det betyder att vi inte behöver göra kompromisser när vi väljer det bästa sättet att bygga din pool.",
       "p4_prefix": "Men",
       "p4_bold": "speciellt för terrasspooler,",
       "p4_suffix": "vilket skulle vara det bästa materialet? I de flesta fall ska den vara kompakt, lätt, tålig och hållbar.",
-      "p4_link": "Som EPS pools."
+      "p4_link": "Våra skräddarsydda EPS-pooler"
     },
     "premier_material": {
       "label": "Ultimate i material",
       "title": "Det främsta materialet för densitetskritiska tillämpningar",
-      "card_title": "Fler poolmöjligheter med fiberkompositer",
-      "card_desc": "Det senaste tillskottet i vår portfölj av material är fiberkompositer. Idealisk för privata poolägare som vill dra nytta av dess kompakthet och lätthet, våra kompositer ger pålitlig funktionalitet och hållbarhet i terrasspooler och poolrenoveringar.",
+      "card_title": "Skräddarsydda EPS-pooler — tysk kärnmaterial",
+      "card_desc": "Terrasspooler är vår specialitet: vi använder EPS av hög kvalitet från Tyskland och bygger varje pool efter ditt projekt—mått, tillgång och finish—i stället för färdiga katalogstorlekar.",
       "card_detail": "Varje detalj övervägs noggrant för att möta dina unika behov.",
       "benefits": {
         "lightweight": "Lätt men ändå robust, säkerställer effektivitet utan kompromisser",
@@ -380,41 +388,41 @@
     },
     "fact_box": {
       "label": "Lättvikt. Kraftfull. Byggd för framtiden.",
-      "title": "Faktaruta – avancerade fiberkompositer",
-      "intro": "Fiberkompositer kombinerar högpresterande fibrer (som kol eller glas) med en polymermatris för att skapa ett material som är starkare, lättare och mer hållbart än traditionella metaller eller plaster.",
-      "tagline": "Oavsett om du bygger för hastighet, styrka, hållbarhet – eller alla tre – levererar fiberkompositer.",
-      "why_title": "Varför fiberkompositer?",
+      "title": "Faktaruta — EPS-teknik (Tyskland)",
+      "intro": "Vi bygger skräddarsydda terrasspooler med EPS (expanderad polystyren) från Tyskland. Materialet ger utmärkt styrka i förhållande till vikt, isolering och dimensionsstabilitet—perfekt för precisionskonstruerade poolskal som matchar exakt din yta.",
+      "tagline": "Tysk EPS och tillverkning på beställning: din pool görs efter mått, inte hämtas ur en katalog.",
+      "why_title": "Varför tysk EPS till skräddarsydda pooler?",
       "why_items": {
         "strength": {
-          "title": "Oöverträffad styrka till vikt",
-          "desc": "Upp till 80 % lättare än stål. Lika stark. Perfekt för industrier där varje gram är viktigt."
+          "title": "Lätt struktur, riktig styrka",
+          "desc": "EPS-baserade skal är mycket lättare än traditionell betong—avgörande för terrasser och tak—medan vårt strukturella upplägg ger långsiktig tillförlitlighet."
         },
         "maintenance": {
-          "title": "Underhållsfri och väderbeständig",
-          "desc": "Ingen rost. Ingen ommålning. Bara långsiktig tillförlitlighet – inomhus eller utomhus."
+          "title": "Rena, täta ytor",
+          "desc": "Korrekt laminerade och ytbehandlade EPS-system undviker rost och stora ingrepp, med förutsägbart underhåll år efter år."
         },
         "engineering": {
-          "title": "Precisionsteknik",
-          "desc": "Anpassa fiberorientering och form för målinriktad prestanda. Komplexa geometrier? inga problem."
+          "title": "Verkligen skräddarsydd geometri",
+          "desc": "Varje pool beräknas efter dina ritningar: trånga hörn, kurvor, trappor och tillträde—skräddarsydda EPS-pooler, inte en storlek för alla."
         },
         "sustainable": {
-          "title": "Hållbar genom design",
-          "desc": "Lång livslängd, mindre material, lägre CO₂-avtryck. Plus återvinningsbara och biobaserade alternativ växer."
+          "title": "Isolerande, effektiv kärna",
+          "desc": "EPS ger termisk isolering i konstruktionen och stödjer stabil vattentemperatur och smartare energianvändning över poolens livslängd."
         }
       },
-      "where_title": "Där de presterar bäst",
+      "where_title": "Där skräddarsydda EPS-pooler lyser",
       "where_items": {
-        "aerospace": "Aerospace & Aviation – Minska vikten, öka räckvidden",
-        "automotive": "Fordon och elbilar – Lägre utsläpp, bättre effektivitet",
-        "infrastructure": "Infrastruktur – Broar, fasader och rör som håller i decennier",
-        "energy": "Energi och vind – Lätt, väderbeständig och högpresterande strukturer",
-        "marine": "Marine & Sports – Saltbeständig, ultrastark, perfekt för prestanda"
+        "custom_built": "Unika terrasspooler — varje skal beräknas efter dina ritningar och utrymme.",
+        "roof_terrace": "Terrasser & tak — där vikt och tillgång gör lätt EPS till det smarta valet.",
+        "insulation": "Temperatur — en isolerad EPS-kärna hjälper till att stabilisera vattentemperaturen.",
+        "precision": "Renoveringar & trånga tomter — precision där standardkit inte räcker.",
+        "solutions": "Tysk EPS, skandinavisk utförande — material och finish anpassade till din design."
       }
     },
     "warranty_section": {
       "title_1": "35 år",
       "title_2": "Garanti",
-      "desc": "Marknadsledande 35 års garanti på våra terrasspooler och poolrenoveringar. Testad och beprövad i medelhavsmiljö i över två decennier.",
+      "desc": "Marknadsledande 35 års garanti på våra skräddarsydda EPS-terrasspooler och poolrenoveringar. Testad och beprövad i medelhavsmiljö i över två decennier.",
       "contact_btn": "Hör av dig",
       "pricing_btn": "Visa priser"
     }

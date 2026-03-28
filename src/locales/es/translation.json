@@ -16,7 +16,15 @@
     "hours": "Horario",
     "hours_val": "Lun - Vie: 10:00 – 18:00",
     "language": "Idioma",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "location_blurb": "Showrooms en la Costa del Sol y Palma de Mallorca.",
+    "location_estepona_label": "Costa del Sol / Estepona",
+    "location_estepona_address": "Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
+    "location_palma_label": "Palma de Mallorca",
+    "location_palma_address": "Carrer d'Anselm Turmeda, 9, Nord, 07010 Palma, Illes Balears",
+    "map_estepona_title": "Google Maps — Showroom Terrace Pool Estepona",
+    "map_palma_title": "Google Maps — Showroom Terrace Pool Palma",
+    "open_in_maps": "Abrir en Google Maps"
   },
   "landing": {
     "hero": {
@@ -322,7 +330,7 @@
       "label": "Excelencia en Ingeniería",
       "title_1": "Tecnología de",
       "title_2": "Piscina.",
-      "desc": "Descubra por qué nuestra tecnología de piscina es la mejor opción para su terraza. Construcción ligera y duradera con estándares de calidad escandinavos."
+      "desc": "Diseñamos y construimos piscinas de terraza hechas a medida: núcleo EPS alemán, estándares escandinavos y proyecto para su espacio exacto."
     },
     "why": {
       "title_1": "Por Qué Nuestra Tech es",
@@ -357,20 +365,20 @@
     "putting_tech": {
       "label": "Tecnología en Acción",
       "title": "La mejor tecnología a tu alcance",
-      "p1": "Hay muchos materiales disponibles para construir piscinas, cada uno con sus mejores casos de uso: fibra de vidrio, hormigón, EP y composites de fibra. No es difícil imaginar lo importante que es utilizar el material correcto para una construcción del tamaño, exposición y vida útil de una piscina.",
+      "p1": "Hay muchos materiales disponibles para construir piscinas, cada uno con sus mejores casos de uso: fibra de vidrio, hormigón, acero y distintos sistemas compuestos. No es difícil imaginar lo importante que es utilizar el material correcto para una construcción del tamaño, exposición y vida útil de una piscina.",
       "p2_prefix": "Scandinavian Quality es probablemente el único constructor de piscinas en España que puede",
       "p2_bold": "ofrecer siempre la tecnología ideal para tu piscina.",
       "p3": "Esto significa que no tenemos que hacer compromisos al elegir la mejor forma de construir tu piscina.",
       "p4_prefix": "Pero",
       "p4_bold": "específicamente para Piscinas de Terraza,",
       "p4_suffix": "¿cuál sería el mejor material? En la mayoría de los casos, debería ser compacto, ligero, resistente y duradero.",
-      "p4_link": "Como las piscinas EPS."
+      "p4_link": "Nuestras piscinas EPS hechas a medida"
     },
     "premier_material": {
       "label": "Lo Último en Materiales",
       "title": "El Material Premier para Aplicaciones de Densidad Crítica",
-      "card_title": "Más Posibilidades con Composites de Fibra",
-      "card_desc": "La incorporación más reciente a nuestra cartera de materiales son los composites de fibra. Ideales para propietarios de piscinas privadas que buscan beneficiarse de su compacidad y ligereza, nuestros composites proporcionan funcionalidad y durabilidad fiables en piscinas de terraza y reformas.",
+      "card_title": "Piscinas EPS hechas a medida — núcleo alemán",
+      "card_desc": "Las piscinas de terraza son nuestra especialidad: usamos EPS premium de Alemania y construimos cada piscina según su proyecto—medidas, acceso y acabado—en lugar de vender unidades de catálogo.",
       "card_detail": "Cada detalle está meticulosamente considerado para satisfacer tus necesidades únicas.",
       "benefits": {
         "lightweight": "Ligero pero robusto, garantizando eficiencia sin compromisos",
@@ -380,41 +388,41 @@
     },
     "fact_box": {
       "label": "Ligero. Potente. Construido para el Futuro.",
-      "title": "Ficha Técnica – Composites de Fibra Avanzados",
-      "intro": "Los composites de fibra combinan fibras de alto rendimiento (como carbono o vidrio) con una matriz polimérica para crear un material más fuerte, ligero y duradero que los metales o plásticos tradicionales.",
-      "tagline": "Ya sea que construyas buscando velocidad, resistencia, sostenibilidad o las tres, los composites de fibra lo hacen posible.",
-      "why_title": "¿Por Qué Composites de Fibra?",
+      "title": "Ficha técnica — tecnología EPS (Alemania)",
+      "intro": "Construimos piscinas de terraza hechas a medida con EPS (poliestireno expandido) de origen alemán. Ofrece una relación resistencia/peso excelente, aislamiento y estabilidad dimensional—ideal para estructuras de piscina calculadas para su huella exacta.",
+      "tagline": "EPS alemán y fabricación a medida: su piscina se fabrica para usted, no se elige de un catálogo.",
+      "why_title": "¿Por qué EPS alemán para piscinas a medida?",
       "why_items": {
         "strength": {
-          "title": "Relación Resistencia-Peso Inigualable",
-          "desc": "Hasta un 80% más ligero que el acero. Igual de fuerte. Perfecto para industrias donde cada gramo importa."
+          "title": "Estructura ligera, resistencia real",
+          "desc": "Los cascos basados en EPS son mucho más ligeros que el hormigón tradicional—clave en terrazas y azoteas—mientras que nuestro laminado estructural asegura fiabilidad a largo plazo."
         },
         "maintenance": {
-          "title": "Sin Mantenimiento y Resistente",
-          "desc": "Sin óxido. Sin repintado. Solo fiabilidad a largo plazo, en interiores o exteriores."
+          "title": "Superficies limpias y selladas",
+          "desc": "Los sistemas EPS correctamente laminados y acabados evitan óxido y obras mayores, con un mantenimiento predecible temporada tras temporada."
         },
         "engineering": {
-          "title": "Ingeniería de Precisión",
-          "desc": "Personaliza la orientación y forma de la fibra para un rendimiento específico. ¿Geometrías complejas? Sin problema."
+          "title": "Geometría realmente a medida",
+          "desc": "Cada piscina se calcula según sus planos: esquinas ajustadas, curvas, escalones y accesos—piscinas EPS hechas a medida, no tallas únicas."
         },
         "sustainable": {
-          "title": "Sostenible por Diseño",
-          "desc": "Larga vida, menos material, menor huella de CO₂. Además, las opciones reciclables y de base biológica están creciendo."
+          "title": "Núcleo aislante y eficiente",
+          "desc": "El EPS aporta aislamiento térmico a la estructura, ayudando a estabilizar la temperatura del agua y a un uso energético más sensato."
         }
       },
-      "where_title": "Dónde Rinden Mejor",
+      "where_title": "Dónde destacan las piscinas EPS a medida",
       "where_items": {
-        "aerospace": "Aeroespacial y Aviación – Reducir peso, aumentar alcance",
-        "automotive": "Automoción y VE – Menores emisiones, mejor eficiencia",
-        "infrastructure": "Infraestructura – Puentes, fachadas y tuberías que duran décadas",
-        "energy": "Energía y Eólica – Estructuras ligeras, resistentes y de alto rendimiento",
-        "marine": "Marina y Deportes – Resistente a la sal, ultraresistente, perfecto para el rendimiento"
+        "custom_built": "Piscinas de terraza a medida — cada casco se calcula según sus planos y espacio.",
+        "roof_terrace": "Terrazas y azoteas — donde el peso y el acceso hacen del EPS ligero la opción inteligente.",
+        "insulation": "Rendimiento térmico — un núcleo EPS aislante ayuda a estabilizar la temperatura del agua.",
+        "precision": "Reformas y parcelas estrechas — encaje preciso donde los kits estándar no sirven.",
+        "solutions": "EPS alemán, ejecución escandinava — materiales y acabados adaptados a su diseño."
       }
     },
     "warranty_section": {
       "title_1": "35 Años de",
       "title_2": "Garantía",
-      "desc": "Garantía estructural de 35 años líder en el mercado en nuestras piscinas de terraza y reformas. Probada en el Mediterráneo durante más de dos décadas.",
+      "desc": "Garantía estructural de 35 años líder en el mercado en nuestras piscinas de terraza EPS hechas a medida y reformas. Probada en el Mediterráneo durante más de dos décadas.",
       "contact_btn": "Póngase en Contacto",
       "pricing_btn": "Ver Precios"
     }

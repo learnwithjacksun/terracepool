@@ -16,7 +16,15 @@
     "hours": "Hours",
     "hours_val": "Mon - Fri: 10:00 – 18:00",
     "language": "Language",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "location_blurb": "Showrooms in Costa del Sol and Palma de Mallorca.",
+    "location_estepona_label": "Costa del Sol / Estepona",
+    "location_estepona_address": "Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
+    "location_palma_label": "Palma de Mallorca",
+    "location_palma_address": "Carrer d'Anselm Turmeda, 9, Nord, 07010 Palma, Illes Balears",
+    "map_estepona_title": "Google Map — Terrace Pool Estepona showroom",
+    "map_palma_title": "Google Map — Terrace Pool Palma showroom",
+    "open_in_maps": "Open in Google Maps"
   },
   "landing": {
     "hero": {
@@ -322,7 +330,7 @@
       "label": "Engineering Excellence",
       "title_1": "Pool",
       "title_2": "Technology.",
-      "desc": "Find out why our pool technology is the best choice for your terrace. Lightweight, durable construction with Scandinavian quality standards."
+      "desc": "We design and build custom-made terrace pools—German EPS cores, Scandinavian standards, engineered for your exact space."
     },
     "why": {
       "title_1": "Why Our Tech is",
@@ -357,20 +365,20 @@
     "putting_tech": {
       "label": "Putting Tech to Work",
       "title": "Having the best tech at hand",
-      "p1": "There are many materials available for constructing pools, each with their own best use cases – fibreglass, concrete, EP and fibre composites. It is not hard to imagine how important it is to use the correct material for a construction of the size, exposure and lifespan of a pool.",
+      "p1": "There are many materials available for constructing pools, each with their own best use cases – fibreglass, concrete, steel and various composite systems. It is not hard to imagine how important it is to use the correct material for a construction of the size, exposure and lifespan of a pool.",
       "p2_prefix": "Scandinavian Quality is probably the only pool constructor in Spain that can",
       "p2_bold": "always offer the ideal technology for your pool.",
       "p3": "This means we don't have to make compromises when choosing the best way to build your pool.",
       "p4_prefix": "But",
       "p4_bold": "specifically for Terrace Pools,",
       "p4_suffix": "which would be the best material? In most cases, it should be compact, light, resistant and durable.",
-      "p4_link": "Like EPS pools."
+      "p4_link": "Our custom-made EPS pools"
     },
     "premier_material": {
       "label": "Ultimate in Materials",
       "title": "The Premier Material for Density Critical Applications",
-      "card_title": "More Pool Possibilities with Fiber Composites",
-      "card_desc": "The newest addition to our portfolio of materials are fibre composites. Ideal for private pool owners seeking to benefit from its compactness and lightness, our composites provide reliable functionality and durability in terrace pools and pool renovations.",
+      "card_title": "Custom-Made EPS Pools — German Core Material",
+      "card_desc": "Terrace pools are our speciality: we use premium EPS sourced from Germany and build every pool to your project—dimensions, access and finish—rather than selling off-the-shelf units.",
       "card_detail": "Every detail is meticulously considered to meet your unique needs.",
       "benefits": {
         "lightweight": "Lightweight yet robust, ensuring efficiency without compromise",
@@ -380,41 +388,41 @@
     },
     "fact_box": {
       "label": "Lightweight. Powerful. Built for the Future.",
-      "title": "Fact Box – Advanced Fiber Composites",
-      "intro": "Fiber composites combine high-performance fibres (like carbon or glass) with a polymer matrix to create a material that's stronger, lighter and more durable than traditional metals or plastics.",
-      "tagline": "Whether you're building for speed, strength, sustainability—or all three—fiber composites deliver.",
-      "why_title": "Why Fiber Composites?",
+      "title": "Fact Box — EPS Technology (Germany)",
+      "intro": "We build custom-made terrace pools using EPS (expanded polystyrene) sourced from Germany. It delivers an outstanding strength-to-weight ratio, insulation and dimensional stability—ideal for precision-engineered pool structures that match your exact footprint.",
+      "tagline": "German EPS and bespoke manufacturing: your pool is made to measure, not pulled from a catalogue.",
+      "why_title": "Why German EPS for Custom Pools?",
       "why_items": {
         "strength": {
-          "title": "Unmatched Strength-to-Weight",
-          "desc": "Up to 80% lighter than steel. Just as strong. Perfect for industries where every gram matters."
+          "title": "Lightweight structure, serious strength",
+          "desc": "EPS-based shells stay far lighter than traditional concrete pools—crucial for terraces and rooftops—while our structural build-up delivers long-term reliability."
         },
         "maintenance": {
-          "title": "Maintenance-Free & Weatherproof",
-          "desc": "No rust. No repainting. Just long-term reliability—indoors or out."
+          "title": "Clean, sealed surfaces",
+          "desc": "Properly laminated and finished EPS systems avoid rust and heavy rework, keeping maintenance predictable season after season."
         },
         "engineering": {
-          "title": "Precision Engineering",
-          "desc": "Customise fiber orientation and shape for targeted performance. Complex geometries? No problem."
+          "title": "Truly custom geometry",
+          "desc": "Every pool is engineered to your drawings: tight corners, curves, steps and access constraints—custom-made EPS pools, not one-size-fits-all."
         },
         "sustainable": {
-          "title": "Sustainable by Design",
-          "desc": "Long life, less material, lower CO₂ footprint. Plus recyclable and bio-based options are growing."
+          "title": "Insulated, efficient core",
+          "desc": "EPS brings thermal insulation to the structure, supporting stable water temperatures and smarter energy use over the life of the pool."
         }
       },
-      "where_title": "Where They Perform Best",
+      "where_title": "Where Custom EPS Pools Shine",
       "where_items": {
-        "aerospace": "Aerospace & Aviation – Reduce weight, increase range",
-        "automotive": "Automotive & EVs – Lower emissions, better efficiency",
-        "infrastructure": "Infrastructure – Bridges, facades and pipes that last for decades",
-        "energy": "Energy & Wind – Lightweight, weatherproof and high-performance structures",
-        "marine": "Marine & Sports – Salt-resistant, ultra-strong, perfect for performance"
+        "custom_built": "Bespoke terrace pools — every shell is engineered to your drawings and space.",
+        "roof_terrace": "Terraces & rooftops — where weight limits and access make lightweight EPS the smart choice.",
+        "insulation": "Thermal performance — an insulated EPS core helps stabilise water temperature.",
+        "precision": "Renovations & tight plots — precision fit where standard pool kits cannot go.",
+        "solutions": "German EPS, Scandinavian execution — quality materials and finishes tailored to your design."
       }
     },
     "warranty_section": {
       "title_1": "35 Years",
       "title_2": "Warranty",
-      "desc": "Market-leading 35-year warranty on our terrace pools and pool renovations. Tested and proven in the Mediterranean environment for over two decades.",
+      "desc": "Market-leading 35-year warranty on our custom-made EPS terrace pools and pool renovations. Tested and proven in the Mediterranean environment for over two decades.",
       "contact_btn": "Get in Touch",
       "pricing_btn": "View Pricing"
     }

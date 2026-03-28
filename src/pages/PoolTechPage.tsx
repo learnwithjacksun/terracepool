@@ -143,14 +143,25 @@ const PoolTechPage: React.FC = () => {
                   </div>
                 ))}
               </div>
+             
+            </div>
+             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center mt-10'>
+
               <div className="rounded-2xl md:rounded-3xl overflow-hidden warm-shadow-lg">
                 <img
-                  src="https://terracepool.com/wp-content/uploads/2025/07/Composite-Fibre-Durability-1536x843.webp"
-                  alt="Fiber composite stone hard"
+                  src="/gallery/img49.jpeg"
+                  alt="Custom EPS pool structure"
                   className="w-full h-[300px] md:h-[450px] object-cover"
                 />
               </div>
-            </div>
+              <div className="rounded-2xl md:rounded-3xl overflow-hidden warm-shadow-lg">
+                <img
+                  src="/gallery/img50.jpeg"
+                  alt="Custom EPS pool structure"
+                  className="w-full h-[300px] md:h-[450px] object-cover"
+                />
+              </div>
+              </div>
           </div>
         </section>
 
@@ -172,7 +183,7 @@ const PoolTechPage: React.FC = () => {
               </p>
             </div>
 
-            {/* Why Fiber Composites */}
+            {/* Why EPS (German core, custom-made pools) */}
             <div className="bg-[#111d33] rounded-2xl md:rounded-3xl p-6 md:p-10 mb-8 md:mb-12 border border-white/5">
               <h3 className="text-xl md:text-2xl font-bold text-white mb-6 md:mb-8 flex items-center gap-3">
                 <span className="text-2xl">💡</span> {t('pool_tech.fact_box.why_title')}
@@ -196,18 +207,18 @@ const PoolTechPage: React.FC = () => {
               </div>
             </div>
 
-            {/* Where They Perform Best */}
+            {/* Where custom EPS pools excel */}
             <div>
               <h3 className="text-xl md:text-2xl font-bold text-white mb-5 md:mb-8">
                 {t('pool_tech.fact_box.where_title')}
               </h3>
               <div className="space-y-3 md:space-y-4">
                 {[
-                  { key: 'aerospace', icon: '✈️' },
-                  { key: 'automotive', icon: '🚗' },
-                  { key: 'infrastructure', icon: '🏗️' },
-                  { key: 'energy', icon: '⚡' },
-                  { key: 'marine', icon: '🚢' },
+                  { key: 'custom_built', icon: '🏊' },
+                  { key: 'roof_terrace', icon: '🏙️' },
+                  { key: 'insulation', icon: '🧊' },
+                  { key: 'precision', icon: '📐' },
+                  { key: 'solutions', icon: '✨' },
                 ].map((item) => (
                   <div key={item.key} className="flex items-center gap-4 bg-[#111d33] rounded-xl md:rounded-2xl px-5 md:px-6 py-3.5 md:py-4 border border-white/5 hover:border-gold/20 transition-all duration-300">
                     <span className="text-lg md:text-xl">{item.icon}</span>
