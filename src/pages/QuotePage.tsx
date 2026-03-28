@@ -198,10 +198,10 @@ const ContactPage: React.FC = () => {
                       {t("contact.sidebar.phone")}
                     </p>
                     <a
-                      href="tel:+34639448448"
+                      href="tel:+34632939849"
                       className="text-warm-text font-semibold text-sm hover:text-gold transition-colors"
                     >
-                      +34 639 448 448
+                     +34 632 939 849
                     </a>
                   </div>
                 </div>
@@ -254,7 +254,6 @@ const ContactPage: React.FC = () => {
               "Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
               "Adress Costa De sol / Marbella & Estepona Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
               "Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
-              "Adress Costa De sol / Marbella & Estepona Av. Puerta del Mar, 59, 29680 Estepona, Málaga",
               "Adress Palma de Mallorca Carrer d'Anselm Turmeda, 9, Nord, 07010 Palma, Illes Balears",
             ].map((line, i) => (
               <div

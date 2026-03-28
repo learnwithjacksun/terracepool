@@ -77,9 +77,9 @@ const Footer: React.FC = () => {
             <li>
               <a
                 className="hover:text-gold transition-colors duration-300"
-                href="tel:+34639448448"
+                href="tel:+34632939849"
               >
-                +34 639 448 448
+               +34 632 939 849
               </a>
             </li>
             <li>
@@ -107,10 +107,7 @@ const Footer: React.FC = () => {
               29680 Estepona, Málaga
             </li>
             <li>Av. Puerta del Mar, 59, 29680 Estepona, Málaga</li>
-            <li>
-              Adress Costa De sol / Marbella & Estepona Av. Puerta del Mar, 59,
-              29680 Estepona, Málaga
-            </li>
+          
             <li>
               Adress Palma de Mallorca Carrer d'Anselm Turmeda, 9, Nord, 07010
               Palma, Illes Balears
