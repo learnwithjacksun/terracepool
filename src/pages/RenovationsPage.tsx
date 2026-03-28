@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CheckCircle2, Sparkles, ArrowRight, Gauge } from 'lucide-react';
+import { CheckCircle2, Sparkles, ArrowRight, Gauge, FileText } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -168,7 +168,7 @@ const RenovationsPage: React.FC = () => {
 
             <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div data-aos="fade-up" data-aos-delay={100} className="space-y-6">
-                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/swimming-pool-glass-mosaic-tiles-768x606.jpg' />
+                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='/gallery/img51.jpeg' />
                 <div>
                   <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.liners.title')}</h3>
                   <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.liners.desc')}</p>
@@ -188,6 +188,30 @@ const RenovationsPage: React.FC = () => {
                   <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.tiles.desc')}</p>
                 </div>
               </div>
+            </div>
+
+            <div
+              data-aos="fade-up"
+              className="relative z-10 mt-14 md:mt-20 max-w-3xl mx-auto rounded-2xl md:rounded-3xl bg-white/90 backdrop-blur-sm border border-gold/25 warm-shadow p-6 md:p-10 text-center"
+            >
+              <span className="inline-flex items-center gap-2 text-gold text-[10px] md:text-xs font-label tracking-widest uppercase mb-3">
+                <Sparkles size={14} /> {t('renovations.finishes.arelite.label')}
+              </span>
+              <h3 className="text-xl md:text-2xl font-bold text-warm-text mb-4">
+                {t('renovations.finishes.arelite.title')}
+              </h3>
+              <p className="text-sm md:text-base text-warm-text-light leading-relaxed mb-6">
+                {t('renovations.finishes.arelite.desc')}
+              </p>
+              <a
+                href="/pdf/coleccion-arelite-lite.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 gold-gradient text-white px-6 md:px-8 py-3.5 md:py-4 rounded-2xl font-bold text-sm md:text-base gold-glow hover:translate-y-[-2px] transition-all duration-300"
+              >
+                <FileText size={18} aria-hidden />
+                {t('renovations.finishes.arelite.link')}
+              </a>
             </div>
           </div>
         </section>
