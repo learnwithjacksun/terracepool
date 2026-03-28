@@ -204,7 +204,7 @@ const RenovationsPage: React.FC = () => {
                 {t('renovations.finishes.arelite.desc')}
               </p>
               <a
-                href="/pdf/coleccion-arelite-lite.pdf"
+                href="/pdf/coleccion-arelite.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 gold-gradient text-white px-6 md:px-8 py-3.5 md:py-4 rounded-2xl font-bold text-sm md:text-base gold-glow hover:translate-y-[-2px] transition-all duration-300"
