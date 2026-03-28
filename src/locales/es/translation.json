@@ -40,8 +40,8 @@
       },
       "coverage": {
         "label": "Cobertura",
-        "val": "Suecia",
-        "sub": "Península y Mallorca"
+        "val": "España",
+        "sub": "España y Mallorca"
       }
     },
     "usps": {
@@ -80,7 +80,7 @@
       },
       "terrace_pools": {
         "label": "Piscinas de Terraza",
-        "title": "Península y Mallorca",
+        "title": "España y Mallorca",
         "desc": "¿Se pregunta si podría poner una pequeña piscina en su terraza? ¡Probablemente sí!",
         "btn": "Haga clic aquí para que le contemos cómo"
       },
@@ -358,13 +358,13 @@
       "label": "Tecnología en Acción",
       "title": "La mejor tecnología a tu alcance",
       "p1": "Hay muchos materiales disponibles para construir piscinas, cada uno con sus mejores casos de uso: fibra de vidrio, hormigón, EP y composites de fibra. No es difícil imaginar lo importante que es utilizar el material correcto para una construcción del tamaño, exposición y vida útil de una piscina.",
-      "p2_prefix": "Scandinavian Quality es probablemente el único constructor de piscinas en Suecia que puede",
+      "p2_prefix": "Scandinavian Quality es probablemente el único constructor de piscinas en España que puede",
       "p2_bold": "ofrecer siempre la tecnología ideal para tu piscina.",
       "p3": "Esto significa que no tenemos que hacer compromisos al elegir la mejor forma de construir tu piscina.",
       "p4_prefix": "Pero",
       "p4_bold": "específicamente para Piscinas de Terraza,",
       "p4_suffix": "¿cuál sería el mejor material? En la mayoría de los casos, debería ser compacto, ligero, resistente y duradero.",
-      "p4_link": "Como los composites de fibra."
+      "p4_link": "Como las piscinas EPS."
     },
     "premier_material": {
       "label": "Lo Último en Materiales",

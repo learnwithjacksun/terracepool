@@ -40,8 +40,8 @@
       },
       "coverage": {
         "label": "Coverage",
-        "val": "Sweden",
-        "sub": "Mainland Sweden & Mallorca"
+        "val": "Spain",
+        "sub": "Spain & Mallorca"
       }
     },
     "usps": {
@@ -80,7 +80,7 @@
       },
       "terrace_pools": {
         "label": "Terrace Pools",
-        "title": "Mainland Sweden & Mallorca",
+        "title": "Spain & Mallorca",
         "desc": "Wondering whether you could fit a splash pool to your terrace? You probably could!",
         "btn": "Click here to let us tell you how!"
       },
@@ -358,13 +358,13 @@
       "label": "Putting Tech to Work",
       "title": "Having the best tech at hand",
       "p1": "There are many materials available for constructing pools, each with their own best use cases – fibreglass, concrete, EP and fibre composites. It is not hard to imagine how important it is to use the correct material for a construction of the size, exposure and lifespan of a pool.",
-      "p2_prefix": "Scandinavian Quality is probably the only pool constructor in Sweden that can",
+      "p2_prefix": "Scandinavian Quality is probably the only pool constructor in Spain that can",
       "p2_bold": "always offer the ideal technology for your pool.",
       "p3": "This means we don't have to make compromises when choosing the best way to build your pool.",
       "p4_prefix": "But",
       "p4_bold": "specifically for Terrace Pools,",
       "p4_suffix": "which would be the best material? In most cases, it should be compact, light, resistant and durable.",
-      "p4_link": "Like fiber composites."
+      "p4_link": "Like EPS pools."
     },
     "premier_material": {
       "label": "Ultimate in Materials",

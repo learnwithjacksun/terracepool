@@ -40,8 +40,8 @@
       },
       "coverage": {
         "label": "Rapportering",
-        "val": "Sverige",
-        "sub": "Fastlandssverige & Mallorca"
+        "val": "Spanien",
+        "sub": "Spanien & Mallorca"
       }
     },
     "usps": {
@@ -80,7 +80,7 @@
       },
       "terrace_pools": {
         "label": "Terrass pooler",
-        "title": "Fastlandssverige & Mallorca",
+        "title": "Spanien & Mallorca",
         "desc": "Undrar du om du skulle kunna montera en plaskbassäng på din terrass? Det kunde du nog!",
         "btn": "Click here to let us tell you how!"
       },
@@ -358,13 +358,13 @@
       "label": "Att sätta tekniken i arbete",
       "title": "Att ha den bästa tekniken till hands",
       "p1": "Det finns många material tillgängliga för att bygga pooler, alla med sina egna bästa användningsfall – glasfiber, betong, EP och fiberkompositer. Det är inte svårt att föreställa sig hur viktigt det är att använda rätt material för en konstruktion av en pools storlek, exponering och livslängd.",
-      "p2_prefix": "Scandinavian Quality är förmodligen den enda poolbyggaren i Sverige som kan",
+      "p2_prefix": "Scandinavian Quality är förmodligen den enda poolbyggaren i Spanien som kan",
       "p2_bold": "erbjuda alltid den perfekta tekniken för din pool.",
       "p3": "Det betyder att vi inte behöver göra kompromisser när vi väljer det bästa sättet att bygga din pool.",
       "p4_prefix": "Men",
       "p4_bold": "speciellt för terrasspooler,",
       "p4_suffix": "vilket skulle vara det bästa materialet? I de flesta fall ska den vara kompakt, lätt, tålig och hållbar.",
-      "p4_link": "Som fiberkompositer."
+      "p4_link": "Som EPS pools."
     },
     "premier_material": {
       "label": "Ultimate i material",

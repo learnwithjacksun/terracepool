@@ -86,7 +86,7 @@ const PoolTechPage: React.FC = () => {
               </div>
               <div className="rounded-2xl md:rounded-3xl overflow-hidden warm-shadow-lg">
                 <img
-                  src="https://terracepool.com/wp-content/uploads/2025/07/Waterproofing-Swimming-Pools-Spain-1536x863.webp"
+                  src="/gallery/img45.jpeg"
                   alt="Pool construction materials"
                   className="w-full h-[300px] md:h-[450px] object-cover"
                 />

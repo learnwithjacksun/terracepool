@@ -1,4 +1,6 @@
-/** Images in public/gallery — adjust `BUILDING_COUNT` to rebalance sections. */
+/** Images in public/gallery — add numbers here to skip files (they will not appear in the UI). */
+const EXCLUDE_IMAGE_NUMBERS = new Set<number>([16, 25]);
+
 export type GalleryKind = "building" | "renovation";
 
 export interface GalleryItem {
@@ -7,21 +9,23 @@ export interface GalleryItem {
   kind: GalleryKind;
 }
 
-/** img1.jpeg … img48.jpeg */
+/** Highest img index we consider (img1.jpeg … img{N}.jpeg). */
 const TOTAL_IMAGES = 48;
-/** First N images → “building”; remainder → “renovation”. */
-const BUILDING_COUNT = 24;
 
 function buildItems(): GalleryItem[] {
-  const items: GalleryItem[] = [];
+  const indices: number[] = [];
   for (let i = 1; i <= TOTAL_IMAGES; i++) {
-    items.push({
-      id: `gallery-img-${i}`,
-      src: `/gallery/img${i}.jpeg`,
-      kind: i <= BUILDING_COUNT ? "building" : "renovation",
-    });
+    if (EXCLUDE_IMAGE_NUMBERS.has(i)) continue;
+    indices.push(i);
   }
-  return items;
+
+  const mid = Math.floor(indices.length / 2);
+
+  return indices.map((i, idx) => ({
+    id: `gallery-img-${i}`,
+    src: `/gallery/img${i}.jpeg`,
+    kind: idx < mid ? "building" : "renovation",
+  }));
 }
 
 export const galleryItems = buildItems();

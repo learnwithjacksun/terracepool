@@ -40,8 +40,8 @@
       },
       "coverage": {
         "label": "Couverture",
-        "val": "Suède",
-        "sub": "Suède continentale et Majorque"
+        "val": "Espagne",
+        "sub": "Espagne et Majorque"
       }
     },
     "usps": {
@@ -80,7 +80,7 @@
       },
       "terrace_pools": {
         "label": "Piscines de Terrasse",
-        "title": "Suède Continentale & Majorque",
+        "title": "Espagne & Majorque",
         "desc": "Vous vous demandez si vous pourriez installer une piscine sur votre terrasse ? C'est probablement possible !",
         "btn": "Cliquez ici pour savoir comment"
       },
@@ -358,13 +358,13 @@
       "label": "La Technologie en Action",
       "title": "La meilleure technologie à portée de main",
       "p1": "Il existe de nombreux matériaux pour construire des piscines, chacun avec ses cas d'utilisation – fibre de verre, béton, EP et composites de fibres. Il n'est pas difficile d'imaginer l'importance d'utiliser le bon matériau pour une construction de la taille, de l'exposition et de la durée de vie d'une piscine.",
-      "p2_prefix": "Scandinavian Quality est probablement le seul constructeur de piscines en Suède qui peut",
+      "p2_prefix": "Scandinavian Quality est probablement le seul constructeur de piscines en Espagne qui peut",
       "p2_bold": "toujours offrir la technologie idéale pour votre piscine.",
       "p3": "Cela signifie que nous n'avons pas à faire de compromis en choisissant la meilleure façon de construire votre piscine.",
       "p4_prefix": "Mais",
       "p4_bold": "spécifiquement pour les Piscines de Terrasse,",
       "p4_suffix": "quel serait le meilleur matériau ? Dans la plupart des cas, il devrait être compact, léger, résistant et durable.",
-      "p4_link": "Comme les composites de fibres."
+      "p4_link": "Comme les piscines EPS."
     },
     "premier_material": {
       "label": "L'Ultime en Matériaux",
