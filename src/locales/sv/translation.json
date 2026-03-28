@@ -280,7 +280,7 @@
     },
     "technical": {
       "title": "Poolrenovering & läckagereparation med EPS",
-      "desc": "Uppvisar din pool tecken på slitage, läckage eller föråldrade ytbehandlingar? Traditionella poolreparationsmetoder kan innebära omfattande schaktning och utbyte, vilket kan vara både mycket kostsamt och tidskrävande. Vår revolutionerande metod för poolrenovering och läckagereparation erbjuder en modern och långvarig lösning med kompakta och mycket hållbara fiberkompositskivor – konstruerade för strukturell integritet, flexibilitet och stil.",
+      "desc": "Uppvisar din pool tecken på slitage, läckage eller föråldrade ytbehandlingar? Traditionella poolreparationsmetoder kan innebära omfattande schaktning och utbyte, vilket kan vara både mycket kostsamt och tidskrävande. Vår revolutionerande metod för poolrenovering och läckagereparation erbjuder en modern och långvarig lösning med kompakta och mycket hållbara EPS-skivor – konstruerade för strukturell integritet, flexibilitet och stil.",
       "features": {
         "leak_proof": {
           "title": "Läcksäker lösning",
@@ -288,11 +288,11 @@
         },
         "durability": {
           "title": "Varaktighet",
-          "desc": "Resistent mot fukt, röta, kemikalier och UV-exponering, fiberkompositer används i några av de mest kritiska delarna av flygplan."
+          "desc": "Resistent mot fukt, röta, kemikalier och UV-exponering – EPS ger en lätt, slitstark konstruktion som passar krävande poolmiljöer."
         },
         "strength": {
           "title": "Lätt och stark",
-          "desc": "Till skillnad från traditionella betong- eller träbaserade material kombinerar kompositskivor styrka med enkel hantering och installation."
+          "desc": "Till skillnad från traditionella betong- eller träbaserade material kombinerar EPS-skivor styrka med enkel hantering och installation."
         },
         "cost": {
           "title": "Kostnadseffektiv",
@@ -302,7 +302,7 @@
     },
     "finishes": {
       "title": "En finish som passar din stil",
-      "desc": "När den väl har installerats kan fiberkompositytan ytbehandlas i praktiskt taget vilken stil som helst för att matcha din designvision:",
+      "desc": "När den väl har installerats kan EPS-ytan ytbehandlas i praktiskt taget vilken stil som helst för att matcha din designvision:",
       "options": {
         "liners": {
           "title": "Pool liners",
@@ -314,7 +314,7 @@
         },
         "tiles": {
           "title": "Traditionella plattor",
-          "desc": "För en klassisk finish ger våra fiberskivor en perfekt bas för alla typer av kakelapplikationer."
+          "desc": "För en klassisk finish ger våra EPS-skivor en perfekt bas för alla typer av kakelapplikationer."
         }
       },
       "arelite": {
@@ -371,7 +371,7 @@
     "putting_tech": {
       "label": "Att sätta tekniken i arbete",
       "title": "Att ha den bästa tekniken till hands",
-      "p1": "Det finns många material tillgängliga för att bygga pooler, alla med sina egna bästa användningsfall – glasfiber, betong, stål och olika kompositlösningar. Det är inte svårt att föreställa sig hur viktigt det är att använda rätt material för en konstruktion av en pools storlek, exponering och livslängd.",
+      "p1": "Det finns många material tillgängliga för att bygga pooler, alla med sina egna bästa användningsfall – glasfiber, betong, stål och EPS. Det är inte svårt att föreställa sig hur viktigt det är att använda rätt material för en konstruktion av en pools storlek, exponering och livslängd.",
       "p2_prefix": "Scandinavian Quality är förmodligen den enda poolbyggaren i Spanien som kan",
       "p2_bold": "erbjuda alltid den perfekta tekniken för din pool.",
       "p3": "Det betyder att vi inte behöver göra kompromisser när vi väljer det bästa sättet att bygga din pool.",
@@ -628,7 +628,7 @@
       "spa_cover_25": "Spaskydd (max 2,5 × 3 m)",
       "spa_cover_36": "Spaskydd (max 3 × 6 m)",
       "lamella_cover": "Lamelltäcke (Ovan mark) *startar kl",
-      "mainland_spain": "Fastlandet Spanien / Sverige",
+      "mainland_spain": "Fastlandet Spanien",
       "balearic_islands": "Balearerna"
     }
   },
