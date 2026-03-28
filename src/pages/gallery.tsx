@@ -14,7 +14,7 @@ import {
 
 const MasonrySection: React.FC<{
   title: string;
-  description: string;
+  description?: string;
   items: GalleryItem[];
   aosBaseDelay: number;
   onOpen: (src: string) => void;
@@ -150,7 +150,6 @@ const GalleryPage: React.FC = () => {
         <section className="max-w-[90rem] mx-auto px-6 md:px-8">
           <MasonrySection
             title={t("gallery.building.title")}
-            description={t("gallery.building.desc")}
             items={galleryBuilding}
             aosBaseDelay={0}
             onOpen={setLightboxSrc}
