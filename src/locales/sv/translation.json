@@ -392,6 +392,12 @@
         "resistance": "Överlägsen motståndskraft mot fukt och korrosion, perfekt för poolmiljöer"
       }
     },
+    "eps_construction": {
+      "label": "Så bygger vi",
+      "title": "EPS-poolkonstruktion — lager för lager",
+      "desc": "Snittet visar hur vi tillverkar våra EPS-pooler: den isolerade EPS-väggen möter golvet i ett falsat skarvförband som limmas med tvåkomponents polyuretanlim. Kärnan omsluts av SATE-mortel förstärkt med glasfibernät, och insidan avslutas med en EVAc-membran för ett tätt och hållbart resultat.",
+      "diagram_alt": "Teknisk ritning av EPS-poolens vägg- och golvfog med förstärkning och membran"
+    },
     "fact_box": {
       "label": "Lättvikt. Kraftfull. Byggd för framtiden.",
       "title": "Faktaruta — EPS-teknik (Tyskland)",

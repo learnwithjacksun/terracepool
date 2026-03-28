@@ -392,6 +392,12 @@
         "resistance": "Resistencia superior a la humedad y corrosión, perfecto para entornos de piscina"
       }
     },
+    "eps_construction": {
+      "label": "Cómo construimos",
+      "title": "Construcción EPS — capa a capa",
+      "desc": "Este corte muestra cómo fabricamos nuestras piscinas EPS: el muro y el suelo de EPS aislante se unen en una junta escalonada con adhesivo poliuretano bicomponente. La estructura se recubre con mortero SATE reforzado con malla de fibra de vidrio, y la superficie interior se reviste con una lámina EVAc para un acabado estanco y duradero.",
+      "diagram_alt": "Diagrama técnico de la unión pared-suelo de piscina EPS con refuerzo y membrana"
+    },
     "fact_box": {
       "label": "Ligero. Potente. Construido para el Futuro.",
       "title": "Ficha técnica — tecnología EPS (Alemania)",

@@ -392,6 +392,12 @@
         "resistance": "Résistance supérieure à l'humidité et à la corrosion, parfait pour les environnements de piscine"
       }
     },
+    "eps_construction": {
+      "label": "Notre fabrication",
+      "title": "Construction EPS — couche par couche",
+      "desc": "Cette coupe montre comment nous fabriquons nos piscines EPS : le mur et le plancher en polystyrène isolant se rejoignent en joint à feuillure, collés à l'adhésif polyuréthane bi-composant. L'ensemble est enveloppé dans un mortier SATE armé d'un treillis en fibre de verre, et la face intérieure reçoit une membrane EVAc pour une finition étanche et durable.",
+      "diagram_alt": "Schéma technique de la jonction mur-plancher piscine EPS avec renfort et membrane"
+    },
     "fact_box": {
       "label": "Léger. Puissant. Construit pour l'Avenir.",
       "title": "Fiche technique — technologie EPS (Allemagne)",

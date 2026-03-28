@@ -168,21 +168,21 @@ const RenovationsPage: React.FC = () => {
 
             <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div data-aos="fade-up" data-aos-delay={100} className="space-y-6">
-                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='/gallery/img51.jpeg' />
+                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30 object-cover" src='/gallery/img51.jpeg' />
                 <div>
                   <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.liners.title')}</h3>
                   <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.liners.desc')}</p>
                 </div>
               </div>
               <div data-aos="fade-up" data-aos-delay={200} className="space-y-6">
-                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/swimming-pool-glass-mosaic-tiles-768x606.jpg' />
+                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30 object-cover" src='/gallery/img52.jpeg' />
                 <div>
                   <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.mosaic.title')}</h3>
                   <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.mosaic.desc')}</p>
                 </div>
               </div>
               <div data-aos="fade-up" data-aos-delay={300} className="space-y-6">
-                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30" src='https://terracepool.com/wp-content/uploads/2025/07/Luxury-pool-tile-768x668.webp' />
+                <img className="mx-auto w-40 h-24 bg-white/50 backdrop-blur-sm rounded-xl flex items-center justify-center text-[10px] font-label uppercase tracking-widest text-warm-muted border border-white/30 object-cover" src='/gallery/img53.jpeg' />
                 <div>
                   <h3 className="text-xl font-bold text-warm-text mb-3">{t('renovations.finishes.options.tiles.title')}</h3>
                   <p className="text-sm text-warm-muted leading-relaxed max-w-xs mx-auto">{t('renovations.finishes.options.tiles.desc')}</p>

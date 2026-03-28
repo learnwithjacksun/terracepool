@@ -162,6 +162,25 @@ const PoolTechPage: React.FC = () => {
                 />
               </div>
               </div>
+
+            <div className="mt-14 md:mt-20 ">
+              <span className="inline-flex items-center gap-2 text-gold text-[10px] md:text-xs font-label tracking-widest uppercase mb-4 md:mb-6">
+                <Sparkles size={14} /> {t('pool_tech.eps_construction.label')}
+              </span>
+              <h3 className="text-2xl md:text-4xl font-black tracking-tighter text-warm-text leading-[1.05] mb-4 md:mb-6">
+                {t('pool_tech.eps_construction.title')}
+              </h3>
+              <p className="text-sm md:text-base text-warm-text-light leading-relaxed mb-8 md:mb-10">
+                {t('pool_tech.eps_construction.desc')}
+              </p>
+              <div className="rounded-2xl md:rounded-3xl overflow-hidden warm-shadow-lg bg-[#0f1729]">
+                <img
+                  src="/gallery/img16.jpeg"
+                  alt={t('pool_tech.eps_construction.diagram_alt')}
+                  className="w-full max-h-[min(70vh,560px)] object-contain object-center"
+                />
+              </div>
+            </div>
           </div>
         </section>
 

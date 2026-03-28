@@ -392,6 +392,12 @@
         "resistance": "Superior resistance to moisture and corrosion, perfect for pool environments"
       }
     },
+    "eps_construction": {
+      "label": "How we build",
+      "title": "EPS pool construction — layer by layer",
+      "desc": "This cross-section shows how we produce our EPS pools: the insulated EPS wall and floor meet at a stepped joint, bonded with two-component polyurethane adhesive. The structure is wrapped in SATE mortar reinforced with fiberglass mesh, and the inner surface is lined with an EVAc membrane for a durable, watertight finish.",
+      "diagram_alt": "Technical diagram of EPS pool wall and floor junction with reinforcement and membrane layers"
+    },
     "fact_box": {
       "label": "Lightweight. Powerful. Built for the Future.",
       "title": "Fact Box — EPS Technology (Germany)",
