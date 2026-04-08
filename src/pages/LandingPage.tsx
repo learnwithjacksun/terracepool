@@ -259,8 +259,8 @@ const LandingPage: React.FC = () => {
                 <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-gold-dark px-8 md:px-10 py-4 md:py-5 rounded-2xl font-bold text-sm md:text-lg hover:bg-cream hover:translate-y-[-2px] transition-all duration-300 shadow-lg w-full sm:w-auto justify-center">
                   {t('landing.cta.contact_btn')} <ArrowRight size={20} />
                 </Link>
-                <a href="tel:+34639448448" className="inline-flex items-center gap-2 border border-white/30 text-white px-8 md:px-10 py-4 md:py-5 rounded-2xl font-bold text-sm md:text-lg hover:bg-white/10 transition-all duration-300 w-full sm:w-auto justify-center">
-                  {t('landing.cta.call_btn')} +34 639 448 448
+                <a href="tel:+34632939849" className="inline-flex items-center gap-2 border border-white/30 text-white px-8 md:px-10 py-4 md:py-5 rounded-2xl font-bold text-sm md:text-lg hover:bg-white/10 transition-all duration-300 w-full sm:w-auto justify-center">
+                  {t('landing.cta.call_btn')} +34 632939849
                 </a>
               </div>
             </div>
