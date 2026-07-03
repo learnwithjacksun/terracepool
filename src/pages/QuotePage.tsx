@@ -8,7 +8,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { quoteSchema, type QuoteSchema } from "../schemas/quote.ts";
 import { toast } from "sonner";
 
-const FORMSPARK_ACTION_URL = "https://submit-form.com/0XZ8v00zd";
+const FORMSPARK_ACTION_URL = "https://submit-form.com/UvHtgvxCX";
 
 const ContactPage: React.FC = () => {
   const { t } = useTranslation();
