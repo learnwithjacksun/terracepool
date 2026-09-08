@@ -8,7 +8,7 @@ export class ContactDeliveryError extends Error {
   }
 }
 
-export const CONTACT_SERVICE = "https://terracepool-contact.onestopworld34.chatgpt.site/api/contact";
+export const CONTACT_SERVICE = "/api/contact";
 export async function submitContact(data: Omit<ContactSubmission, "verificationToken">, fetcher: typeof fetch = fetch,
   wait: (ms: number) => Promise<void> = ms => new Promise(resolve => setTimeout(resolve, ms))) {
   const challenge = await fetcher(`${CONTACT_SERVICE}/challenge?reference=${encodeURIComponent(data.submissionId)}`, {
