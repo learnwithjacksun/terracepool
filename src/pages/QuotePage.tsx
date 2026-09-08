@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { ArrowRight, Mail, MapPin, Phone, Clock, Sparkles, Loader2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar";
@@ -7,12 +7,19 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { quoteSchema, type QuoteSchema } from "../schemas/quote.ts";
 import { toast } from "sonner";
-
-const FORMSPARK_ACTION_URL = "https://submit-form.com/UvHtgvxCX";
+import { ContactDeliveryError, submitContact } from "../helpers/submitContact";
+import type { ContactSubmission } from "../schemas/quote";
 
 const ContactPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isLoading, setIsLoading] = useState(false);
+  const [requestError, setRequestError] = useState<string | null>(null);
+  const [reference, setReference] = useState<string | null>(null);
+  const submitting = useRef(false);
+  const lastSubmission = useRef<{ payload: string; id: string } | null>(null);
+  const website = useRef<HTMLInputElement>(null);
+  const language = i18n.resolvedLanguage?.split("-")[0] ?? "en";
+  const locale: ContactSubmission["locale"] = language === "es" || language === "fr" || language === "sv" ? language : "en";
   const {
     register,
     handleSubmit,
@@ -20,32 +27,38 @@ const ContactPage: React.FC = () => {
     reset,
   } = useForm<QuoteSchema>({
     resolver: zodResolver(quoteSchema),
+    defaultValues: { name: "", email: "", phone: "", subject: "terrace", message: "" },
   });
 
   const onSubmit = async (data: QuoteSchema) => {
-    console.log(data);
+    if (submitting.current) return;
+    submitting.current = true;
     setIsLoading(true);
+    setRequestError(null);
+    setReference(null);
     try {
-      await fetch(FORMSPARK_ACTION_URL, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify({
-          name: data.name,
-          email: data.email,
-          phone: data.phone,
-          subject: data.subject,
-          message: data.message,
-        }),
+      const payload = JSON.stringify({ ...data, locale });
+      if (lastSubmission.current?.payload !== payload) {
+        lastSubmission.current = { payload, id: crypto.randomUUID() };
+      }
+      const receivedReference = await submitContact({
+        ...data, locale,
+        submissionId: lastSubmission.current.id,
+        website: website.current?.value ?? "",
       });
-      toast.success("Quote request sent successfully");
+      setReference(receivedReference);
+      toast.success(t("contact.status.success"));
       reset();
+      lastSubmission.current = null;
     } catch (error) {
-      console.error(error);
-      toast.error("Something went wrong");
+      const code = error instanceof ContactDeliveryError ? error.code : "delivery";
+      const key = code === "busy" ? "contact.status.busy" :
+        code === "verification" || code === "verification_unavailable" ? "contact.status.verification" :
+        code === "unavailable" ? "contact.status.unavailable" : "contact.status.error";
+      setRequestError(key);
+      toast.error(t(key));
     } finally {
+      submitting.current = false;
       setIsLoading(false);
     }
   };
@@ -81,94 +94,117 @@ const ContactPage: React.FC = () => {
               <form
                 className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7"
                 onSubmit={handleSubmit(onSubmit)}
+                noValidate
+                aria-busy={isLoading}
               >
                 <div className="space-y-1.5">
-                  <label className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
+                  <label htmlFor="contact-name" className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
                     {t("contact.form.name")}
                   </label>
                   <input
                     {...register("name")}
+                    id="contact-name" autoComplete="name" maxLength={120} disabled={isLoading}
+                    aria-invalid={!!errors.name} aria-describedby={errors.name ? "contact-name-error" : undefined}
                     className="w-full bg-cream border border-warm-border rounded-xl px-4 py-3.5 md:py-4 text-warm-text placeholder:text-warm-muted/50 focus:border-gold focus:gold-glow-sm transition-all duration-300 text-sm"
                     placeholder={t("contact.form.name_placeholder")}
                     type="text"
                   />
                   {errors.name && (
-                    <p className="text-red-500 text-sm">
-                      {errors.name.message}
+                    <p id="contact-name-error" className="text-red-500 text-sm">
+                      {t(errors.name.message ?? "contact.validation.name")}
                     </p>
                   )}
                 </div>
                 <div className="space-y-1.5">
-                  <label className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
+                  <label htmlFor="contact-email" className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
                     {t("contact.form.email")}
                   </label>
                   <input
                     {...register("email")}
+                    id="contact-email" autoComplete="email" maxLength={254} disabled={isLoading}
+                    aria-invalid={!!errors.email} aria-describedby={errors.email ? "contact-email-error" : undefined}
                     className="w-full bg-cream border border-warm-border rounded-xl px-4 py-3.5 md:py-4 text-warm-text placeholder:text-warm-muted/50 focus:border-gold focus:gold-glow-sm transition-all duration-300 text-sm"
                     placeholder={t("contact.form.email_placeholder")}
                     type="email"
                   />
                   {errors.email && (
-                    <p className="text-red-500 text-sm">
-                      {errors.email.message}
+                    <p id="contact-email-error" className="text-red-500 text-sm">
+                      {t(errors.email.message ?? "contact.validation.email")}
                     </p>
                   )}
                 </div>
                 <div className="space-y-1.5">
-                  <label className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
+                  <label htmlFor="contact-phone" className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
                     {t("contact.form.phone")}
                   </label>
                   <input
                     {...register("phone")}
+                    id="contact-phone" autoComplete="tel" maxLength={40} disabled={isLoading}
+                    aria-invalid={!!errors.phone} aria-describedby={errors.phone ? "contact-phone-error" : undefined}
                     className="w-full bg-cream border border-warm-border rounded-xl px-4 py-3.5 md:py-4 text-warm-text placeholder:text-warm-muted/50 focus:border-gold focus:gold-glow-sm transition-all duration-300 text-sm"
                     placeholder={t("contact.form.phone_placeholder")}
                     type="tel"
                   />
                   {errors.phone && (
-                    <p className="text-red-500 text-sm">
-                      {errors.phone.message}
+                    <p id="contact-phone-error" className="text-red-500 text-sm">
+                      {t(errors.phone.message ?? "contact.validation.phone")}
                     </p>
                   )}
                 </div>
                 <div className="space-y-1.5">
-                  <label className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
+                  <label htmlFor="contact-subject" className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
                     {t("contact.form.subject")}
                   </label>
                   <select
                     {...register("subject")}
+                    id="contact-subject" disabled={isLoading}
+                    aria-invalid={!!errors.subject} aria-describedby={errors.subject ? "contact-subject-error" : undefined}
                     className="w-full bg-cream border border-warm-border rounded-xl px-4 py-3.5 md:py-4 text-warm-muted appearance-none focus:border-gold focus:gold-glow-sm transition-all duration-300 text-sm"
                   >
-                    <option>{t("contact.form.subjects.terrace")}</option>
-                    <option>{t("contact.form.subjects.renovation")}</option>
-                    <option>{t("contact.form.subjects.other")}</option>
+                    <option value="terrace">{t("contact.form.subjects.terrace")}</option>
+                    <option value="renovation">{t("contact.form.subjects.renovation")}</option>
+                    <option value="other">{t("contact.form.subjects.other")}</option>
                   </select>
                   {errors.subject && (
-                    <p className="text-red-500 text-sm">
-                      {errors.subject.message}
+                    <p id="contact-subject-error" className="text-red-500 text-sm">
+                      {t(errors.subject.message ?? "contact.validation.subject")}
                     </p>
                   )}
                 </div>
                 <div className="md:col-span-2 space-y-1.5">
-                  <label className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
+                  <label htmlFor="contact-message" className="font-label text-[10px] uppercase tracking-widest text-warm-muted ml-1">
                     {t("contact.form.message")}
                   </label>
                   <textarea
+                    id="contact-message" maxLength={5000} disabled={isLoading}
+                    aria-invalid={!!errors.message} aria-describedby={errors.message ? "contact-message-error" : undefined}
                     className="w-full bg-cream border border-warm-border rounded-xl px-4 py-3.5 md:py-4 text-warm-text placeholder:text-warm-muted/50 focus:border-gold focus:gold-glow-sm transition-all duration-300 text-sm"
                     placeholder={t("contact.form.message_placeholder")}
                     rows={4}
                     {...register("message")}
                   ></textarea>
                   {errors.message && (
-                    <p className="text-red-500 text-sm">
-                      {errors.message.message}
+                    <p id="contact-message-error" className="text-red-500 text-sm">
+                      {t(errors.message.message ?? "contact.validation.message")}
                     </p>
                   )}
+                </div>
+                <div aria-hidden="true" className="hidden">
+                  <label htmlFor="contact-website">Website</label>
+                  <input id="contact-website" name="website" ref={website} tabIndex={-1} autoComplete="off" />
+                </div>
+                <div className="md:col-span-2 space-y-3">
+                  {requestError && <p role="alert" className="text-red-700 text-sm">{t(requestError)}</p>}
+                  {reference && <p role="status" className="text-green-800 text-sm break-words">
+                    {t("contact.status.success")} {t("contact.status.reference", { reference })}
+                  </p>}
                 </div>
                 <div className="md:col-span-2 pt-2">
                   <button
                     className="gold-gradient text-white w-full px-8 py-4 md:py-5 rounded-2xl font-bold text-base gold-glow hover:scale-[0.98] transition-all duration-300 flex items-center justify-center gap-3"
                     type="submit"
                     disabled={isLoading}
+                    aria-label={isLoading ? t("contact.status.sending") : undefined}
                   >
                     {isLoading ? (
                       <Loader2 className="animate-spin" size={20} />

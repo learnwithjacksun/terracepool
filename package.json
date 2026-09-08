@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run generate:sitemap && tsc -b && vite build",
+    "test:contact": "tsx --test tests/submitContact.test.ts",
     "lint": "eslint .",
     "preview": "vite preview",
     "generate:sitemap": "tsx scripts/generate-sitemap.ts"

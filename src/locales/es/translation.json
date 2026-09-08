@@ -500,6 +500,23 @@
       "hq": "Sede — Costa del Sol",
       "mallorca": "Mallorca",
       "serving": "Servimos a: Estepona · Marbella · Málaga · Nerja · Torrevieja · Alicante · Mallorca"
+    },
+    "validation": {
+      "name": "Introduce tu nombre (máximo 120 caracteres).",
+      "email": "Introduce una dirección de correo electrónico válida.",
+      "phone": "Introduce tu número de teléfono (máximo 40 caracteres).",
+      "subject": "Elige un asunto.",
+      "message": "Escribe tu mensaje (máximo 5.000 caracteres)."
+    },
+    "status": {
+      "success": "Tu consulta se ha enviado.",
+      "reference": "Referencia: {{reference}}",
+      "sending": "Enviando tu consulta…",
+      "error": "No hemos podido confirmar el envío. Tu mensaje sigue aquí. Inténtalo de nuevo.",
+      "unavailable": "El formulario no está disponible temporalmente. Inténtalo de nuevo más tarde.",
+      "busy": "Estamos recibiendo demasiadas solicitudes. Espera un minuto antes de intentarlo de nuevo. Tu mensaje se ha conservado.",
+      "verification": "Completa de nuevo la verificación antes de enviar. Tu mensaje se ha conservado.",
+      "retry_verification": "Reintentar la verificación"
     }
   },
   "portfolio": {

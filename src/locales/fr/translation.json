@@ -500,6 +500,23 @@
       "hq": "Siège — Costa del Sol",
       "mallorca": "Majorque",
       "serving": "Nous desservons : Estepona · Marbella · Málaga · Nerja · Torrevieja · Alicante · Majorque"
+    },
+    "validation": {
+      "name": "Indiquez votre nom (120 caractères maximum).",
+      "email": "Indiquez une adresse e-mail valide.",
+      "phone": "Indiquez votre numéro de téléphone (40 caractères maximum).",
+      "subject": "Choisissez un sujet.",
+      "message": "Saisissez votre message (5 000 caractères maximum)."
+    },
+    "status": {
+      "success": "Votre demande a été envoyée.",
+      "reference": "Référence : {{reference}}",
+      "sending": "Envoi de votre demande…",
+      "error": "Nous ne pouvons pas confirmer l’envoi. Votre message est conservé. Veuillez réessayer.",
+      "unavailable": "Le formulaire est temporairement indisponible. Veuillez réessayer plus tard.",
+      "busy": "Nous recevons trop de demandes. Veuillez attendre une minute avant de réessayer. Votre message est conservé.",
+      "verification": "Veuillez effectuer à nouveau la vérification avant l’envoi. Votre message est conservé.",
+      "retry_verification": "Réessayer la vérification"
     }
   },
   "portfolio": {

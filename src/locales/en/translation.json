@@ -500,6 +500,23 @@
       "hq": "HQ — Costa del Sol",
       "mallorca": "Mallorca",
       "serving": "Serving: Estepona · Marbella · Málaga · Nerja · Torrevieja · Alicante · Mallorca"
+    },
+    "validation": {
+      "name": "Enter your name (up to 120 characters).",
+      "email": "Enter a valid email address.",
+      "phone": "Enter your phone number (up to 40 characters).",
+      "subject": "Choose a subject.",
+      "message": "Enter your message (up to 5,000 characters)."
+    },
+    "status": {
+      "success": "Your inquiry has been submitted.",
+      "reference": "Reference: {{reference}}",
+      "sending": "Sending your inquiry…",
+      "error": "We could not confirm that your inquiry was sent. Your message is still here. Please try again.",
+      "unavailable": "The inquiry form is temporarily unavailable. Please try again later.",
+      "busy": "We are receiving too many requests. Please wait one minute before trying again. Your message has been kept.",
+      "verification": "Please complete the verification again before sending. Your message has been kept.",
+      "retry_verification": "Retry verification"
     }
   },
   "portfolio": {

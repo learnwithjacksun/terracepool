@@ -500,6 +500,23 @@
       "hq": "HQ — Costa del Sol",
       "mallorca": "Mallorca",
       "serving": "Servering: Estepona · Marbella · Málaga · Nerja · Torrevieja · Alicante · Mallorca"
+    },
+    "validation": {
+      "name": "Ange ditt namn (högst 120 tecken).",
+      "email": "Ange en giltig e-postadress.",
+      "phone": "Ange ditt telefonnummer (högst 40 tecken).",
+      "subject": "Välj ett ämne.",
+      "message": "Skriv ditt meddelande (högst 5 000 tecken)."
+    },
+    "status": {
+      "success": "Din förfrågan har skickats.",
+      "reference": "Referens: {{reference}}",
+      "sending": "Skickar din förfrågan…",
+      "error": "Vi kunde inte bekräfta att förfrågan skickades. Ditt meddelande finns kvar. Försök igen.",
+      "unavailable": "Formuläret är tillfälligt otillgängligt. Försök igen senare.",
+      "busy": "Vi tar emot för många förfrågningar. Vänta en minut innan du försöker igen. Ditt meddelande finns kvar.",
+      "verification": "Slutför verifieringen igen innan du skickar. Ditt meddelande finns kvar.",
+      "retry_verification": "Försök verifiera igen"
     }
   },
   "portfolio": {
